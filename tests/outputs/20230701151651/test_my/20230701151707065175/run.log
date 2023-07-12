@@ -1,0 +1,84 @@
+INFO  2023-07-01 15:17:07,069 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-07-01 15:17:07,070 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-07-01 15:17:07,071 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-01 15:17:07,073 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-01 15:17:07,075 minitest.py capture         673 capture setup.png
+INFO  2023-07-01 15:17:07,076 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:17:07,076 connection.py _safely_send    417 SEND > {"id":"3bec48a6-597a-4635-9c3c-43d75b5bdf7c","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:17:07,438 connection.py _on_message     650 RECV < {"id":"3bec48a6-597a-4635-9c3c-43d75b5bdf7c","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX3MXsV1L/pbM3s/z2Mbgg3ENRLXF5+2gOtzrmKXomCFKDjqQXUSdGPSIxV0j3Sb9Eq9pJVuTSPdhvIHgXOkFBopp5zzxwmnUiuI1Diu5FBHqApGgOzIIqbSqWugiZzrIuHzYrCDP97nY8+s+8d8rZm9n9evDYS8nL1C/D7P3rNn1qxZ67fWrJnZDzEzeuqpp55WAqkPmoGeeuqpp+VSD1g99dTTiqEesHrqqacVQz1g9dRTTyuGesDqqaeeVgz1gNVTTz2tGOoBq6eeelox1ANWTz31tGKoB6yeeuppxVAPWD311NOKoR6weuqppxVDPWD11FNPK4Z6wOqpp55WDPWA1VNPPa0Y6gGrp556WjHUA1ZPPf...
+INFO  2023-07-01 15:17:07,441 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:17:07,443 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-07-01 15:17:09,444 page.py    wait_for        321 waitFor: 2.0001728534698486 s
+INFO  2023-07-01 15:17:09,444 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:09,445 connection.py _safely_send    417 SEND > {"id":"c245871f-2403-4794-8129-c8b3940910e3","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:09,451 connection.py _on_message     652 RECV < {"id":"c245871f-2403-4794-8129-c8b3940910e3","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:09,452 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:10,453 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:10,453 connection.py _safely_send    417 SEND > {"id":"47538899-a017-44cc-bcb3-a147078fa8eb","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:10,458 connection.py _on_message     652 RECV < {"id":"47538899-a017-44cc-bcb3-a147078fa8eb","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:10,459 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:11,460 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:11,460 connection.py _safely_send    417 SEND > {"id":"a0a622c0-812a-4fb1-8693-7f7748f6374b","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:11,464 connection.py _on_message     652 RECV < {"id":"a0a622c0-812a-4fb1-8693-7f7748f6374b","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:11,465 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:12,466 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:12,466 connection.py _safely_send    417 SEND > {"id":"2f65971e-a5fa-4e3a-85aa-4517dd4ece73","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:12,470 connection.py _on_message     652 RECV < {"id":"2f65971e-a5fa-4e3a-85aa-4517dd4ece73","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:12,471 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:13,473 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:13,473 connection.py _safely_send    417 SEND > {"id":"a3206873-e968-4076-8a4f-08946c9005b8","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:13,478 connection.py _on_message     652 RECV < {"id":"a3206873-e968-4076-8a4f-08946c9005b8","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:13,478 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:14,479 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:14,479 connection.py _safely_send    417 SEND > {"id":"fbfd3e99-f894-496d-98cd-21381dffa523","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:14,484 connection.py _on_message     652 RECV < {"id":"fbfd3e99-f894-496d-98cd-21381dffa523","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:14,484 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:15,485 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:15,485 connection.py _safely_send    417 SEND > {"id":"dc423b64-bca0-4ba0-a32d-4d53d5c8e40e","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:15,489 connection.py _on_message     652 RECV < {"id":"dc423b64-bca0-4ba0-a32d-4d53d5c8e40e","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:15,490 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:16,492 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:16,492 connection.py _safely_send    417 SEND > {"id":"b66b9f8f-92d8-4e38-b5a7-2e0a2e751f6f","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:16,497 connection.py _on_message     652 RECV < {"id":"b66b9f8f-92d8-4e38-b5a7-2e0a2e751f6f","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:16,498 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:17,498 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:17,498 connection.py _safely_send    417 SEND > {"id":"fc712788-dd2f-4eba-98cf-95cf94b39013","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:17,503 connection.py _on_message     652 RECV < {"id":"fc712788-dd2f-4eba-98cf-95cf94b39013","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:17,504 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:18,505 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:17:18,505 connection.py _safely_send    417 SEND > {"id":"bbda190f-f7ec-4ebd-acb3-7f9aefb76400","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:18,510 connection.py _on_message     652 RECV < {"id":"bbda190f-f7ec-4ebd-acb3-7f9aefb76400","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:18,510 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:17:19,512 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-07-01 15:17:19,513 connection.py _safely_send    417 SEND > {"id":"7e45eea2-aead-4719-b619-d93d88378ef5","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-07-01 15:17:19,516 connection.py _on_message     652 RECV < {"id":"7e45eea2-aead-4719-b619-d93d88378ef5","result":{"elements":[]}}
+WARNI 2023-07-01 15:17:19,517 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-07-01 15:17:19,518 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-07-01 15:17:19,518 minitest.py capture         673 capture teardown.png
+INFO  2023-07-01 15:17:19,519 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:17:19,519 connection.py _safely_send    417 SEND > {"id":"0b921090-5216-46ec-83d0-3baef28625eb","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:17:19,649 connection.py _on_message     650 RECV < {"id":"0b921090-5216-46ec-83d0-3baef28625eb","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX2sXtV1J7zWPh/Pcz9s32sbx0yJwUn4cD0jxS5FwQpRcKaD6gSkmnSkgjTS26Sv1Je00lvTSG9D+YPAjJTCRMqEmT8mTKVWEKlxXMmhjlAVjADZESKm0tQ10CSX3JhgLv643/f5OGev94+z99pr7XOusQmEXOaskOvnOWefvddeH7+19jr7nAeJCFpqqaWW1gKZ95uBllpqqaVLpRawWmqppTVDLWC11FJLa4ZawGqppZbWDLWA1VJLLa0ZagGrpZZaWjPUAlZLLbW0ZqgFrJZaamnNUAtYLbXU0pqhFrBaaqmlNUMtYLXUUktrhlrAaqmlltYMtYDVUkstrRlqAaulllpaM9QCVksttbRmqAWsllpqac...
+INFO  2023-07-01 15:17:19,651 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:17:19,651 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-07-01 15:17:19,652 connection.py _safely_send    417 SEND > {"id":"9283e339-18a5-41f3-8b06-b95dc654d87c","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-07-01 15:17:19,657 connection.py _on_message     652 RECV < {"id":"9283e339-18a5-41f3-8b06-b95dc654d87c","result":{"elements":[{"elementId":"44183d67-421f-4d1e-8223-183df3148a0d","tagName":"body","nodeId":"2a99c159"}]}}
+INFO  2023-07-01 15:17:19,657 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x0000018749EB8370>]
+DEBUG 2023-07-01 15:17:19,658 connection.py _safely_send    417 SEND > {"id":"9d290eb3-3957-48cb-9ce0-773447c17137","method":"Element.getWXML","params":{"type":"inner","elementId":"44183d67-421f-4d1e-8223-183df3148a0d","pageId":2,"nodeId":"2a99c159"}}
+DEBUG 2023-07-01 15:17:19,681 connection.py _on_message     650 RECV < {"id":"9d290eb3-3957-48cb-9ce0-773447c17137","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-07-01 15:17:19,683 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-01 15:17:19,683 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-01 15:17:19,693 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 9, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found

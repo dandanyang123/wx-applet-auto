@@ -1,0 +1,39 @@
+INFO  2023-07-01 17:35:29,405 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-07-01 17:35:29,406 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-07-01 17:35:29,406 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-01 17:35:29,408 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-01 17:35:29,409 minitest.py capture         673 capture setup.png
+INFO  2023-07-01 17:35:29,410 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 17:35:29,410 connection.py _safely_send    417 SEND > {"id":"b6490ac4-04ef-4d24-9d6f-189cea32c37b","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 17:35:29,461 connection.py _on_message     650 RECV < {"id":"b6490ac4-04ef-4d24-9d6f-189cea32c37b","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3WtQVGeC8PGnb9wvmgYUULGNijERibSooCbDOCExCWQSkzg76GyIO7VVO4tuamqyWxuot2B2k8yHXaBqd2a3DFWBrpiZTFJpJjGLMay6Qoy2CXZQMWDaG4hAc782fXk/HG25eYs2+MD/90mbpvvQBf9+znOePkfl8XgEAMhAPdUbAAC3i2ABkAbBAiANggVAGgQLgDQIFgBpECwA0iBYAKRBsABIg2ABkAbBAiANggVAGgQLgDQIFgBpECwA0iBYAKRBsABIg2ABkAbBAiANggVAGgQLgDQIFgBpECwA0iBYAKRBsABIg2ABkAbBAiANggVAGgQLgDQIFgBpECwA0iBYAKRBsABIg2ABkAbBAiANggVAGg...
+INFO  2023-07-01 17:35:29,463 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 17:35:29,463 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-07-01 17:35:29,465 app.py     navigate_to     528 NavigateTo: /pages/addressAdd/index
+DEBUG 2023-07-01 17:35:29,466 connection.py _safely_send    417 ASYNC_SEND > {"id":"27324d8a-f6ac-4efe-bcde-7eb2beb28d14","method":"App.callWxMethod","params":{"method":"navigateTo","args":[{"url":"/pages/addressAdd/index"}]}}
+DEBUG 2023-07-01 17:35:29,513 connection.py _on_message     652 RECV < {"id":"27324d8a-f6ac-4efe-bcde-7eb2beb28d14","result":{"result":{"errMsg":"navigateTo:ok","eventChannel":{"listener":{}}}}}
+INFO  2023-07-01 17:35:29,514 connection.py _handle_async_msg 688 received async msg: 27324d8a-f6ac-4efe-bcde-7eb2beb28d14
+DEBUG 2023-07-01 17:35:29,791 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":2,"path":"pages/addressAdd/index","query":{},"openType":"navigateTo","__ts__":1688204129777},1688204129778]}}
+INFO  2023-07-01 17:35:29,794 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 2, 'path': 'pages/addressAdd/index', 'query': {}, 'openType': 'navigateTo', '__ts__': 1688204129777}, 1688204129778]}
+INFO  2023-07-01 17:35:29,795 page.py    _get_elements_by_css 559 try to get elements: input[bindinput="bindKeyName"][placeholder="请填写姓名"]
+DEBUG 2023-07-01 17:35:29,802 connection.py _safely_send    417 SEND > {"id":"830c2b43-7e9f-4722-8631-d7c366e4d882","method":"Page.getElements","params":{"selector":"input[bindinput=\"bindKeyName\"][placeholder=\"\u8bf7\u586b\u5199\u59d3\u540d\"]","pageId":2}}
+DEBUG 2023-07-01 17:35:29,815 connection.py _on_message     652 RECV < {"id":"830c2b43-7e9f-4722-8631-d7c366e4d882","result":{"elements":[]}}
+WARNI 2023-07-01 17:35:29,816 page.py    _get_elements_by_css 564 Could not found any element 'input[bindinput="bindKeyName"][placeholder="请填写姓名"]' you need
+DEBUG 2023-07-01 17:35:29,817 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-07-01 17:35:29,819 minitest.py capture         673 capture teardown.png
+INFO  2023-07-01 17:35:29,819 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 17:35:29,820 connection.py _safely_send    417 SEND > {"id":"0387f50d-a635-4d4f-abc1-88ca3ae63570","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 17:35:29,880 connection.py _on_message     650 RECV < {"id":"0387f50d-a635-4d4f-abc1-88ca3ae63570","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAJ2CAIAAAD+KEOZAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X9slPed4PGPQ7JpU7WZxCnYhHAZDsit2rrYGSOw01RH2viwhK3AkSzEWKohZXVRPdZ29yIVbGtsU6l33a3Hq57WB7irsSGbsDjr4WQLNrWugA2yZz3ENLoGKJMF4hmoDdP0x8IS8P0xv3/P2OMfH/N+/RU/nnmeZ9zMO9/v93lmmjM5OSkAoMFDc30CAJAuggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANggVADYIFQA2CBUANgj...
+INFO  2023-07-01 17:35:29,882 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 17:35:29,883 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-01 17:35:29,884 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-01 17:35:29,891 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 10, in test_my
+    bindKeyName.click()
+AttributeError: 'list' object has no attribute 'click'

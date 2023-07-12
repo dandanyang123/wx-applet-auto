@@ -1,0 +1,4 @@
+{"type": "info", "args": ["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"], "dt": "2023-07-03 17:44:18"}
+{"type": "info", "args": ["page/order/order: onUnload have been invoked"], "dt": "2023-07-03 17:44:18"}
+{"type": "info", "args": ["page/hotGoods/hotGoods: onShow have been invoked"], "dt": "2023-07-03 17:44:18"}
+{"type": "info", "args": ["page/hotGoods/hotGoods: onRouteDone have been invoked"], "dt": "2023-07-03 17:44:18"}

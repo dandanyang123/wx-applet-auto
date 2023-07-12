@@ -1,0 +1,48 @@
+INFO  2023-07-01 15:08:24,577 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-07-01 15:08:24,578 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-07-01 15:08:24,579 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-01 15:08:24,579 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-01 15:08:24,581 minitest.py capture         673 capture setup.png
+INFO  2023-07-01 15:08:24,581 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:08:24,582 connection.py _safely_send    417 SEND > {"id":"ecb3a939-a575-4587-8a34-38ae9d32b8d7","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:08:24,860 connection.py _on_message     650 RECV < {"id":"ecb3a939-a575-4587-8a34-38ae9d32b8d7","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvWmMXdd15/tfe5871jyyOKhEauBg2olI02qTsPwsGmkhtC28UE6ASEADL3YekCcnwAsVAy9W9EGWugFHigF31P2hrQ6QQDJeTDMArdDQMyyqJTVpqCnKsURxEKWiilPxsua6VXc6Z633Ye997r1Vt6gqiYMutX+WrLr3nmGfffb+77XWnkhE4PF4PM2AutEJ8Hg8nqXiBcvj8TQNXrA8Hk/T4AXL4/E0DV6wPB5P0+AFy+PxNA1esDweT9PgBcvj8TQNXrA8Hk/T4AXL4/E0DV6wPB5P0+AFy+PxNA1esDweT9PgBcvj8TQNXrA8Hk/T4AXL4/E0DV6wPB5P0+AFy+PxNA1esDweT9PgBcvj8TQNXrA8Hk...
+INFO  2023-07-01 15:08:24,863 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:08:24,865 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-07-01 15:08:26,867 page.py    wait_for        321 waitFor: 2.0006937980651855 s
+INFO  2023-07-01 15:08:26,867 page.py    _get_elements_by_css 559 try to get elements: view[class="adPositionIndexPop"]
+DEBUG 2023-07-01 15:08:26,870 connection.py _safely_send    417 SEND > {"id":"c5febed9-166a-4427-ba5b-69178ea046e6","method":"Page.getElements","params":{"selector":"view[class=\"adPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:08:26,876 connection.py _on_message     652 RECV < {"id":"c5febed9-166a-4427-ba5b-69178ea046e6","result":{"elements":[{"elementId":"4bde6ddc-736e-4c85-a352-d36e6b97b0ab","tagName":"view"}]}}
+INFO  2023-07-01 15:08:26,877 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001AA9E449370>]
+INFO  2023-07-01 15:08:26,878 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-07-01 15:08:26,879 connection.py _safely_send    417 SEND > {"id":"7cda5c35-ad57-44dd-b93e-02683b6500d0","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-07-01 15:08:26,884 connection.py _on_message     652 RECV < {"id":"7cda5c35-ad57-44dd-b93e-02683b6500d0","result":{"elements":[]}}
+WARNI 2023-07-01 15:08:26,885 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-07-01 15:08:26,886 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-07-01 15:08:26,887 minitest.py capture         673 capture teardown.png
+INFO  2023-07-01 15:08:26,888 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:08:26,889 connection.py _safely_send    417 SEND > {"id":"6680611d-171e-4e0e-9f70-b568e45d0d6f","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:08:27,022 connection.py _on_message     650 RECV < {"id":"6680611d-171e-4e0e-9f70-b568e45d0d6f","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-07-01 15:08:27,026 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:08:27,027 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-07-01 15:08:27,028 connection.py _safely_send    417 SEND > {"id":"c5741435-c99b-4232-a524-84c84bb7d561","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-07-01 15:08:27,032 connection.py _on_message     652 RECV < {"id":"c5741435-c99b-4232-a524-84c84bb7d561","result":{"elements":[{"elementId":"aa756a17-ddba-43c7-857d-a12be188eade","tagName":"body","nodeId":"97a41962"}]}}
+INFO  2023-07-01 15:08:27,032 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000001AA9E449460>]
+DEBUG 2023-07-01 15:08:27,035 connection.py _safely_send    417 SEND > {"id":"7b9ddfce-79f4-4a03-b139-2e729a4efcd8","method":"Element.getWXML","params":{"type":"inner","elementId":"aa756a17-ddba-43c7-857d-a12be188eade","pageId":2,"nodeId":"97a41962"}}
+DEBUG 2023-07-01 15:08:27,087 connection.py _on_message     650 RECV < {"id":"7b9ddfce-79f4-4a03-b139-2e729a4efcd8","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-07-01 15:08:27,094 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-01 15:08:27,094 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-01 15:08:27,108 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 9, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found

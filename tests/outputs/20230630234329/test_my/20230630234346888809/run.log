@@ -1,0 +1,44 @@
+INFO  2023-06-30 23:43:46,893 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:43:46,893 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:43:46,894 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:43:46,894 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:43:46,896 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:43:46,897 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:43:46,898 connection.py _safely_send    417 SEND > {"id":"d011e039-aa8e-404e-8313-93411519426f","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:43:46,972 connection.py _on_message     650 RECV < {"id":"d011e039-aa8e-404e-8313-93411519426f","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X90E+edL/7PyL9kG4MNxpEb48QhS3BYusWhOdjb5AaTNKekoUUOnMXu3WybJtuN6e5dYJN+a8Oe2vLebhbIaQvdbrdsSrsSPfgHuTQhh00w3JBKLJeYbVJiwoYotZ1aMWAbyz/0w9J8/3ik8WhmNB75px7yfv0B8mhmNCPNvPV5nnnGFkRRJAAAHpjmewMAAIxCYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQ...
+INFO  2023-06-30 23:43:46,975 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:43:46,976 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-06-30 23:43:48,977 page.py    wait_for        321 waitFor: 2.0008740425109863 s
+INFO  2023-06-30 23:43:48,977 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-06-30 23:43:48,979 connection.py _safely_send    417 SEND > {"id":"b264f760-9b83-45ee-8683-6617f303b5ef","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-06-30 23:43:48,985 connection.py _on_message     652 RECV < {"id":"b264f760-9b83-45ee-8683-6617f303b5ef","result":{"elements":[]}}
+WARNI 2023-06-30 23:43:48,986 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-06-30 23:43:48,987 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:43:48,989 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:43:48,990 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:43:48,990 connection.py _safely_send    417 SEND > {"id":"69963adc-ef66-4b68-bbd5-05cf52b106b9","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:43:49,152 connection.py _on_message     650 RECV < {"id":"69963adc-ef66-4b68-bbd5-05cf52b106b9","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:43:49,155 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:43:49,155 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:43:49,156 connection.py _safely_send    417 SEND > {"id":"61277c91-fb86-4562-a275-1370e991df71","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:43:49,159 connection.py _on_message     652 RECV < {"id":"61277c91-fb86-4562-a275-1370e991df71","result":{"elements":[{"elementId":"494a9ee5-6927-4b06-b56a-c89dcb51dbdc","tagName":"body","nodeId":"1c871094"}]}}
+INFO  2023-06-30 23:43:49,160 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000001F903D45580>]
+DEBUG 2023-06-30 23:43:49,161 connection.py _safely_send    417 SEND > {"id":"a3f3dd01-666e-4897-b22e-96c0a14811b7","method":"Element.getWXML","params":{"type":"inner","elementId":"494a9ee5-6927-4b06-b56a-c89dcb51dbdc","pageId":2,"nodeId":"1c871094"}}
+DEBUG 2023-06-30 23:43:49,183 connection.py _on_message     650 RECV < {"id":"a3f3dd01-666e-4897-b22e-96c0a14811b7","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:43:49,185 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:43:49,185 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:43:49,194 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found

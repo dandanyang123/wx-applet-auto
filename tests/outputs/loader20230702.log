@@ -1,0 +1,117 @@
+DEBUG 2023-07-02 13:54:04,717 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+DEBUG 2023-07-02 13:55:39,623 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 13:55:39,627 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+DEBUG 2023-07-02 13:56:02,675 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 13:56:02,678 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 13:56:02,700 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 13:56:04,416 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 13:56:14,875 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 13:56:30,887 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 13:56:30,889 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 13:56:30,913 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 13:56:30,919 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 13:56:41,298 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 13:57:56,820 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 13:57:56,823 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 13:57:56,847 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 13:57:56,853 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 13:58:07,222 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 14:02:04,477 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+DEBUG 2023-07-02 18:15:03,485 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 18:15:03,489 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 18:15:03,515 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 18:15:03,521 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 18:15:13,915 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 18:16:13,033 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 18:16:13,036 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 18:16:13,060 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 18:16:13,066 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/\u03a2��web�����߹���/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 18:16:23,446 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 18:18:19,765 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 18:18:19,768 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 18:18:19,792 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 18:18:19,798 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/\u03a2��web�����߹���/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 18:18:30,179 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-02 18:25:10,148 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-02 18:25:10,153 caseinspect.py get_mod         101 ignore module: homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\homepage_test.py", line 1, in <module>
+    from pages import homepage
+ModuleNotFoundError: No module named 'pages'
+INFO  2023-07-02 18:25:10,177 miniconfig.py from_file       131 load config from config.json
+INFO  2023-07-02 18:25:10,183 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-02 18:25:20,575 session.py run             67  case queue is empty, test complete, release None

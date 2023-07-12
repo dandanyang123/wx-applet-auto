@@ -1,0 +1,4 @@
+{"type": "log", "args": ["picker发送选择改变，携带值为", ["湖南省", "长沙市", "芙蓉区"]], "dt": "2023-07-01 18:33:50"}
+{"type": "log", "args": [["湖南省", "长沙市", "芙蓉区"]], "dt": "2023-07-01 18:33:50"}
+{"type": "log", "args": [{"userInfo": {"nickName": "微信用户", "gender": 0, "language": "", "city": "", "province": "", "country": "", "avatarUrl": "https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132"}, "openid": null}], "dt": "2023-07-01 18:33:50"}
+{"type": "log", "args": ["complete"], "dt": "2023-07-01 18:33:50"}

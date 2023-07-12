@@ -1,0 +1,75 @@
+INFO  2023-07-02 18:42:26,530 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-02 18:42:26,531 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-02 18:42:26,531 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:42:26,532 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:42:26,533 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:42:26,533 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:42:26,534 connection.py _safely_send    417 SEND > {"id":"5cfd8ce1-30da-402c-ba61-db3f9d71d419","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:42:26,660 connection.py _on_message     650 RECV < {"id":"5cfd8ce1-30da-402c-ba61-db3f9d71d419","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:42:26,663 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:42:26,663 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+DEBUG 2023-07-02 18:42:26,664 connection.py _safely_send    417 SEND > {"id":"9065312a-012b-4bef-af7a-9bcdfe7314ce","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[2]","pageId":1}}
+DEBUG 2023-07-02 18:42:26,670 connection.py _on_message     652 RECV < {"id":"9065312a-012b-4bef-af7a-9bcdfe7314ce","result":{"elementId":"2891280a-dd33-45f9-8bf7-800275bd5c3c","tagName":"view"}}
+DEBUG 2023-07-02 18:42:26,671 connection.py _safely_send    417 SEND > {"id":"664e36cd-43b1-4270-8565-28f8b2a6a230","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"2891280a-dd33-45f9-8bf7-800275bd5c3c","pageId":1}}
+DEBUG 2023-07-02 18:42:26,674 connection.py _on_message     652 RECV < {"id":"664e36cd-43b1-4270-8565-28f8b2a6a230","result":{"styles":["auto"]}}
+DEBUG 2023-07-02 18:42:26,675 connection.py _safely_send    417 SEND > {"id":"15557f36-6102-421d-a50d-8298f10718be","method":"Element.tap","params":{"elementId":"2891280a-dd33-45f9-8bf7-800275bd5c3c","pageId":1}}
+DEBUG 2023-07-02 18:42:26,720 connection.py _on_message     652 RECV < {"id":"15557f36-6102-421d-a50d-8298f10718be","result":{}}
+DEBUG 2023-07-02 18:42:27,035 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":2,"path":"page/hotGoods/goodsDetail","query":{"goodsId":"undefined"},"openType":"navigateTo","__ts__":1688294547019},1688294547021]}}
+INFO  2023-07-02 18:42:27,038 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 2, 'path': 'page/hotGoods/goodsDetail', 'query': {'goodsId': 'undefined'}, 'openType': 'navigateTo', '__ts__': 1688294547019}, 1688294547021]}
+DEBUG 2023-07-02 18:42:27,721 connection.py _safely_send    417 SEND > {"id":"e6371034-084f-4083-9579-847693b0dad8","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/button","pageId":2}}
+DEBUG 2023-07-02 18:42:27,727 connection.py _on_message     652 RECV < {"id":"e6371034-084f-4083-9579-847693b0dad8","result":{"elementId":"d55f7564-4761-497b-9bb1-17c75ec5601e","tagName":"button"}}
+DEBUG 2023-07-02 18:42:27,728 connection.py _safely_send    417 SEND > {"id":"ecb9b5e6-b9ce-41ce-b8b1-62bc1a384f00","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"d55f7564-4761-497b-9bb1-17c75ec5601e","pageId":2}}
+DEBUG 2023-07-02 18:42:27,731 connection.py _on_message     652 RECV < {"id":"ecb9b5e6-b9ce-41ce-b8b1-62bc1a384f00","result":{"styles":["auto"]}}
+DEBUG 2023-07-02 18:42:27,732 connection.py _safely_send    417 SEND > {"id":"e511115f-0234-4555-948a-898af3795aac","method":"Element.tap","params":{"elementId":"d55f7564-4761-497b-9bb1-17c75ec5601e","pageId":2}}
+DEBUG 2023-07-02 18:42:27,743 connection.py _on_message     652 RECV < {"id":"e511115f-0234-4555-948a-898af3795aac","result":{}}
+INFO  2023-07-02 18:42:28,745 page.py    _get_elements_by_css 559 try to get elements: view[data-value="m"]
+DEBUG 2023-07-02 18:42:28,746 connection.py _safely_send    417 SEND > {"id":"49a92938-905f-4ded-9dd6-18861530ff14","method":"Page.getElements","params":{"selector":"view[data-value=\"m\"]","pageId":2}}
+DEBUG 2023-07-02 18:42:28,750 connection.py _on_message     652 RECV < {"id":"49a92938-905f-4ded-9dd6-18861530ff14","result":{"elements":[{"elementId":"cbe987e7-5532-43d2-9918-2a10bbe4c25c","tagName":"view"}]}}
+INFO  2023-07-02 18:42:28,751 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000243D0713640>]
+DEBUG 2023-07-02 18:42:28,751 connection.py _safely_send    417 SEND > {"id":"946dcbfd-9f38-4178-8a8e-47d7e7f25bfb","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"cbe987e7-5532-43d2-9918-2a10bbe4c25c","pageId":2}}
+DEBUG 2023-07-02 18:42:28,753 connection.py _on_message     652 RECV < {"id":"946dcbfd-9f38-4178-8a8e-47d7e7f25bfb","result":{"styles":["auto"]}}
+DEBUG 2023-07-02 18:42:28,755 connection.py _safely_send    417 SEND > {"id":"ae2bc93c-9c68-450c-9253-0b9ec8c4d6e0","method":"Element.tap","params":{"elementId":"cbe987e7-5532-43d2-9918-2a10bbe4c25c","pageId":2}}
+DEBUG 2023-07-02 18:42:28,766 connection.py _on_message     652 RECV < {"id":"ae2bc93c-9c68-450c-9253-0b9ec8c4d6e0","result":{}}
+INFO  2023-07-02 18:42:29,767 page.py    _get_elements_by_css 559 try to get elements: view[data-value="红色"]
+DEBUG 2023-07-02 18:42:29,768 connection.py _safely_send    417 SEND > {"id":"6754c79f-1e44-46b7-a8ab-dc427cfa1245","method":"Page.getElements","params":{"selector":"view[data-value=\"\u7ea2\u8272\"]","pageId":2}}
+DEBUG 2023-07-02 18:42:29,772 connection.py _on_message     652 RECV < {"id":"6754c79f-1e44-46b7-a8ab-dc427cfa1245","result":{"elements":[{"elementId":"dbb4ed0c-a356-4dda-94be-76e352e5239d","tagName":"view"}]}}
+INFO  2023-07-02 18:42:29,773 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000243D0C04820>]
+DEBUG 2023-07-02 18:42:29,773 connection.py _safely_send    417 SEND > {"id":"1282eedf-f262-49ac-b624-e85d3dd76dc7","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"dbb4ed0c-a356-4dda-94be-76e352e5239d","pageId":2}}
+DEBUG 2023-07-02 18:42:29,776 connection.py _on_message     652 RECV < {"id":"1282eedf-f262-49ac-b624-e85d3dd76dc7","result":{"styles":["auto"]}}
+DEBUG 2023-07-02 18:42:29,778 connection.py _safely_send    417 SEND > {"id":"1f7ed312-bf38-4bde-8da8-7064ffbf54ec","method":"Element.tap","params":{"elementId":"dbb4ed0c-a356-4dda-94be-76e352e5239d","pageId":2}}
+DEBUG 2023-07-02 18:42:29,802 connection.py _on_message     652 RECV < {"id":"1f7ed312-bf38-4bde-8da8-7064ffbf54ec","result":{}}
+INFO  2023-07-02 18:42:30,807 page.py    _get_elements_by_css 559 try to get elements: button[bindtap="goToCounter"]
+DEBUG 2023-07-02 18:42:30,808 connection.py _safely_send    417 SEND > {"id":"d38fbd06-db21-46ae-9fb6-dea76d5079a2","method":"Page.getElements","params":{"selector":"button[bindtap=\"goToCounter\"]","pageId":2}}
+DEBUG 2023-07-02 18:42:30,813 connection.py _on_message     652 RECV < {"id":"d38fbd06-db21-46ae-9fb6-dea76d5079a2","result":{"elements":[]}}
+WARNI 2023-07-02 18:42:30,814 page.py    _get_elements_by_css 564 Could not found any element 'button[bindtap="goToCounter"]' you need
+DEBUG 2023-07-02 18:42:30,814 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-02 18:42:30,815 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:42:30,815 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:42:30,815 connection.py _safely_send    417 SEND > {"id":"1b8ef962-9448-4c3d-b625-2e53199b9210","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:42:30,945 connection.py _on_message     650 RECV < {"id":"1b8ef962-9448-4c3d-b625-2e53199b9210","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAJ2CAIAAAD+KEOZAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvduSJLmSJKZqgEdmVlV3n8sMhUIh/2b/nUL+xu6SO5fTp093V2aGO8yUD2aAe2TVzJx9pMhEd2VmRPgFDhjU1C4w8L/8l/+C/3z95+s/X//5+v/DqwP4v/7v/xOkBHeFFBKNoBQAZTQJ7oDyFLHBzATBwwAqPyWMYNDUb7Qmo7bNWiMgkmhsxk42ErQe/bgf4+043vH7HjsZgAFG8OYvP3aA+yv3d7dGEpS6GY0k/uGHH//xp58aIQkSQGsEQ2P319d4f+/70YdbOKlo5ta8mTeCAEk2WoM167e+bQHIesBgG9hk1tp2u93MGjR8v/vxDriRtAZa9pW4gS0EILbeuhkRJARKinAAlKCAgmZSRASACFeIRL...
+INFO  2023-07-02 18:42:30,947 basenative.py wrapper         29  call IdeNative.screen_shot end
+DEBUG 2023-07-02 18:42:30,947 connection.py _safely_send    417 SEND > {"id":"c9c040fc-2991-4163-9237-74a04ec05e13","method":"Page.getElementByXpath","params":{"selector":"/*","pageId":2}}
+DEBUG 2023-07-02 18:42:30,950 connection.py _on_message     652 RECV < {"id":"c9c040fc-2991-4163-9237-74a04ec05e13","result":{"elementId":"66238379-1e97-4f28-8755-551ff94e1df3","tagName":"view"}}
+DEBUG 2023-07-02 18:42:30,951 connection.py _safely_send    417 SEND > {"id":"2bf8b3f8-4ef7-45b9-a390-181d4c55f498","method":"Element.getWXML","params":{"type":"outer","elementId":"66238379-1e97-4f28-8755-551ff94e1df3","pageId":2}}
+DEBUG 2023-07-02 18:42:30,956 connection.py _on_message     650 RECV < {"id":"2bf8b3f8-4ef7-45b9-a390-181d4c55f498","result":{"wxml":"<view class=\"sec-detail\"><view class=\"sec-outer\"><view class=\"top-slider\"><swiper autoplay=\"\" class=\"slider-sec\" duration=\"1000\" indicator-dots=\"\" interval=\"5000\" role=\"listbox\"><swiper-item style=\"position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);\"><image class=\"slide-image\" src=\"../../image/product.jpg\" role=\"img\"></image></swiper-item></swiper></view><view class=\"list-de...
+INFO  2023-07-02 18:42:30,957 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:42:30,957 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 18:42:30,969 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_buy_ware1 of <homepage_test.HomePageTest testMethod=test_buy_ware1>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 22, in test_buy_ware1
+    self.homePage.buy_ware()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\pages\homepage.py", line 19, in buy_ware
+    self.click(fix_button)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\common\basepage.py", line 44, in click
+    self.mini.page.get_element(ele).click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[button[bindtap="goToCounter"]] not found

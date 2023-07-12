@@ -1,0 +1,56 @@
+INFO  2023-07-01 00:01:29,408 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-07-01 00:01:29,409 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-07-01 00:01:29,410 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-01 00:01:29,411 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-01 00:01:29,415 minitest.py capture         673 capture setup.png
+INFO  2023-07-01 00:01:29,416 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 00:01:29,417 connection.py _safely_send    417 SEND > {"id":"70bc39c7-ed45-47fd-92b2-926d30a39c8d","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 00:01:29,511 connection.py _on_message     650 RECV < {"id":"70bc39c7-ed45-47fd-92b2-926d30a39c8d","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X1sU2e+4PHfSULiQrhNeMl1pgnTbHvbMmylIZepcNTOTlN1q0unlWoXJBxppbnMrHQ3M1dayK20k8AfwdmV5gZGmp3s/rHDVrpXNhIQV6IMI4QaUKlshGgYaYaB9rbyTJLK3gBJICE4r2f/OLbjl+MTO2/2A9/PH23i12Nsf/M8zzlONF3XBQBUUFLoDQCAXBEsAMogWACUQbAAKINgAVAGwQKgDIIFQBkEC4AyCBYAZRAsAMogWACUQbAAKINgAVAGwQKgDIIFQBkEC4AyCBYAZRAsAMogWACUQbAAKINgAVAGwQKgDIIFQBkEC4AyCBYAZRAsAMogWACUQbAAKINgAVBGWaE34PE3Nzc/P6/P67qu64...
+INFO  2023-07-01 00:01:29,513 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 00:01:29,514 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-07-01 00:01:31,515 page.py    wait_for        321 waitFor: 2.000126361846924 s
+DEBUG 2023-07-01 00:01:31,516 connection.py _safely_send    417 SEND > {"id":"3321ed5b-33b6-410c-84eb-c483514e363f","method":"Page.getElementByXpath","params":{"selector":"/van-overlay/view/van-icon//view","pageId":2}}
+DEBUG 2023-07-01 00:01:31,523 connection.py _on_message     652 RECV < {"id":"3321ed5b-33b6-410c-84eb-c483514e363f","error":{"message":"webview Page.getElementByXpath unimplemented"}}
+ERROR 2023-07-01 00:01:31,524 connection.py _on_message     660 [3321ed5b-33b6-410c-84eb-c483514e363f]: webview Page.getElementByXpath unimplemented
+WARNI 2023-07-01 00:01:31,525 connection.py _on_message     662 webview Page.getElementByXpath unimplemented, It may be caused by the low sdk version
+DEBUG 2023-07-01 00:01:31,725 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-07-01 00:01:31,726 minitest.py capture         673 capture teardown.png
+INFO  2023-07-01 00:01:31,726 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 00:01:31,729 connection.py _safely_send    417 SEND > {"id":"0a1915e8-190c-4c49-abfc-3b5099cc3f9a","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 00:01:31,843 connection.py _on_message     650 RECV < {"id":"0a1915e8-190c-4c49-abfc-3b5099cc3f9a","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-07-01 00:01:31,844 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 00:01:31,846 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-01 00:01:31,846 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-01 00:01:33,525 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('/page/van-overlay/view/van-icon//view').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 270, in get_element
+    return self.get_element_by_xpath(
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 467, in get_element_by_xpath
+    el = search_element()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 45, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 465, in search_element
+    return self._get_element_by_xpath(xpath)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 639, in _get_element_by_xpath
+    ret = self._send("Page.getElementByXpath", {"selector": xpath})
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 490, in _send
+    self.connection.send(method, params)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\connection.py", line 447, in send
+    return self._receive_response(cmd)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\connection.py", line 473, in _receive_response
+    raise response
+minium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented

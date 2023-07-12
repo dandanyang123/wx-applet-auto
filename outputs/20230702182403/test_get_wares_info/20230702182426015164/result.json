@@ -1,0 +1,110 @@
+{
+    "case_name": "test_get_wares_info",
+    "run_time": "20230702 18:24:26",
+    "test_type": "HomePageTest",
+    "case_doc": null,
+    "success": false,
+    "failures": "Traceback (most recent call last):\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\unittest\\case.py\", line 1145, in assertSetEqual\n    difference1 = set1.difference(set2)\nAttributeError: 'list' object has no attribute 'difference'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\libs\\unittest\\case.py\", line 41, in testPartExecutor\n    yield\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\libs\\unittest\\case.py\", line 127, in run\n    self._callTestMethod(testMethod)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\unittest\\case.py\", line 633, in _callTestMethod\n    method()\n  File \"C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\homepage_test.py\", line 18, in test_get_wares_info\n    self.assertSetEqual(back_list, check_wares_info)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\assertbase.py\", line 57, in hook_assert\n    return src(self, *args, **kwargs)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\unittest\\case.py\", line 1149, in assertSetEqual\n    self.fail('first argument does not support set difference: %s' % e)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\nAssertionError: first argument does not support set difference: 'list' object has no attribute 'difference'\n",
+    "errors": "",
+    "start_timestamp": 1688293466.2365708,
+    "is_failure": true,
+    "is_error": false,
+    "module": "C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test",
+    "package": "homepage_test",
+    "failed_line_num": 18,
+    "device": {
+        "system_info": {
+            "model": "iPhone 5",
+            "pixelRatio": 2,
+            "windowWidth": 320,
+            "windowHeight": 456,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 320,
+            "screenHeight": 568,
+            "SDKVersion": "2.32.3",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 20,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 20,
+                "left": 0,
+                "right": 320,
+                "bottom": 568,
+                "width": 320,
+                "height": 548
+            },
+            "platform": "devtools",
+            "enableDebug": true,
+            "devicePixelRatio": 2,
+            "mode": "default"
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "AssertionError",
+    "error_value": "first argument does not support set difference: 'list' object has no attribute 'difference'",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "",
+            "path": "images\\setup.png",
+            "ts": 1688293466,
+            "datetime": "2023-07-02 18:24:26"
+        },
+        {
+            "name": "assertSetEqual-failed",
+            "url": "",
+            "path": "images\\assertSetEqual-failed.png",
+            "ts": 1688293466,
+            "datetime": "2023-07-02 18:24:26"
+        },
+        {
+            "name": "teardown",
+            "url": "",
+            "path": "images\\teardown.png",
+            "ts": 1688293466,
+            "datetime": "2023-07-02 18:24:26"
+        }
+    ],
+    "step_info": [],
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "assertSetEqual",
+            "ret": false,
+            "msg": "first argument does not support set difference: 'list' object has no attribute 'difference'",
+            "img": "assertSetEqual-failed",
+            "wxml": "02182426.wxml"
+        }
+    ],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1688293466.7132964,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    def test_get_wares_info(self):\n",
+            "        back_list = self.homePage.get_wares()\n",
+            "        print(back_list)\n",
+            "        self.assertSetEqual(back_list, check_wares_info)\n"
+        ],
+        "start": 15
+    },
+    "filename": "result.json"
+}

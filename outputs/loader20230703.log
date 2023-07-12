@@ -1,0 +1,1000 @@
+DEBUG 2023-07-03 16:27:42,866 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:27:42,869 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+ERROR 2023-07-03 16:27:42,908 loader.py  main            614 config not exists:config.json
+DEBUG 2023-07-03 16:27:52,358 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:27:52,360 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 16:27:52,384 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:27:52,391 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:28:02,775 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:33:25,910 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:33:25,962 loader.py  main            614 config not exists:config.json
+DEBUG 2023-07-03 16:33:28,325 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 16:33:28,377 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:33:28,383 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:33:38,759 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:33:46,197 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 16:33:46,249 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:33:46,254 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:33:56,627 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:34:25,617 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 16:34:25,670 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:34:25,676 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:34:36,048 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:35:17,059 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:35:17,106 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+DEBUG 2023-07-03 16:35:17,129 loader.py  load_from_suite 110 - homepage_test
+DEBUG 2023-07-03 16:35:17,130 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 16:35:17,130 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_buy_ware1
+DEBUG 2023-07-03 16:35:17,130 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 16:35:17,131 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 16:35:17,131 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_get_wares_info
+DEBUG 2023-07-03 16:35:17,131 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+INFO  2023-07-03 16:35:17,133 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:35:17,141 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 16:35:17,536 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 16:35:17,537 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 16:35:17,537 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 16:35:17,537 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-07-03 16:35:17,538 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-07-03 16:35:17,539 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-07-03 16:35:17,540 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-07-03 16:35:17,541 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1" --auto-port 9420
+INFO  2023-07-03 16:35:20,085 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxc322d013dc6066b9) permissions
+√ Using AppID: wxc322d013dc6066b9
+√ auto
+
+INFO  2023-07-03 16:35:20,087 minium_object.py _do_shell       87  out:
+
+INFO  2023-07-03 16:35:30,088 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-07-03 16:35:30,188 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-07-03 16:35:30,188 connection.py _safely_send    417 SEND > {"id":"3fa7451b-5453-4bbb-965d-9e0092190419","method":"Tool.getInfo","params":{}}
+DEBUG 2023-07-03 16:35:30,190 connection.py _on_message     652 RECV < {"id":"3fa7451b-5453-4bbb-965d-9e0092190419","result":{"version":"1.06.2301160","SDKVersion":"2.32.3"}}
+DEBUG 2023-07-03 16:35:30,191 connection.py _safely_send    417 SEND > {"id":"9fe341e5-1e43-457a-a32a-ca7f8ccbc417","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-07-03 16:35:30,194 connection.py _on_message     650 RECV < {"id":"9fe341e5-1e43-457a-a32a-ca7f8ccbc417","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":456,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.32.3","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-07-03 16:35:30,195 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-07-03 16:35:30,195 connection.py _safely_send    417 SEND > {"id":"2f8ec210-ce51-48d1-a433-6159462ea57a","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-07-03 16:35:30,197 connection.py _on_message     652 RECV < {"id":"2f8ec210-ce51-48d1-a433-6159462ea57a","result":{}}
+DEBUG 2023-07-03 16:35:30,197 connection.py _safely_send    417 SEND > {"id":"a53591a5-5ba9-4527-8aa1-3e5d094d553a","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-07-03 16:35:30,222 connection.py _on_message     652 RECV < {"id":"a53591a5-5ba9-4527-8aa1-3e5d094d553a","result":{}}
+DEBUG 2023-07-03 16:35:30,224 connection.py _safely_send    417 SEND > {"id":"ff07b9e6-ca9d-4085-9ceb-bcfc50b2034b","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-07-03 16:35:30,226 connection.py _on_message     652 RECV < {"id":"ff07b9e6-ca9d-4085-9ceb-bcfc50b2034b","result":{"result":true}}
+DEBUG 2023-07-03 16:35:30,227 connection.py _safely_send    417 SEND > {"id":"6a45dfc5-0622-4ce6-a071-232cef9218ea","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-07-03 16:35:30,228 connection.py _on_message     652 RECV < {"id":"6a45dfc5-0622-4ce6-a071-232cef9218ea","result":{"result":false}}
+DEBUG 2023-07-03 16:35:30,229 connection.py _safely_send    417 SEND > {"id":"5c1a0453-0bf2-46b7-b951-d66058a21371","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-07-03 16:35:30,231 connection.py _on_message     650 RECV < {"id":"5c1a0453-0bf2-46b7-b951-d66058a21371","result":{"result":{"pages":["page/hotGoods/hotGoods","page/hotGoods/goodsDetail","page/hotGoods/counter","page/special/special","page/personal/personal","page/personal/address","page/personal/editAddr","page/order/order"],"tabBar":[{"pagePath":"page/hotGoods/hotGoods.html","iconPath":"image/1.png","selectedIconPath":"image/active.png","text":"精彩活动"},{"pagePath":"page/special/special.html","iconPath":"image/2.png","selectedIconPath":"image/active.png","text":"...
+DEBUG 2023-07-03 16:35:30,231 connection.py _safely_send    417 SEND > {"id":"d0523115-9165-4856-9d48-607e83fdb860","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-07-03 16:35:30,237 connection.py _on_message     652 RECV < {"id":"d0523115-9165-4856-9d48-607e83fdb860","result":{"result":{"miniProgram":{"appId":"wxc322d013dc6066b9","envVersion":"develop","version":""}}}}
+DEBUG 2023-07-03 16:35:30,240 connection.py _safely_send    417 SEND > {"id":"2edc3e33-ad59-4a1a-9e95-6bec03c6d7c5","method":"Tool.getInfo","params":{}}
+DEBUG 2023-07-03 16:35:30,241 connection.py _on_message     652 RECV < {"id":"2edc3e33-ad59-4a1a-9e95-6bec03c6d7c5","result":{"version":"1.06.2301160","SDKVersion":"2.32.3"}}
+DEBUG 2023-07-03 16:35:30,242 connection.py _safely_send    417 SEND > {"id":"ae45275e-ca5b-48c1-b8ef-e2640c6fb4df","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-07-03 16:35:30,246 connection.py _on_message     652 RECV < {"id":"ae45275e-ca5b-48c1-b8ef-e2640c6fb4df","result":{"result":false}}
+DEBUG 2023-07-03 16:35:30,247 connection.py _safely_send    417 SEND > {"id":"0019c79b-b799-4f99-a55a-7f3d8d610a8f","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-07-03 16:35:30,250 connection.py _on_message     652 RECV < {"id":"0019c79b-b799-4f99-a55a-7f3d8d610a8f","result":{}}
+DEBUG 2023-07-03 16:35:30,251 connection.py _safely_send    417 SEND > {"id":"41e656be-89dd-4cc1-bb76-f7a544dbe967","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-07-03 16:35:30,253 connection.py _on_message     652 RECV < {"id":"41e656be-89dd-4cc1-bb76-f7a544dbe967","result":{"pageId":1,"path":"page/hotGoods/hotGoods","query":{}}}
+DEBUG 2023-07-03 16:35:30,254 connection.py _safely_send    417 SEND > {"id":"6ff021a5-d72f-4eac-9d70-250913acd4fe","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-07-03 16:35:30,512 connection.py _on_message     652 RECV < {"id":"6ff021a5-d72f-4eac-9d70-250913acd4fe","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-07-03 16:35:30,513 connection.py _safely_send    417 SEND > {"id":"e6dbcf3d-9fde-4ec8-9ce9-c28c43b0c442","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-07-03 16:35:30,517 connection.py _on_message     652 RECV < {"id":"e6dbcf3d-9fde-4ec8-9ce9-c28c43b0c442","result":{}}
+DEBUG 2023-07-03 16:35:30,517 connection.py _safely_send    417 SEND > {"id":"6618aac5-4d17-4624-9e83-122457ffde1b","method":"App.enableLog","params":{}}
+DEBUG 2023-07-03 16:35:30,521 connection.py _on_message     652 RECV < {"id":"6618aac5-4d17-4624-9e83-122457ffde1b","result":{}}
+DEBUG 2023-07-03 16:35:30,524 connection.py _safely_send    417 SEND > {"id":"8c4841f7-9a1a-42ae-b24a-f82770b09d49","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-07-03 16:35:30,527 connection.py _on_message     652 RECV < {"id":"8c4841f7-9a1a-42ae-b24a-f82770b09d49","result":{"result":{"accountInfo":{"appId":"wxc322d013dc6066b9","nickname":"易通共享WIFI","icon":"http://wx.qlogo.cn/mmhead/Q3auHgzwzM64hANJnIiconXXdrxqOQkicGrdHlKu80KFf7c8MfUInPCg/0"}}}}
+DEBUG 2023-07-03 16:35:30,528 connection.py _safely_send    417 SEND > {"id":"a0072014-be84-4d3c-8bb9-09034c8cba4e","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-07-03 16:35:30,530 connection.py _on_message     650 RECV < {"id":"a0072014-be84-4d3c-8bb9-09034c8cba4e","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":456,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.32.3","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-07-03 16:35:30,531 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-07-03 16:35:30,533 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-03 16:35:30,534 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-03 16:35:30,536 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 16:35:30,536 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 16:35:30,537 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 16:35:30,537 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 16:35:30,537 connection.py _safely_send    417 SEND > {"id":"c4f07776-7a40-465e-94b5-21f42eec7a34","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 16:35:30,649 connection.py _on_message     650 RECV < {"id":"c4f07776-7a40-465e-94b5-21f42eec7a34","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvWuwHMd1JnhO1qNf93bfJ3AvSJAA+JJki6TomTXJkT1ePexQ7HhskSGNSHoV69XO/pF/Wf6zQ0peSeQ/h36N/zjC4Q1FiLLFIKSxd8eeoc2RLZqAZYqUKAm0+AJAvC4uLnDf/azKsz+qujorX5XdtwEQYp+QwL5VmSdPnjz5nUdlVyMRwYQmNKEJ3QjErrcAE5rQhCbkShPAmtCEJnTD0ASwJjShCd0wNAGsCU1oQjcMTQBrQhOa0A1DE8Ca0IQmdMPQBLAmNKEJ3TA0AawJTWhCNwxNAGtCE5rQDUMTwJrQhCZ0w9AEsCY0oQndMDQBrAlNaEI3DE0Aa0ITmtANQxPAmtCEJnTD0ASwJjShCd0wNAGsCU...
+INFO  2023-07-03 16:35:30,652 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 16:35:30,652 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+DEBUG 2023-07-03 16:35:30,653 connection.py _safely_send    417 ASYNC_SEND > {"id":"7fd6c749-a613-40fa-a29a-07698a022519","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 16:35:30,679 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 16:35:30,680 connection.py _on_message     652 RECV < {"id":"7fd6c749-a613-40fa-a29a-07698a022519","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 16:35:30,681 connection.py _handle_async_msg 688 received async msg: 7fd6c749-a613-40fa-a29a-07698a022519
+DEBUG 2023-07-03 16:35:45,683 connection.py _safely_send    417 SEND > {"id":"f73921a6-6ff3-4dbb-8975-c47d2f6d3200","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-07-03 16:35:45,687 connection.py _on_message     652 RECV < {"id":"f73921a6-6ff3-4dbb-8975-c47d2f6d3200","result":{"pageId":1,"path":"page/hotGoods/hotGoods","query":{}}}
+DEBUG 2023-07-03 16:35:45,688 connection.py _safely_send    417 SEND > {"id":"6d86f115-0a02-424f-8b6b-54d218a63f5b","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[2]","pageId":1}}
+DEBUG 2023-07-03 16:35:45,695 connection.py _on_message     652 RECV < {"id":"6d86f115-0a02-424f-8b6b-54d218a63f5b","result":{"elementId":"f467e8f4-82ff-4da4-a87a-8bbb5b267e23","tagName":"view"}}
+DEBUG 2023-07-03 16:35:45,696 connection.py _safely_send    417 SEND > {"id":"5e3d1569-8380-49e7-8957-a9880ae255e1","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"f467e8f4-82ff-4da4-a87a-8bbb5b267e23","pageId":1}}
+DEBUG 2023-07-03 16:35:45,699 connection.py _on_message     652 RECV < {"id":"5e3d1569-8380-49e7-8957-a9880ae255e1","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:45,700 connection.py _safely_send    417 SEND > {"id":"a26e7dd4-15d1-45f0-b78d-1826693a9383","method":"Element.tap","params":{"elementId":"f467e8f4-82ff-4da4-a87a-8bbb5b267e23","pageId":1}}
+DEBUG 2023-07-03 16:35:45,777 connection.py _on_message     652 RECV < {"id":"a26e7dd4-15d1-45f0-b78d-1826693a9383","result":{}}
+DEBUG 2023-07-03 16:35:45,845 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/goodsDetail (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 16:35:45,846 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onHide have been invoked"]}}
+DEBUG 2023-07-03 16:35:45,847 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:45,847 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 16:35:45,848 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onLoad have been invoked"]}}
+DEBUG 2023-07-03 16:35:45,849 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:45,850 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:45,850 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:45,851 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onShow have been invoked"]}}
+DEBUG 2023-07-03 16:35:45,864 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/goodsDetail"]}}
+DEBUG 2023-07-03 16:35:45,866 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onReady have been invoked"]}}
+DEBUG 2023-07-03 16:35:46,051 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 16:35:46,052 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":2,"path":"page/hotGoods/goodsDetail","query":{"goodsId":"undefined"},"openType":"navigateTo","__ts__":1688373346034},1688373346036]}}
+INFO  2023-07-03 16:35:46,056 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 2, 'path': 'page/hotGoods/goodsDetail', 'query': {'goodsId': 'undefined'}, 'openType': 'navigateTo', '__ts__': 1688373346034}, 1688373346036]}
+DEBUG 2023-07-03 16:35:46,779 connection.py _safely_send    417 SEND > {"id":"bcc1d97e-96ce-4301-bf7a-137fd144f3f8","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/button","pageId":2}}
+DEBUG 2023-07-03 16:35:46,783 connection.py _on_message     652 RECV < {"id":"bcc1d97e-96ce-4301-bf7a-137fd144f3f8","result":{"elementId":"21e7bb0d-e930-4682-95b6-6064fa4afe8f","tagName":"button"}}
+DEBUG 2023-07-03 16:35:46,784 connection.py _safely_send    417 SEND > {"id":"6a22fa5d-716c-4f52-8be2-29a6f018a75f","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"21e7bb0d-e930-4682-95b6-6064fa4afe8f","pageId":2}}
+DEBUG 2023-07-03 16:35:46,788 connection.py _on_message     652 RECV < {"id":"6a22fa5d-716c-4f52-8be2-29a6f018a75f","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:46,789 connection.py _safely_send    417 SEND > {"id":"3193560c-1605-4f78-877f-50b0c1037f1f","method":"Element.tap","params":{"elementId":"21e7bb0d-e930-4682-95b6-6064fa4afe8f","pageId":2}}
+DEBUG 2023-07-03 16:35:46,796 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:46,797 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:46,799 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:46,800 connection.py _on_message     652 RECV < {"id":"3193560c-1605-4f78-877f-50b0c1037f1f","result":{}}
+INFO  2023-07-03 16:35:47,802 page.py    _get_elements_by_css 559 try to get elements: view[data-value="m"]
+DEBUG 2023-07-03 16:35:47,803 connection.py _safely_send    417 SEND > {"id":"47aa3c24-2c44-4367-927c-4f7e38cd0aee","method":"Page.getElements","params":{"selector":"view[data-value=\"m\"]","pageId":2}}
+DEBUG 2023-07-03 16:35:47,809 connection.py _on_message     652 RECV < {"id":"47aa3c24-2c44-4367-927c-4f7e38cd0aee","result":{"elements":[{"elementId":"ff079c4d-5944-4797-b88c-cdb1d45bf025","tagName":"view"}]}}
+INFO  2023-07-03 16:35:47,810 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001BDBED7E9A0>]
+DEBUG 2023-07-03 16:35:47,810 connection.py _safely_send    417 SEND > {"id":"8e2fcfc7-34fe-415e-88fd-1f764e89c999","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"ff079c4d-5944-4797-b88c-cdb1d45bf025","pageId":2}}
+DEBUG 2023-07-03 16:35:47,813 connection.py _on_message     652 RECV < {"id":"8e2fcfc7-34fe-415e-88fd-1f764e89c999","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:47,814 connection.py _safely_send    417 SEND > {"id":"a3dd7239-26f4-42fd-be05-ca1b032f50c6","method":"Element.tap","params":{"elementId":"ff079c4d-5944-4797-b88c-cdb1d45bf025","pageId":2}}
+DEBUG 2023-07-03 16:35:47,818 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:47,820 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:47,821 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:47,824 connection.py _on_message     652 RECV < {"id":"a3dd7239-26f4-42fd-be05-ca1b032f50c6","result":{}}
+INFO  2023-07-03 16:35:48,825 page.py    _get_elements_by_css 559 try to get elements: view[data-value="红色"]
+DEBUG 2023-07-03 16:35:48,826 connection.py _safely_send    417 SEND > {"id":"4e179b07-a36b-44fa-b8e9-d38c483ea739","method":"Page.getElements","params":{"selector":"view[data-value=\"\u7ea2\u8272\"]","pageId":2}}
+DEBUG 2023-07-03 16:35:48,830 connection.py _on_message     652 RECV < {"id":"4e179b07-a36b-44fa-b8e9-d38c483ea739","result":{"elements":[{"elementId":"01cfdae3-01d0-4772-9580-3d7d469ab8dd","tagName":"view"}]}}
+INFO  2023-07-03 16:35:48,830 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001BDBED7E670>]
+DEBUG 2023-07-03 16:35:48,831 connection.py _safely_send    417 SEND > {"id":"c6f8589d-05b3-46df-a505-996d88a063ec","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"01cfdae3-01d0-4772-9580-3d7d469ab8dd","pageId":2}}
+DEBUG 2023-07-03 16:35:48,833 connection.py _on_message     652 RECV < {"id":"c6f8589d-05b3-46df-a505-996d88a063ec","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:48,834 connection.py _safely_send    417 SEND > {"id":"3dd85542-d1af-4321-b08d-c56d9c7b5680","method":"Element.tap","params":{"elementId":"01cfdae3-01d0-4772-9580-3d7d469ab8dd","pageId":2}}
+DEBUG 2023-07-03 16:35:48,837 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,839 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,841 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,842 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,844 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,845 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 16:35:48,846 connection.py _on_message     652 RECV < {"id":"3dd85542-d1af-4321-b08d-c56d9c7b5680","result":{}}
+DEBUG 2023-07-03 16:35:49,869 connection.py _safely_send    417 SEND > {"id":"c1fc847d-0c9f-4b30-adb2-20d8ddf65d70","method":"Page.getElementByXpath","params":{"selector":"/view/view[3]/view[2]/button","pageId":2}}
+DEBUG 2023-07-03 16:35:49,888 connection.py _on_message     652 RECV < {"id":"c1fc847d-0c9f-4b30-adb2-20d8ddf65d70","result":{"elementId":"1c858ee3-8cdf-45ce-8635-731f89e4ed9a","tagName":"button"}}
+DEBUG 2023-07-03 16:35:49,889 connection.py _safely_send    417 SEND > {"id":"91d4bc74-9735-4d30-a64b-7c5a36e7c49f","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"1c858ee3-8cdf-45ce-8635-731f89e4ed9a","pageId":2}}
+DEBUG 2023-07-03 16:35:49,892 connection.py _on_message     652 RECV < {"id":"91d4bc74-9735-4d30-a64b-7c5a36e7c49f","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:49,893 connection.py _safely_send    417 SEND > {"id":"616a1d09-ffe2-4384-a885-19dd6b96a840","method":"Element.tap","params":{"elementId":"1c858ee3-8cdf-45ce-8635-731f89e4ed9a","pageId":2}}
+DEBUG 2023-07-03 16:35:49,936 connection.py _on_message     652 RECV < {"id":"616a1d09-ffe2-4384-a885-19dd6b96a840","result":{}}
+DEBUG 2023-07-03 16:35:49,971 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/counter (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 16:35:49,973 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onHide have been invoked"]}}
+DEBUG 2023-07-03 16:35:49,978 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 16:35:49,979 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onLoad have been invoked"]}}
+DEBUG 2023-07-03 16:35:49,980 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"actGoodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 16:35:49,981 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"goodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 16:35:49,984 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"standardCode\" to undefined is invalid."]}}
+DEBUG 2023-07-03 16:35:49,985 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onShow have been invoked"]}}
+DEBUG 2023-07-03 16:35:49,995 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/counter"]}}
+DEBUG 2023-07-03 16:35:49,996 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onReady have been invoked"]}}
+DEBUG 2023-07-03 16:35:50,175 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 16:35:50,177 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":4,"path":"page/hotGoods/counter","query":{"number":"1","title":"%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95","tagline":"123","price":"2","image":"..%2F..%2Fimage%2Fproduct.jpg"},"openType":"navigateTo","__ts__":1688373350164},1688373350165]}}
+INFO  2023-07-03 16:35:50,179 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 4, 'path': 'page/hotGoods/counter', 'query': {'number': '1', 'title': '%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95', 'tagline': '123', 'price': '2', 'image': '..%2F..%2Fimage%2Fproduct.jpg'}, 'openType': 'navigateTo', '__ts__': 1688373350164}, 1688373350165]}
+DEBUG 2023-07-03 16:35:50,936 connection.py _safely_send    417 SEND > {"id":"04edf8aa-4f5f-4e1b-ba4b-0e84d654dd10","method":"Page.getElementByXpath","params":{"selector":"/view/view[4]/view[2]/button","pageId":4}}
+DEBUG 2023-07-03 16:35:50,942 connection.py _on_message     652 RECV < {"id":"04edf8aa-4f5f-4e1b-ba4b-0e84d654dd10","result":{"elementId":"78fc0c9b-34d9-4427-b15a-b63d7b91b20e","tagName":"button"}}
+DEBUG 2023-07-03 16:35:50,943 connection.py _safely_send    417 SEND > {"id":"dce70e79-c9e4-4cab-a18a-1b04c0728fa1","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"78fc0c9b-34d9-4427-b15a-b63d7b91b20e","pageId":4}}
+DEBUG 2023-07-03 16:35:50,946 connection.py _on_message     652 RECV < {"id":"dce70e79-c9e4-4cab-a18a-1b04c0728fa1","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 16:35:50,947 connection.py _safely_send    417 SEND > {"id":"e61eba05-b798-4b89-950a-e5fde8d69c07","method":"Element.tap","params":{"elementId":"78fc0c9b-34d9-4427-b15a-b63d7b91b20e","pageId":4}}
+DEBUG 2023-07-03 16:35:50,997 connection.py _on_message     652 RECV < {"id":"e61eba05-b798-4b89-950a-e5fde8d69c07","result":{}}
+DEBUG 2023-07-03 16:35:51,044 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/personal/personal (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 16:35:51,050 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onUnload have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,052 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onUnload have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,058 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 16:35:51,061 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onLoad have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,062 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onShow have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,082 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/personal/personal"]}}
+DEBUG 2023-07-03 16:35:51,084 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onReady have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,136 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 16:35:51,138 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":5,"path":"page/personal/personal","query":{},"openType":"switchTab","__ts__":1688373351109},1688373351111]}}
+INFO  2023-07-03 16:35:51,140 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 5, 'path': 'page/personal/personal', 'query': {}, 'openType': 'switchTab', '__ts__': 1688373351109}, 1688373351111]}
+DEBUG 2023-07-03 16:35:51,998 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-03 16:35:52,000 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 16:35:52,000 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 16:35:52,001 connection.py _safely_send    417 SEND > {"id":"e7f69ad9-6c2a-406b-8bd5-d204eadb39c6","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 16:35:52,042 connection.py _on_message     650 RECV < {"id":"e7f69ad9-6c2a-406b-8bd5-d204eadb39c6","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeUZcd9J/bfr6puePm9zt3TPXkGkSCIPMMMiaQoS6QImBQJSD4r05I2HGttWfIxFyDtJYH1Hh/uHkteWd5D0fLKnuGKAWIQxSARpEBiBgSR82BCz0zn3C/eWPXzH7dzmIh0e34f4BwA3e/ed9/F9Ler6v6qCmu1GjDGWBqIN/sCGGPsQnFgMcZSgwOLMZYaHFiMsdTgwGKMpQYHFmMsNTiwGGOpwYHFGEsNDizGWGpwYDHGUoMDizGWGhxYjLHU4MBijKUGBxZjLDU4sBhjqcGBxRhLDQ4sxlhqcGAxxlKDA4sxlhocWIyx1ODAYoylBgcWYyw1OLAYY6nBgcUYSw0OLMZYanBgMcZSgwOLMZYaHFiMsd...
+INFO  2023-07-03 16:35:52,043 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 16:35:52,044 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 16:35:52,044 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-07-03 16:35:52,056 minitest.py _miniSetUp      341 =========Current case: test_get_wares_info=========
+INFO  2023-07-03 16:35:52,056 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares_info
+INFO  2023-07-03 16:35:52,057 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 16:35:52,057 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 16:35:52,059 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 16:35:52,060 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 16:35:52,060 connection.py _safely_send    417 SEND > {"id":"2cd1b11d-5339-4c51-8530-c0fca49e7a46","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 16:35:52,099 connection.py _on_message     650 RECV < {"id":"2cd1b11d-5339-4c51-8530-c0fca49e7a46","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeUZcd9J/bfr6puePm9zt3TPXkGkSCIPMMMiaQoS6QImBQJSD4r05I2HGttWfIxFyDtJYH1Hh/uHkteWd5D0fLKnuGKAWIQxSARpEBiBgSR82BCz0zn3C/eWPXzH7dzmIh0e34f4BwA3e/ed9/F9Ler6v6qCmu1GjDGWBqIN/sCGGPsQnFgMcZSgwOLMZYaHFiMsdTgwGKMpQYHFmMsNTiwGGOpwYHFGEsNDizGWGpwYDHGUoMDizGWGhxYjLHU4MBijKUGBxZjLDU4sBhjqcGBxRhLDQ4sxlhqcGAxxlKDA4sxlhocWIyx1ODAYoylBgcWYyw1OLAYY6nBgcUYSw0OLMZYanBgMcZSgwOLMZYaHFiMsd...
+INFO  2023-07-03 16:35:52,101 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 16:35:52,101 minitest.py _miniSetUp      394 =========case: test_get_wares_info start=========
+DEBUG 2023-07-03 16:35:52,102 connection.py _safely_send    417 ASYNC_SEND > {"id":"6d63727d-9592-4036-a5ac-0c65c31dba7d","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 16:35:52,124 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 16:35:52,126 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onHide have been invoked"]}}
+DEBUG 2023-07-03 16:35:52,127 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onShow have been invoked"]}}
+DEBUG 2023-07-03 16:35:52,128 connection.py _on_message     652 RECV < {"id":"6d63727d-9592-4036-a5ac-0c65c31dba7d","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 16:35:52,129 connection.py _handle_async_msg 688 received async msg: 6d63727d-9592-4036-a5ac-0c65c31dba7d
+DEBUG 2023-07-03 16:35:52,316 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 16:35:52,319 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":1,"path":"page/hotGoods/hotGoods","query":{},"openType":"switchTab","__ts__":1688373352314},1688373352315]}}
+INFO  2023-07-03 16:35:52,320 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 1, 'path': 'page/hotGoods/hotGoods', 'query': {}, 'openType': 'switchTab', '__ts__': 1688373352314}, 1688373352315]}
+DEBUG 2023-07-03 16:35:52,321 connection.py _safely_send    417 SEND > {"id":"6f3ee72b-68e2-4521-b522-9347171e0333","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 16:35:52,326 connection.py _on_message     652 RECV < {"id":"6f3ee72b-68e2-4521-b522-9347171e0333","result":{"elementId":"efccbd4e-cecb-4b58-9a6d-ef3ae02bba9f","tagName":"view"}}
+DEBUG 2023-07-03 16:35:52,328 connection.py _safely_send    417 SEND > {"id":"b90a036c-c3f0-4ce9-abdf-2aa345f95cfc","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"efccbd4e-cecb-4b58-9a6d-ef3ae02bba9f","pageId":1}}
+DEBUG 2023-07-03 16:35:52,331 connection.py _on_message     652 RECV < {"id":"b90a036c-c3f0-4ce9-abdf-2aa345f95cfc","result":{"properties":["商品1"]}}
+DEBUG 2023-07-03 16:35:52,332 connection.py _safely_send    417 SEND > {"id":"86069064-503c-45ac-a419-87d0518dec34","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 16:35:52,335 connection.py _on_message     652 RECV < {"id":"86069064-503c-45ac-a419-87d0518dec34","result":{"elementId":"04496f43-78c8-49e4-8074-0d06a934cc48","tagName":"view"}}
+DEBUG 2023-07-03 16:35:52,336 connection.py _safely_send    417 SEND > {"id":"ed4b7aa0-ebb2-4b0a-94c7-c72070ffaf6e","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"04496f43-78c8-49e4-8074-0d06a934cc48","pageId":1}}
+DEBUG 2023-07-03 16:35:52,341 connection.py _on_message     652 RECV < {"id":"ed4b7aa0-ebb2-4b0a-94c7-c72070ffaf6e","result":{"properties":["商品2"]}}
+DEBUG 2023-07-03 16:35:52,341 connection.py _safely_send    417 SEND > {"id":"eabeb342-27ff-4007-8268-827a076057d3","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 16:35:52,344 connection.py _on_message     652 RECV < {"id":"eabeb342-27ff-4007-8268-827a076057d3","result":{"elementId":"4e608776-1e48-4d01-a960-97429bbb9d15","tagName":"view"}}
+DEBUG 2023-07-03 16:35:52,345 connection.py _safely_send    417 SEND > {"id":"3e3c5e14-147e-4a90-a441-8f53c273d833","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"4e608776-1e48-4d01-a960-97429bbb9d15","pageId":1}}
+DEBUG 2023-07-03 16:35:52,348 connection.py _on_message     652 RECV < {"id":"3e3c5e14-147e-4a90-a441-8f53c273d833","result":{"properties":["商品3"]}}
+DEBUG 2023-07-03 16:35:52,348 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares_info=========
+INFO  2023-07-03 16:35:52,349 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 16:35:52,349 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 16:35:52,350 connection.py _safely_send    417 SEND > {"id":"74378e23-7d5e-4472-8f60-0e66fd4b4d02","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 16:35:52,428 connection.py _on_message     650 RECV < {"id":"74378e23-7d5e-4472-8f60-0e66fd4b4d02","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvWuwHMd1JnhO1qNf93bfJ3AvSJAA+JJki6TomTXJkT1ePexQ7HhskSGNSHoV69XO/pF/Wf6zQ0peSeQ/h36N/zjC4Q1FiLLFIKSxd8eeoc2RLZqAZYqUKAm0+AJAvC4uLnDf/azKsz+qujorX5XdtwEQYp+QwL5VmSdPnjz5nUdlVyMRwYQmNKEJ3QjErrcAE5rQhCbkShPAmtCEJnTD0ASwJjShCd0wNAGsCU1oQjcMTQBrQhOa0A1DE8Ca0IQmdMPQBLAmNKEJ3TA0AawJTWhCNwxNAGtCE5rQDUMTwJrQhCZ0w9AEsCY0oQndMDQBrAlNaEI3DE0Aa0ITmtANQxPAmtCEJnTD0ASwJjShCd0wNAGsCU...
+INFO  2023-07-03 16:35:52,430 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 16:35:52,430 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 16:35:52,431 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-07-03 16:36:02,436 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:36:02,436 connection.py _safely_send    417 ASYNC_SEND > {"id":"a3cf6425-7b0b-48eb-b554-8c97737aa18a","method":"Tool.close","params":{}}
+DEBUG 2023-07-03 16:36:02,438 connection.py _on_message     652 RECV < {"id":"a3cf6425-7b0b-48eb-b554-8c97737aa18a","result":{}}
+INFO  2023-07-03 16:36:02,438 connection.py _handle_async_msg 688 received async msg: a3cf6425-7b0b-48eb-b554-8c97737aa18a, maybe command ignore response
+ERROR 2023-07-03 16:36:02,458 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-07-03 16:36:02,832 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-07-03 16:36:03,438 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-07-03 16:36:03,438 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-07-03 16:36:03,439 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-07-03 16:36:03,439 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-07-03 16:36:03,440 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-07-03 16:36:03,440 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-07-03 16:38:20,102 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:38:20,105 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 16:38:20,128 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:38:20,134 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:38:30,508 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:40:08,616 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:40:08,660 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+DEBUG 2023-07-03 16:40:08,683 loader.py  load_from_suite 110 - homepage_test
+DEBUG 2023-07-03 16:40:08,683 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 16:40:08,684 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_buy_ware1
+DEBUG 2023-07-03 16:40:08,684 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 16:40:08,684 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 16:40:08,685 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_get_wares_info
+DEBUG 2023-07-03 16:40:08,685 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+INFO  2023-07-03 16:40:08,686 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:40:08,694 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 16:40:09,077 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 16:40:09,077 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 16:40:09,078 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 16:40:09,078 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-07-03 16:40:09,079 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-07-03 16:40:09,079 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-07-03 16:40:09,080 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-07-03 16:40:09,081 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1" --auto-port 9420
+INFO  2023-07-03 16:40:11,578 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxc322d013dc6066b9) permissions
+√ Using AppID: wxc322d013dc6066b9
+√ auto
+
+INFO  2023-07-03 16:40:11,579 minium_object.py _do_shell       87  out:
+
+INFO  2023-07-03 16:40:21,581 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+DEBUG 2023-07-03 16:40:38,722 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:40:38,756 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 16:40:38,779 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:40:38,785 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:40:49,165 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:54:50,952 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:54:50,984 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 16:54:51,008 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:54:51,014 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:55:01,403 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:57:01,877 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 16:57:01,910 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 16:57:01,934 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:57:01,940 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:57:12,389 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 16:59:48,758 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 16:59:48,809 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 16:59:48,815 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 16:59:59,250 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:00:48,261 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:00:48,264 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:00:48,286 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:00:48,292 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:00:58,681 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:01:00,839 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+DEBUG 2023-07-03 17:01:10,080 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:01:10,135 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:01:10,140 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:01:20,551 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:02:33,183 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:02:33,235 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:02:33,240 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:02:43,636 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:04:02,982 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:04:02,985 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:04:03,008 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:04:03,015 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:04:13,420 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:09:49,244 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:09:49,247 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:09:49,270 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:09:49,275 loader.py  run_session     270 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:09:59,766 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:10:42,516 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:10:42,571 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:10:42,576 loader.py  run_session     270 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:10:52,983 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:12:11,433 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:12:11,485 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:12:11,490 loader.py  run_session     271 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:12:21,897 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:20:05,877 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:20:05,909 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:20:05,932 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:20:05,938 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:20:16,341 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:24:42,461 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:24:42,517 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:24:42,523 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:24:52,913 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:25:21,230 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:25:21,283 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:25:21,288 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:25:31,677 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:25:42,403 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:25:42,455 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:25:42,461 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:25:52,856 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:26:23,131 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:26:23,182 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:26:23,188 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:26:33,583 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:26:39,565 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:26:39,616 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:26:39,622 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:26:50,014 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:27:01,423 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:27:01,474 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:27:01,479 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:27:11,889 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:27:28,675 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:27:28,721 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+DEBUG 2023-07-03 17:27:28,744 loader.py  load_from_suite 110 - homepage_test
+DEBUG 2023-07-03 17:27:28,744 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 17:27:28,744 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_buy_ware1
+DEBUG 2023-07-03 17:27:28,745 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 17:27:28,745 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 17:27:28,745 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_get_wares_info
+DEBUG 2023-07-03 17:27:28,745 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+INFO  2023-07-03 17:27:28,745 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:27:28,751 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 17:27:29,170 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 17:27:29,171 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 17:27:29,171 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 17:27:29,171 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-07-03 17:27:29,172 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-07-03 17:27:29,172 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-07-03 17:27:29,173 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-07-03 17:27:29,174 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1" --auto-port 9420
+INFO  2023-07-03 17:27:31,885 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxc322d013dc6066b9) permissions
+√ Using AppID: wxc322d013dc6066b9
+√ auto
+
+INFO  2023-07-03 17:27:31,885 minium_object.py _do_shell       87  out:
+
+DEBUG 2023-07-03 17:33:35,689 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:33:35,692 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:33:35,715 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:33:35,722 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 17:34:23,795 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+ERROR 2023-07-03 17:34:23,798 caseinspect.py get_mod         101 ignore module: tests.homepage_test
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 98, in get_mod
+    mod = import_module(module_name)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\caseinspect.py", line 37, in import_module
+    mod = __import__(module_name)
+ModuleNotFoundError: No module named 'tests.homepage_test'
+INFO  2023-07-03 17:34:23,821 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:34:23,827 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+INFO  2023-07-03 17:34:34,240 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:35:21,489 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+INFO  2023-07-03 17:35:21,543 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:35:21,548 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 17:43:21,431 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+DEBUG 2023-07-03 17:43:21,498 loader.py  load_from_suite 110 - homepage_test
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_buy_ware1
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_case_name 157 Loading Case: homepage_test.test_get_wares_info
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+DEBUG 2023-07-03 17:43:21,499 loader.py  load_from_suite 110 - tests.homepage_test
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_case_name 157 Loading Case: tests.homepage_test.test_buy_ware1
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_case_name 157 Loading Case: tests.homepage_test.test_get_wares_info
+DEBUG 2023-07-03 17:43:21,500 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+INFO  2023-07-03 17:43:21,500 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:43:21,507 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 17:43:21,929 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 17:43:21,929 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 17:43:21,930 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 17:43:21,930 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-07-03 17:43:21,930 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-07-03 17:43:21,931 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-07-03 17:43:21,932 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-07-03 17:43:21,932 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1" --auto-port 9420
+INFO  2023-07-03 17:43:24,435 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxc322d013dc6066b9) permissions
+√ Using AppID: wxc322d013dc6066b9
+√ auto
+
+INFO  2023-07-03 17:43:24,435 minium_object.py _do_shell       87  out:
+
+INFO  2023-07-03 17:43:34,436 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-07-03 17:43:34,576 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-07-03 17:43:34,576 connection.py _safely_send    417 SEND > {"id":"9cae40d9-3ebd-463c-b396-f961820f9196","method":"Tool.getInfo","params":{}}
+DEBUG 2023-07-03 17:43:34,578 connection.py _on_message     652 RECV < {"id":"9cae40d9-3ebd-463c-b396-f961820f9196","result":{"version":"1.06.2301160","SDKVersion":"2.32.3"}}
+DEBUG 2023-07-03 17:43:34,578 connection.py _safely_send    417 SEND > {"id":"f94e1b79-fda5-4e76-9ef4-be54e566a546","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-07-03 17:43:34,581 connection.py _on_message     650 RECV < {"id":"f94e1b79-fda5-4e76-9ef4-be54e566a546","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":456,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.32.3","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-07-03 17:43:34,582 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-07-03 17:43:34,582 connection.py _safely_send    417 SEND > {"id":"ccd02128-679e-4f76-a6d5-b6e0047ae8aa","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-07-03 17:43:34,583 connection.py _on_message     652 RECV < {"id":"ccd02128-679e-4f76-a6d5-b6e0047ae8aa","result":{}}
+DEBUG 2023-07-03 17:43:34,584 connection.py _safely_send    417 SEND > {"id":"29e09cca-9270-47a0-990f-da8b5d30b444","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-07-03 17:43:34,586 connection.py _on_message     652 RECV < {"id":"29e09cca-9270-47a0-990f-da8b5d30b444","result":{}}
+DEBUG 2023-07-03 17:43:34,587 connection.py _safely_send    417 SEND > {"id":"25dded2e-329a-492f-bf0f-11197ab5dce1","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-07-03 17:43:34,589 connection.py _on_message     652 RECV < {"id":"25dded2e-329a-492f-bf0f-11197ab5dce1","result":{"result":true}}
+DEBUG 2023-07-03 17:43:34,590 connection.py _safely_send    417 SEND > {"id":"7b8261c1-9bf8-4dc0-adc7-b4f77ccc8383","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-07-03 17:43:34,591 connection.py _on_message     652 RECV < {"id":"7b8261c1-9bf8-4dc0-adc7-b4f77ccc8383","result":{"result":false}}
+DEBUG 2023-07-03 17:43:34,592 connection.py _safely_send    417 SEND > {"id":"4415a212-a646-4949-b366-a783e65278be","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-07-03 17:43:34,594 connection.py _on_message     650 RECV < {"id":"4415a212-a646-4949-b366-a783e65278be","result":{"result":{"pages":["page/hotGoods/hotGoods","page/hotGoods/goodsDetail","page/hotGoods/counter","page/special/special","page/personal/personal","page/personal/address","page/personal/editAddr","page/order/order"],"tabBar":[{"pagePath":"page/hotGoods/hotGoods.html","iconPath":"image/1.png","selectedIconPath":"image/active.png","text":"精彩活动"},{"pagePath":"page/special/special.html","iconPath":"image/2.png","selectedIconPath":"image/active.png","text":"...
+DEBUG 2023-07-03 17:43:34,594 connection.py _safely_send    417 SEND > {"id":"105589f6-4785-4e74-bc35-22a7ed9bc058","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-07-03 17:43:34,595 connection.py _on_message     652 RECV < {"id":"105589f6-4785-4e74-bc35-22a7ed9bc058","result":{"result":{"miniProgram":{"appId":"wxc322d013dc6066b9","envVersion":"develop","version":""}}}}
+DEBUG 2023-07-03 17:43:34,596 connection.py _safely_send    417 SEND > {"id":"ceb172ce-cd63-416d-b4db-97e4afb0fc2b","method":"Tool.getInfo","params":{}}
+DEBUG 2023-07-03 17:43:34,597 connection.py _on_message     652 RECV < {"id":"ceb172ce-cd63-416d-b4db-97e4afb0fc2b","result":{"version":"1.06.2301160","SDKVersion":"2.32.3"}}
+DEBUG 2023-07-03 17:43:34,598 connection.py _safely_send    417 SEND > {"id":"34926596-7ae5-4f4c-85d6-0d273c151268","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-07-03 17:43:34,601 connection.py _on_message     652 RECV < {"id":"34926596-7ae5-4f4c-85d6-0d273c151268","result":{"result":false}}
+DEBUG 2023-07-03 17:43:34,602 connection.py _safely_send    417 SEND > {"id":"0b90fb64-a85a-41cf-a51e-b24fd2e3b711","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-07-03 17:43:34,604 connection.py _on_message     652 RECV < {"id":"0b90fb64-a85a-41cf-a51e-b24fd2e3b711","result":{}}
+DEBUG 2023-07-03 17:43:34,604 connection.py _safely_send    417 SEND > {"id":"b13ea332-3721-40ae-9bea-8d34c99a73b5","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-07-03 17:43:34,606 connection.py _on_message     652 RECV < {"id":"b13ea332-3721-40ae-9bea-8d34c99a73b5","result":{"pageId":1,"path":"page/hotGoods/hotGoods","query":{}}}
+DEBUG 2023-07-03 17:43:34,607 connection.py _safely_send    417 SEND > {"id":"acc7a9d4-3387-40b7-8ed6-689c3f02f2f8","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-07-03 17:43:34,882 connection.py _on_message     652 RECV < {"id":"acc7a9d4-3387-40b7-8ed6-689c3f02f2f8","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-07-03 17:43:34,883 connection.py _safely_send    417 SEND > {"id":"75a5196a-94aa-4ac9-8d97-3e89267eff5d","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-07-03 17:43:34,887 connection.py _on_message     652 RECV < {"id":"75a5196a-94aa-4ac9-8d97-3e89267eff5d","result":{}}
+DEBUG 2023-07-03 17:43:34,887 connection.py _safely_send    417 SEND > {"id":"5d9dc82e-b9da-46ba-8e54-ef7a250e0cbc","method":"App.enableLog","params":{}}
+DEBUG 2023-07-03 17:43:34,888 connection.py _on_message     652 RECV < {"id":"5d9dc82e-b9da-46ba-8e54-ef7a250e0cbc","result":{}}
+DEBUG 2023-07-03 17:43:34,890 connection.py _safely_send    417 SEND > {"id":"6181ea1d-18ed-4979-8cd4-25d9849eb3ec","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-07-03 17:43:34,892 connection.py _on_message     652 RECV < {"id":"6181ea1d-18ed-4979-8cd4-25d9849eb3ec","result":{"result":{"accountInfo":{"appId":"wxc322d013dc6066b9","nickname":"易通共享WIFI","icon":"http://wx.qlogo.cn/mmhead/Q3auHgzwzM64hANJnIiconXXdrxqOQkicGrdHlKu80KFf7c8MfUInPCg/0"}}}}
+DEBUG 2023-07-03 17:43:34,892 connection.py _safely_send    417 SEND > {"id":"59722960-a888-47b4-9fc7-141521a68292","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-07-03 17:43:34,895 connection.py _on_message     650 RECV < {"id":"59722960-a888-47b4-9fc7-141521a68292","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":456,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.32.3","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-07-03 17:43:34,896 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-07-03 17:43:34,898 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-03 17:43:34,899 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-03 17:43:34,899 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 17:43:34,899 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 17:43:34,900 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 17:43:34,901 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:43:34,901 connection.py _safely_send    417 SEND > {"id":"04942ea4-8676-41c5-b9fb-648738eeee11","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:43:35,014 connection.py _on_message     650 RECV < {"id":"04942ea4-8676-41c5-b9fb-648738eeee11","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-03 17:43:35,016 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:43:35,017 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+DEBUG 2023-07-03 17:43:35,017 connection.py _safely_send    417 ASYNC_SEND > {"id":"53734091-daf9-40ba-afb9-b382cec25996","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 17:43:35,044 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:35,046 connection.py _on_message     652 RECV < {"id":"53734091-daf9-40ba-afb9-b382cec25996","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 17:43:35,046 connection.py _handle_async_msg 688 received async msg: 53734091-daf9-40ba-afb9-b382cec25996
+DEBUG 2023-07-03 17:43:50,047 connection.py _safely_send    417 SEND > {"id":"6f0ffd82-618f-496e-8118-ac62372d9435","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-07-03 17:43:50,049 connection.py _on_message     652 RECV < {"id":"6f0ffd82-618f-496e-8118-ac62372d9435","result":{"pageId":1,"path":"page/hotGoods/hotGoods","query":{}}}
+DEBUG 2023-07-03 17:43:50,050 connection.py _safely_send    417 SEND > {"id":"3b6a5b21-20b1-44c7-be0a-fa39a9195d2a","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[2]","pageId":1}}
+DEBUG 2023-07-03 17:43:50,057 connection.py _on_message     652 RECV < {"id":"3b6a5b21-20b1-44c7-be0a-fa39a9195d2a","result":{"elementId":"a0943bef-1167-494d-a326-f247aceb1210","tagName":"view"}}
+DEBUG 2023-07-03 17:43:50,057 connection.py _safely_send    417 SEND > {"id":"923e9dc7-f16c-4db9-a0d6-c6375694a166","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"a0943bef-1167-494d-a326-f247aceb1210","pageId":1}}
+DEBUG 2023-07-03 17:43:50,060 connection.py _on_message     652 RECV < {"id":"923e9dc7-f16c-4db9-a0d6-c6375694a166","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:50,060 connection.py _safely_send    417 SEND > {"id":"c2acc27f-93e1-4654-86fe-3b539116697f","method":"Element.tap","params":{"elementId":"a0943bef-1167-494d-a326-f247aceb1210","pageId":1}}
+DEBUG 2023-07-03 17:43:50,137 connection.py _on_message     652 RECV < {"id":"c2acc27f-93e1-4654-86fe-3b539116697f","result":{}}
+DEBUG 2023-07-03 17:43:50,198 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/goodsDetail (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:50,199 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:43:50,200 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:50,200 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:43:50,201 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:43:50,202 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:50,202 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:50,203 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:50,204 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:43:50,219 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/goodsDetail"]}}
+DEBUG 2023-07-03 17:43:50,221 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:43:50,396 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:43:50,398 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":2,"path":"page/hotGoods/goodsDetail","query":{"goodsId":"undefined"},"openType":"navigateTo","__ts__":1688377430383},1688377430385]}}
+INFO  2023-07-03 17:43:50,401 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 2, 'path': 'page/hotGoods/goodsDetail', 'query': {'goodsId': 'undefined'}, 'openType': 'navigateTo', '__ts__': 1688377430383}, 1688377430385]}
+DEBUG 2023-07-03 17:43:51,138 connection.py _safely_send    417 SEND > {"id":"5a880cfa-890e-48e3-bccf-074a40c8c9ba","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/button","pageId":2}}
+DEBUG 2023-07-03 17:43:51,141 connection.py _on_message     652 RECV < {"id":"5a880cfa-890e-48e3-bccf-074a40c8c9ba","result":{"elementId":"5f7fdfe5-aaa5-48be-86bc-389901cbe563","tagName":"button"}}
+DEBUG 2023-07-03 17:43:51,142 connection.py _safely_send    417 SEND > {"id":"f2a322f1-399e-4767-a918-48ad696ffa47","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"5f7fdfe5-aaa5-48be-86bc-389901cbe563","pageId":2}}
+DEBUG 2023-07-03 17:43:51,144 connection.py _on_message     652 RECV < {"id":"f2a322f1-399e-4767-a918-48ad696ffa47","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:51,145 connection.py _safely_send    417 SEND > {"id":"6b6ccaa6-ff1b-4e5e-b2cb-13db21919e0e","method":"Element.tap","params":{"elementId":"5f7fdfe5-aaa5-48be-86bc-389901cbe563","pageId":2}}
+DEBUG 2023-07-03 17:43:51,150 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:51,151 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:51,152 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:51,152 connection.py _on_message     652 RECV < {"id":"6b6ccaa6-ff1b-4e5e-b2cb-13db21919e0e","result":{}}
+INFO  2023-07-03 17:43:52,153 page.py    _get_elements_by_css 559 try to get elements: view[data-value="m"]
+DEBUG 2023-07-03 17:43:52,153 connection.py _safely_send    417 SEND > {"id":"dcfadd5d-3edd-4f5f-bd7c-b0e8d73efc4e","method":"Page.getElements","params":{"selector":"view[data-value=\"m\"]","pageId":2}}
+DEBUG 2023-07-03 17:43:52,159 connection.py _on_message     652 RECV < {"id":"dcfadd5d-3edd-4f5f-bd7c-b0e8d73efc4e","result":{"elements":[{"elementId":"4990dca0-028a-4ca1-b707-5a62ab909808","tagName":"view"}]}}
+INFO  2023-07-03 17:43:52,160 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001870D530910>]
+DEBUG 2023-07-03 17:43:52,160 connection.py _safely_send    417 SEND > {"id":"3f4e5a30-a241-48e4-82a9-73f1151fbc95","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"4990dca0-028a-4ca1-b707-5a62ab909808","pageId":2}}
+DEBUG 2023-07-03 17:43:52,162 connection.py _on_message     652 RECV < {"id":"3f4e5a30-a241-48e4-82a9-73f1151fbc95","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:52,162 connection.py _safely_send    417 SEND > {"id":"b224bd69-6df2-46d7-bf6f-4787f85e4e7b","method":"Element.tap","params":{"elementId":"4990dca0-028a-4ca1-b707-5a62ab909808","pageId":2}}
+DEBUG 2023-07-03 17:43:52,166 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:52,167 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:52,168 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:52,168 connection.py _on_message     652 RECV < {"id":"b224bd69-6df2-46d7-bf6f-4787f85e4e7b","result":{}}
+INFO  2023-07-03 17:43:53,170 page.py    _get_elements_by_css 559 try to get elements: view[data-value="红色"]
+DEBUG 2023-07-03 17:43:53,170 connection.py _safely_send    417 SEND > {"id":"2495670f-6070-4c21-a877-1f5bfb9f45a1","method":"Page.getElements","params":{"selector":"view[data-value=\"\u7ea2\u8272\"]","pageId":2}}
+DEBUG 2023-07-03 17:43:53,175 connection.py _on_message     652 RECV < {"id":"2495670f-6070-4c21-a877-1f5bfb9f45a1","result":{"elements":[{"elementId":"2695da8d-6ae4-4f9e-bac1-50dcb5bac37c","tagName":"view"}]}}
+INFO  2023-07-03 17:43:53,175 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001870D550D60>]
+DEBUG 2023-07-03 17:43:53,176 connection.py _safely_send    417 SEND > {"id":"2cd8b9da-3519-4ba1-871e-b47fc914ab71","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"2695da8d-6ae4-4f9e-bac1-50dcb5bac37c","pageId":2}}
+DEBUG 2023-07-03 17:43:53,178 connection.py _on_message     652 RECV < {"id":"2cd8b9da-3519-4ba1-871e-b47fc914ab71","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:53,178 connection.py _safely_send    417 SEND > {"id":"ddf9c40b-2151-4a7d-b820-1fe4abbda93b","method":"Element.tap","params":{"elementId":"2695da8d-6ae4-4f9e-bac1-50dcb5bac37c","pageId":2}}
+DEBUG 2023-07-03 17:43:53,182 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,183 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,184 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,184 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,185 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,186 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:43:53,187 connection.py _on_message     652 RECV < {"id":"ddf9c40b-2151-4a7d-b820-1fe4abbda93b","result":{}}
+DEBUG 2023-07-03 17:43:54,212 connection.py _safely_send    417 SEND > {"id":"e4c37dba-4fcf-456f-b97a-35e90242a5bb","method":"Page.getElementByXpath","params":{"selector":"/view/view[3]/view[2]/button","pageId":2}}
+DEBUG 2023-07-03 17:43:54,229 connection.py _on_message     652 RECV < {"id":"e4c37dba-4fcf-456f-b97a-35e90242a5bb","result":{"elementId":"73e9c367-4f9f-4231-adaa-be3afdd60500","tagName":"button"}}
+DEBUG 2023-07-03 17:43:54,230 connection.py _safely_send    417 SEND > {"id":"f17b3920-06a0-4443-a7f3-a06fee7e298c","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"73e9c367-4f9f-4231-adaa-be3afdd60500","pageId":2}}
+DEBUG 2023-07-03 17:43:54,232 connection.py _on_message     652 RECV < {"id":"f17b3920-06a0-4443-a7f3-a06fee7e298c","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:54,233 connection.py _safely_send    417 SEND > {"id":"f18dea9e-532d-45cc-a5ba-6e6cc8eb1dda","method":"Element.tap","params":{"elementId":"73e9c367-4f9f-4231-adaa-be3afdd60500","pageId":2}}
+DEBUG 2023-07-03 17:43:54,271 connection.py _on_message     652 RECV < {"id":"f18dea9e-532d-45cc-a5ba-6e6cc8eb1dda","result":{}}
+DEBUG 2023-07-03 17:43:54,303 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/counter (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:54,304 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:43:54,307 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:43:54,310 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:43:54,311 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"actGoodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:43:54,312 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"goodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:43:54,313 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"standardCode\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:43:54,314 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:43:54,325 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/counter"]}}
+DEBUG 2023-07-03 17:43:54,326 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:43:54,512 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:43:54,514 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":4,"path":"page/hotGoods/counter","query":{"number":"1","title":"%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95","tagline":"123","price":"2","image":"..%2F..%2Fimage%2Fproduct.jpg"},"openType":"navigateTo","__ts__":1688377434497},1688377434498]}}
+INFO  2023-07-03 17:43:54,518 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 4, 'path': 'page/hotGoods/counter', 'query': {'number': '1', 'title': '%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95', 'tagline': '123', 'price': '2', 'image': '..%2F..%2Fimage%2Fproduct.jpg'}, 'openType': 'navigateTo', '__ts__': 1688377434497}, 1688377434498]}
+DEBUG 2023-07-03 17:43:55,272 connection.py _safely_send    417 SEND > {"id":"cbd45178-5012-4c93-bdee-8e398d1cf7b5","method":"Page.getElementByXpath","params":{"selector":"/view/view[4]/view[2]/button","pageId":4}}
+DEBUG 2023-07-03 17:43:55,276 connection.py _on_message     652 RECV < {"id":"cbd45178-5012-4c93-bdee-8e398d1cf7b5","result":{"elementId":"ed5aa77d-123d-495c-9ca8-9101a0e1fb70","tagName":"button"}}
+DEBUG 2023-07-03 17:43:55,277 connection.py _safely_send    417 SEND > {"id":"9247a20d-cca1-4094-af7a-efcc4eda85f5","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"ed5aa77d-123d-495c-9ca8-9101a0e1fb70","pageId":4}}
+DEBUG 2023-07-03 17:43:55,279 connection.py _on_message     652 RECV < {"id":"9247a20d-cca1-4094-af7a-efcc4eda85f5","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:43:55,279 connection.py _safely_send    417 SEND > {"id":"4cd46455-db36-4197-9908-8f22ef345228","method":"Element.tap","params":{"elementId":"ed5aa77d-123d-495c-9ca8-9101a0e1fb70","pageId":4}}
+DEBUG 2023-07-03 17:43:55,320 connection.py _on_message     652 RECV < {"id":"4cd46455-db36-4197-9908-8f22ef345228","result":{}}
+DEBUG 2023-07-03 17:43:55,367 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/personal/personal (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:55,369 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onUnload have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,371 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onUnload have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,377 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:43:55,379 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,380 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,398 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/personal/personal"]}}
+DEBUG 2023-07-03 17:43:55,399 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,453 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:43:55,454 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":5,"path":"page/personal/personal","query":{},"openType":"switchTab","__ts__":1688377435427},1688377435428]}}
+INFO  2023-07-03 17:43:55,455 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 5, 'path': 'page/personal/personal', 'query': {}, 'openType': 'switchTab', '__ts__': 1688377435427}, 1688377435428]}
+DEBUG 2023-07-03 17:43:56,321 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-03 17:43:56,322 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 17:43:56,322 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:43:56,323 connection.py _safely_send    417 SEND > {"id":"0b10c5e4-35f9-47f5-9eea-2f961decab92","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:43:56,398 connection.py _on_message     650 RECV < {"id":"0b10c5e4-35f9-47f5-9eea-2f961decab92","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeUZcd9J/bfr6puePm9zt3TPXkGkSCIPMMMiaQoS6QImBQJSD4r05I2HGttWfIxFyDtJYH1Hh/uHkteWd5D0fLKnuGKAWIQxSARpEBiBgSR82BCz0zn3C/eWPXzH7dzmIh0e34f4BwA3e/ed9/F9Ler6v6qCmu1GjDGWBqIN/sCGGPsQnFgMcZSgwOLMZYaHFiMsdTgwGKMpQYHFmMsNTiwGGOpwYHFGEsNDizGWGpwYDHGUoMDizGWGhxYjLHU4MBijKUGBxZjLDU4sBhjqcGBxRhLDQ4sxlhqcGAxxlKDA4sxlhocWIyx1ODAYoylBgcWYyw1OLAYY6nBgcUYSw0OLMZYanBgMcZSgwOLMZYaHFiMsd...
+INFO  2023-07-03 17:43:56,400 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:43:56,400 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 17:43:56,400 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-07-03 17:43:56,409 minitest.py _miniSetUp      341 =========Current case: test_get_wares_info=========
+INFO  2023-07-03 17:43:56,409 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares_info
+INFO  2023-07-03 17:43:56,410 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 17:43:56,410 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 17:43:56,410 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 17:43:56,411 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:43:56,411 connection.py _safely_send    417 SEND > {"id":"ecaca586-0839-4205-b374-f5cefc58a569","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:43:56,455 connection.py _on_message     650 RECV < {"id":"ecaca586-0839-4205-b374-f5cefc58a569","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeUZcd9J/bfr6puePm9zt3TPXkGkSCIPMMMiaQoS6QImBQJSD4r05I2HGttWfIxFyDtJYH1Hh/uHkteWd5D0fLKnuGKAWIQxSARpEBiBgSR82BCz0zn3C/eWPXzH7dzmIh0e34f4BwA3e/ed9/F9Ler6v6qCmu1GjDGWBqIN/sCGGPsQnFgMcZSgwOLMZYaHFiMsdTgwGKMpQYHFmMsNTiwGGOpwYHFGEsNDizGWGpwYDHGUoMDizGWGhxYjLHU4MBijKUGBxZjLDU4sBhjqcGBxRhLDQ4sxlhqcGAxxlKDA4sxlhocWIyx1ODAYoylBgcWYyw1OLAYY6nBgcUYSw0OLMZYanBgMcZSgwOLMZYaHFiMsd...
+INFO  2023-07-03 17:43:56,456 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:43:56,457 minitest.py _miniSetUp      394 =========case: test_get_wares_info start=========
+DEBUG 2023-07-03 17:43:56,457 connection.py _safely_send    417 ASYNC_SEND > {"id":"40708dd8-fba7-444f-9919-0ca936056d5c","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 17:43:56,475 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:56,476 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:43:56,476 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:43:56,478 connection.py _on_message     652 RECV < {"id":"40708dd8-fba7-444f-9919-0ca936056d5c","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 17:43:56,478 connection.py _handle_async_msg 688 received async msg: 40708dd8-fba7-444f-9919-0ca936056d5c
+DEBUG 2023-07-03 17:43:56,670 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:43:56,672 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":1,"path":"page/hotGoods/hotGoods","query":{},"openType":"switchTab","__ts__":1688377436667},1688377436668]}}
+INFO  2023-07-03 17:43:56,673 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 1, 'path': 'page/hotGoods/hotGoods', 'query': {}, 'openType': 'switchTab', '__ts__': 1688377436667}, 1688377436668]}
+DEBUG 2023-07-03 17:43:56,674 connection.py _safely_send    417 SEND > {"id":"f60b9c92-eaba-46a2-b6a7-0839947ac631","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:43:56,681 connection.py _on_message     652 RECV < {"id":"f60b9c92-eaba-46a2-b6a7-0839947ac631","result":{"elementId":"e7345583-45ca-4bac-a4de-2b221c84fb43","tagName":"view"}}
+DEBUG 2023-07-03 17:43:56,681 connection.py _safely_send    417 SEND > {"id":"4db35c90-05e6-47e7-9f7f-4f49f018c87f","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"e7345583-45ca-4bac-a4de-2b221c84fb43","pageId":1}}
+DEBUG 2023-07-03 17:43:56,684 connection.py _on_message     652 RECV < {"id":"4db35c90-05e6-47e7-9f7f-4f49f018c87f","result":{"properties":["商品1"]}}
+DEBUG 2023-07-03 17:43:56,685 connection.py _safely_send    417 SEND > {"id":"fb307655-b58a-475f-9a19-9c9b0b98a9f5","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:43:56,687 connection.py _on_message     652 RECV < {"id":"fb307655-b58a-475f-9a19-9c9b0b98a9f5","result":{"elementId":"93cd1dcd-3150-4422-bce1-964a911c0c2a","tagName":"view"}}
+DEBUG 2023-07-03 17:43:56,688 connection.py _safely_send    417 SEND > {"id":"0870f6f0-e0fc-4d1b-bce8-3ed3a7e29ceb","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"93cd1dcd-3150-4422-bce1-964a911c0c2a","pageId":1}}
+DEBUG 2023-07-03 17:43:56,691 connection.py _on_message     652 RECV < {"id":"0870f6f0-e0fc-4d1b-bce8-3ed3a7e29ceb","result":{"properties":["商品2"]}}
+DEBUG 2023-07-03 17:43:56,692 connection.py _safely_send    417 SEND > {"id":"fbd46f35-0ad4-493c-98ee-473390e42c37","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:43:56,695 connection.py _on_message     652 RECV < {"id":"fbd46f35-0ad4-493c-98ee-473390e42c37","result":{"elementId":"a1b486f0-dbd4-4b8c-87e1-321f522d7e7c","tagName":"view"}}
+DEBUG 2023-07-03 17:43:56,696 connection.py _safely_send    417 SEND > {"id":"41ed5b70-33dd-428c-a06b-65e3011a5ab7","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"a1b486f0-dbd4-4b8c-87e1-321f522d7e7c","pageId":1}}
+DEBUG 2023-07-03 17:43:56,698 connection.py _on_message     652 RECV < {"id":"41ed5b70-33dd-428c-a06b-65e3011a5ab7","result":{"properties":["商品3"]}}
+DEBUG 2023-07-03 17:43:56,698 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares_info=========
+INFO  2023-07-03 17:43:56,699 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 17:43:56,700 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:43:56,700 connection.py _safely_send    417 SEND > {"id":"3107d8dd-caec-42b8-994a-aaddf6dfbf1a","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:43:56,796 connection.py _on_message     650 RECV < {"id":"3107d8dd-caec-42b8-994a-aaddf6dfbf1a","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-03 17:43:56,797 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:43:56,797 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 17:43:56,798 basenative.py wrapper         29  call BaseNative.get_start_up end
+DEBUG 2023-07-03 17:43:56,801 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 17:43:56,802 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 17:43:56,802 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 17:43:56,802 minitest.py init_miniprogram 145 start init miniprogram
+DEBUG 2023-07-03 17:43:56,802 connection.py _safely_send    417 SEND > {"id":"035141e8-36bb-43a8-a422-a2a87b6e1dc1","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-07-03 17:43:56,803 connection.py _on_message     652 RECV < {"id":"035141e8-36bb-43a8-a422-a2a87b6e1dc1","result":{"result":{"accountInfo":{"appId":"wxc322d013dc6066b9","nickname":"易通共享WIFI","icon":"http://wx.qlogo.cn/mmhead/Q3auHgzwzM64hANJnIiconXXdrxqOQkicGrdHlKu80KFf7c8MfUInPCg/0"}}}}
+DEBUG 2023-07-03 17:43:56,803 connection.py _safely_send    417 SEND > {"id":"3c770999-691f-4eeb-9903-b2f1df505f41","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-07-03 17:43:56,806 connection.py _on_message     650 RECV < {"id":"3c770999-691f-4eeb-9903-b2f1df505f41","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":456,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.32.3","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-07-03 17:43:56,806 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-07-03 17:43:56,808 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-03 17:43:56,809 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-03 17:43:56,809 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 17:43:56,809 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 17:43:56,809 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 17:43:56,809 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:43:56,809 connection.py _safely_send    417 SEND > {"id":"4ec03780-e8de-4e0e-bf81-1dbc65cf45aa","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:43:56,905 connection.py _on_message     650 RECV < {"id":"4ec03780-e8de-4e0e-bf81-1dbc65cf45aa","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-03 17:43:56,907 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:43:56,909 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+DEBUG 2023-07-03 17:43:56,909 connection.py _safely_send    417 ASYNC_SEND > {"id":"d1036255-c3b1-4c7d-a4d9-d21463564def","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 17:43:56,963 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:43:56,967 connection.py _on_message     652 RECV < {"id":"d1036255-c3b1-4c7d-a4d9-d21463564def","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 17:43:56,967 connection.py _handle_async_msg 688 received async msg: d1036255-c3b1-4c7d-a4d9-d21463564def
+DEBUG 2023-07-03 17:44:11,968 connection.py _safely_send    417 SEND > {"id":"bac405db-68de-4feb-b74f-8eae4b8e6c37","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-07-03 17:44:11,970 connection.py _on_message     652 RECV < {"id":"bac405db-68de-4feb-b74f-8eae4b8e6c37","result":{"pageId":1,"path":"page/hotGoods/hotGoods","query":{}}}
+DEBUG 2023-07-03 17:44:11,970 connection.py _safely_send    417 SEND > {"id":"31a0e219-862b-480b-ae1e-d23dad992278","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[2]","pageId":1}}
+DEBUG 2023-07-03 17:44:11,974 connection.py _on_message     652 RECV < {"id":"31a0e219-862b-480b-ae1e-d23dad992278","result":{"elementId":"a0943bef-1167-494d-a326-f247aceb1210","tagName":"view"}}
+DEBUG 2023-07-03 17:44:11,974 connection.py _safely_send    417 SEND > {"id":"f71de4c8-49c4-44df-9a2d-78749354cc03","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"a0943bef-1167-494d-a326-f247aceb1210","pageId":1}}
+DEBUG 2023-07-03 17:44:11,977 connection.py _on_message     652 RECV < {"id":"f71de4c8-49c4-44df-9a2d-78749354cc03","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:11,977 connection.py _safely_send    417 SEND > {"id":"0a7e4acb-b119-4e75-b381-99e207dc96fe","method":"Element.tap","params":{"elementId":"a0943bef-1167-494d-a326-f247aceb1210","pageId":1}}
+DEBUG 2023-07-03 17:44:12,017 connection.py _on_message     652 RECV < {"id":"0a7e4acb-b119-4e75-b381-99e207dc96fe","result":{}}
+DEBUG 2023-07-03 17:44:12,050 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/goodsDetail (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 17:44:12,051 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:44:12,053 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:44:12,056 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:44:12,059 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:12,060 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:12,061 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:12,062 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:44:12,072 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/goodsDetail"]}}
+DEBUG 2023-07-03 17:44:12,073 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:44:12,261 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:44:12,263 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":6,"path":"page/hotGoods/goodsDetail","query":{"goodsId":"undefined"},"openType":"navigateTo","__ts__":1688377452248},1688377452249]}}
+INFO  2023-07-03 17:44:12,266 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 6, 'path': 'page/hotGoods/goodsDetail', 'query': {'goodsId': 'undefined'}, 'openType': 'navigateTo', '__ts__': 1688377452248}, 1688377452249]}
+DEBUG 2023-07-03 17:44:13,019 connection.py _safely_send    417 SEND > {"id":"4d041be1-c275-4631-836e-f304a2c76728","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/button","pageId":6}}
+DEBUG 2023-07-03 17:44:13,023 connection.py _on_message     652 RECV < {"id":"4d041be1-c275-4631-836e-f304a2c76728","result":{"elementId":"8f9945a7-4444-4072-9dc5-10cfecba6632","tagName":"button"}}
+DEBUG 2023-07-03 17:44:13,024 connection.py _safely_send    417 SEND > {"id":"651ef7ad-6a01-42a5-a38e-6b628dfce2c8","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"8f9945a7-4444-4072-9dc5-10cfecba6632","pageId":6}}
+DEBUG 2023-07-03 17:44:13,026 connection.py _on_message     652 RECV < {"id":"651ef7ad-6a01-42a5-a38e-6b628dfce2c8","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:13,027 connection.py _safely_send    417 SEND > {"id":"f74db19a-0af7-4a06-b742-5c4109c92e1a","method":"Element.tap","params":{"elementId":"8f9945a7-4444-4072-9dc5-10cfecba6632","pageId":6}}
+DEBUG 2023-07-03 17:44:13,031 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:13,032 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:13,032 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:13,033 connection.py _on_message     652 RECV < {"id":"f74db19a-0af7-4a06-b742-5c4109c92e1a","result":{}}
+INFO  2023-07-03 17:44:14,033 page.py    _get_elements_by_css 559 try to get elements: view[data-value="m"]
+DEBUG 2023-07-03 17:44:14,034 connection.py _safely_send    417 SEND > {"id":"57493b29-ea9e-4e48-b2aa-1fe7d8c7332b","method":"Page.getElements","params":{"selector":"view[data-value=\"m\"]","pageId":6}}
+DEBUG 2023-07-03 17:44:14,040 connection.py _on_message     652 RECV < {"id":"57493b29-ea9e-4e48-b2aa-1fe7d8c7332b","result":{"elements":[{"elementId":"cd591ffd-e237-47b6-bf26-985edf4a9eda","tagName":"view"}]}}
+INFO  2023-07-03 17:44:14,041 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001870D530910>]
+DEBUG 2023-07-03 17:44:14,042 connection.py _safely_send    417 SEND > {"id":"896cd367-d765-4560-9d42-2c66943097fe","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"cd591ffd-e237-47b6-bf26-985edf4a9eda","pageId":6}}
+DEBUG 2023-07-03 17:44:14,045 connection.py _on_message     652 RECV < {"id":"896cd367-d765-4560-9d42-2c66943097fe","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:14,045 connection.py _safely_send    417 SEND > {"id":"293b04bf-d39c-4652-a8f4-c922966ca6dc","method":"Element.tap","params":{"elementId":"cd591ffd-e237-47b6-bf26-985edf4a9eda","pageId":6}}
+DEBUG 2023-07-03 17:44:14,048 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:14,049 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:14,051 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:14,051 connection.py _on_message     652 RECV < {"id":"293b04bf-d39c-4652-a8f4-c922966ca6dc","result":{}}
+INFO  2023-07-03 17:44:15,052 page.py    _get_elements_by_css 559 try to get elements: view[data-value="红色"]
+DEBUG 2023-07-03 17:44:15,052 connection.py _safely_send    417 SEND > {"id":"65dbaf6a-456e-4c41-9d56-0492b4ca27f3","method":"Page.getElements","params":{"selector":"view[data-value=\"\u7ea2\u8272\"]","pageId":6}}
+DEBUG 2023-07-03 17:44:15,057 connection.py _on_message     652 RECV < {"id":"65dbaf6a-456e-4c41-9d56-0492b4ca27f3","result":{"elements":[{"elementId":"127b5aa4-ebfc-45ea-bd30-02e7cb47759f","tagName":"view"}]}}
+INFO  2023-07-03 17:44:15,058 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001870D530910>]
+DEBUG 2023-07-03 17:44:15,058 connection.py _safely_send    417 SEND > {"id":"a540758b-c9dc-4ae0-915f-ba5b8af724b5","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"127b5aa4-ebfc-45ea-bd30-02e7cb47759f","pageId":6}}
+DEBUG 2023-07-03 17:44:15,060 connection.py _on_message     652 RECV < {"id":"a540758b-c9dc-4ae0-915f-ba5b8af724b5","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:15,061 connection.py _safely_send    417 SEND > {"id":"1390ddfc-2d42-4e21-97d3-c9eb70c9c6da","method":"Element.tap","params":{"elementId":"127b5aa4-ebfc-45ea-bd30-02e7cb47759f","pageId":6}}
+DEBUG 2023-07-03 17:44:15,064 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,065 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,066 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,067 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,068 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,069 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."]}}
+DEBUG 2023-07-03 17:44:15,070 connection.py _on_message     652 RECV < {"id":"1390ddfc-2d42-4e21-97d3-c9eb70c9c6da","result":{}}
+DEBUG 2023-07-03 17:44:16,072 connection.py _safely_send    417 SEND > {"id":"375217a5-06f7-46be-96b7-6b71efdd2149","method":"Page.getElementByXpath","params":{"selector":"/view/view[3]/view[2]/button","pageId":6}}
+DEBUG 2023-07-03 17:44:16,075 connection.py _on_message     652 RECV < {"id":"375217a5-06f7-46be-96b7-6b71efdd2149","result":{"elementId":"a69cc63d-5021-4e53-a7d5-4927845f7bdb","tagName":"button"}}
+DEBUG 2023-07-03 17:44:16,076 connection.py _safely_send    417 SEND > {"id":"6964469c-18a9-465f-95d4-9bcb1433e6ac","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"a69cc63d-5021-4e53-a7d5-4927845f7bdb","pageId":6}}
+DEBUG 2023-07-03 17:44:16,078 connection.py _on_message     652 RECV < {"id":"6964469c-18a9-465f-95d4-9bcb1433e6ac","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:16,078 connection.py _safely_send    417 SEND > {"id":"0dca63b2-241f-4bf4-8a04-3a66dcdd43d6","method":"Element.tap","params":{"elementId":"a69cc63d-5021-4e53-a7d5-4927845f7bdb","pageId":6}}
+DEBUG 2023-07-03 17:44:16,110 connection.py _on_message     652 RECV < {"id":"0dca63b2-241f-4bf4-8a04-3a66dcdd43d6","result":{}}
+DEBUG 2023-07-03 17:44:16,139 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/counter (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 17:44:16,140 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:44:16,145 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:44:16,147 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:44:16,147 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"actGoodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:44:16,149 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"goodsId\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:44:16,150 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"warn","args":["Setting data field \"standardCode\" to undefined is invalid."]}}
+DEBUG 2023-07-03 17:44:16,151 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:44:16,162 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/hotGoods/counter"]}}
+DEBUG 2023-07-03 17:44:16,163 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:44:16,336 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:44:16,338 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":7,"path":"page/hotGoods/counter","query":{"number":"1","title":"%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95","tagline":"123","price":"2","image":"..%2F..%2Fimage%2Fproduct.jpg"},"openType":"navigateTo","__ts__":1688377456326},1688377456327]}}
+INFO  2023-07-03 17:44:16,342 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 7, 'path': 'page/hotGoods/counter', 'query': {'number': '1', 'title': '%E6%B7%BB%E5%8A%A0%E6%B5%8B%E8%AF%95', 'tagline': '123', 'price': '2', 'image': '..%2F..%2Fimage%2Fproduct.jpg'}, 'openType': 'navigateTo', '__ts__': 1688377456326}, 1688377456327]}
+DEBUG 2023-07-03 17:44:17,111 connection.py _safely_send    417 SEND > {"id":"2dc0cf57-a970-404b-b890-2556da2dab0d","method":"Page.getElementByXpath","params":{"selector":"/view/view[4]/view[2]/button","pageId":7}}
+DEBUG 2023-07-03 17:44:17,116 connection.py _on_message     652 RECV < {"id":"2dc0cf57-a970-404b-b890-2556da2dab0d","result":{"elementId":"845a494c-5e32-4bad-9353-a1522180888f","tagName":"button"}}
+DEBUG 2023-07-03 17:44:17,116 connection.py _safely_send    417 SEND > {"id":"7393cf44-59cd-459f-8062-099a2e451ddd","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"845a494c-5e32-4bad-9353-a1522180888f","pageId":7}}
+DEBUG 2023-07-03 17:44:17,119 connection.py _on_message     652 RECV < {"id":"7393cf44-59cd-459f-8062-099a2e451ddd","result":{"styles":["auto"]}}
+DEBUG 2023-07-03 17:44:17,120 connection.py _safely_send    417 SEND > {"id":"75d64300-263c-4bab-aa73-8ff8bb882d37","method":"Element.tap","params":{"elementId":"845a494c-5e32-4bad-9353-a1522180888f","pageId":7}}
+DEBUG 2023-07-03 17:44:17,171 connection.py _on_message     652 RECV < {"id":"75d64300-263c-4bab-aa73-8ff8bb882d37","result":{}}
+DEBUG 2023-07-03 17:44:17,171 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/personal/personal (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:44:17,172 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/counter: onUnload have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,174 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/goodsDetail: onUnload have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,176 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,238 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/order/order (navigateTo), renderer: webview"]}}
+DEBUG 2023-07-03 17:44:17,241 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/personal/personal: onHide have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,245 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Update view with init data"]}}
+DEBUG 2023-07-03 17:44:17,248 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onLoad have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,249 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,278 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["Invoke event onReady in page: page/order/order"]}}
+DEBUG 2023-07-03 17:44:17,279 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onReady have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,341 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,344 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":8,"path":"page/order/order","query":{},"openType":"navigateTo","__ts__":1688377457337},1688377457339]}}
+INFO  2023-07-03 17:44:17,346 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'page/order/order', 'query': {}, 'openType': 'navigateTo', '__ts__': 1688377457337}, 1688377457339]}
+DEBUG 2023-07-03 17:44:17,453 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:44:17,454 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":8,"path":"page/order/order","query":{},"openType":"navigateTo","__ts__":1688377457440},1688377457442]}}
+INFO  2023-07-03 17:44:17,455 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'page/order/order', 'query': {}, 'openType': 'navigateTo', '__ts__': 1688377457440}, 1688377457442]}
+DEBUG 2023-07-03 17:44:18,172 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-03 17:44:18,173 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 17:44:18,174 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:44:18,174 connection.py _safely_send    417 SEND > {"id":"378df827-63f3-40d6-945e-98492e471b74","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:44:18,213 connection.py _on_message     650 RECV < {"id":"378df827-63f3-40d6-945e-98492e471b74","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAJ2CAIAAAD+KEOZAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3U9sGvf+N/rPPOoCyfm1eg41tqPEOe5tFrilV/LGgFTFMurW0gGZE8Oq6jJKF1F2xiww7KIs6ifLqiuwiwXR420FsnUkZrzJlUKP0ZVzQ+NYAeM4PyWKj7x4pLmL+f8PBmzH/ibv1ybxMH+Bec/33wzcf/7zHwIAYMH/uOgdAABwC4EFAMxAYAEAMxBYAMAMBBYAMAOBBQDMQGABADMQWADADAQWADADgQUAzEBgAQAzEFgAwAwEFgAwA4EFAMxAYAEAMxBYAMCMyxtYh5sr6XQ6/ftOzxm3fnEzG5jt/J5e2Tw0TVtLp9cazss01tLpNYf32nHZnd/NH9Dh5kr6l61Dm3nh7DTW0umVrdeDLKp+QNbP7m...
+INFO  2023-07-03 17:44:18,215 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:44:18,215 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 17:44:18,215 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-07-03 17:44:18,221 minitest.py _miniSetUp      341 =========Current case: test_get_wares_info=========
+INFO  2023-07-03 17:44:18,221 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.homepage_test, case info: HomePageTest.test_get_wares_info
+INFO  2023-07-03 17:44:18,222 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-03 17:44:18,222 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-03 17:44:18,222 minitest.py capture         673 capture setup.png
+INFO  2023-07-03 17:44:18,223 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:44:18,223 connection.py _safely_send    417 SEND > {"id":"1cfa8677-391c-4c7a-b61a-b2beacc19fc4","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:44:18,272 connection.py _on_message     650 RECV < {"id":"1cfa8677-391c-4c7a-b61a-b2beacc19fc4","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAJ2CAIAAAD+KEOZAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3U9sGvf+N/rPPOoCyfm1eg41tqPEOe5tFrilV/LGgFTFMurW0gGZE8Oq6jJKF1F2xiww7KIs6ifLqiuwiwXR420FsnUkZrzJlUKP0ZVzQ+NYAeM4PyWKj7x4pLmL+f8PBmzH/ibv1ybxMH+Bec/33wzcf/7zHwIAYMH/uOgdAABwC4EFAMxAYAEAMxBYAMAMBBYAMAOBBQDMQGABADMQWADADAQWADADgQUAzEBgAQAzEFgAwAwEFgAwA4EFAMxAYAEAMxBYAMCMyxtYh5sr6XQ6/ftOzxm3fnEzG5jt/J5e2Tw0TVtLp9cazss01tLpNYf32nHZnd/NH9Dh5kr6l61Dm3nh7DTW0umVrdeDLKp+QNbP7m...
+INFO  2023-07-03 17:44:18,273 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:44:18,273 minitest.py _miniSetUp      394 =========case: test_get_wares_info start=========
+DEBUG 2023-07-03 17:44:18,274 connection.py _safely_send    417 ASYNC_SEND > {"id":"e3c48c32-fcd3-43ca-b484-2d8f34a5eda3","method":"App.callWxMethod","params":{"method":"switchTab","args":[{"url":"/page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-03 17:44:18,346 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"]}}
+DEBUG 2023-07-03 17:44:18,349 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/order/order: onUnload have been invoked"]}}
+DEBUG 2023-07-03 17:44:18,353 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onShow have been invoked"]}}
+DEBUG 2023-07-03 17:44:18,355 connection.py _on_message     652 RECV < {"id":"e3c48c32-fcd3-43ca-b484-2d8f34a5eda3","result":{"result":{"errMsg":"switchTab:ok"}}}
+INFO  2023-07-03 17:44:18,356 connection.py _handle_async_msg 688 received async msg: e3c48c32-fcd3-43ca-b484-2d8f34a5eda3
+DEBUG 2023-07-03 17:44:18,489 connection.py _on_message     652 RECV < {"method":"App.logAdded","params":{"type":"info","args":["page/hotGoods/hotGoods: onRouteDone have been invoked"]}}
+DEBUG 2023-07-03 17:44:18,490 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":1,"path":"page/hotGoods/hotGoods","query":{},"openType":"switchTab","__ts__":1688377458486},1688377458487]}}
+INFO  2023-07-03 17:44:18,491 app.py     _on_route_changed 791 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 1, 'path': 'page/hotGoods/hotGoods', 'query': {}, 'openType': 'switchTab', '__ts__': 1688377458486}, 1688377458487]}
+DEBUG 2023-07-03 17:44:18,492 connection.py _safely_send    417 SEND > {"id":"3308b5f1-331f-4935-a0ab-09d8184b5570","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:44:18,498 connection.py _on_message     652 RECV < {"id":"3308b5f1-331f-4935-a0ab-09d8184b5570","result":{"elementId":"e7345583-45ca-4bac-a4de-2b221c84fb43","tagName":"view"}}
+DEBUG 2023-07-03 17:44:18,499 connection.py _safely_send    417 SEND > {"id":"dee89e7b-3cd6-4dd1-b892-0228c0e9475f","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"e7345583-45ca-4bac-a4de-2b221c84fb43","pageId":1}}
+DEBUG 2023-07-03 17:44:18,501 connection.py _on_message     652 RECV < {"id":"dee89e7b-3cd6-4dd1-b892-0228c0e9475f","result":{"properties":["商品1"]}}
+DEBUG 2023-07-03 17:44:18,501 connection.py _safely_send    417 SEND > {"id":"a980816c-c9a2-422b-8a84-e8b4555a85f1","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:44:18,505 connection.py _on_message     652 RECV < {"id":"a980816c-c9a2-422b-8a84-e8b4555a85f1","result":{"elementId":"93cd1dcd-3150-4422-bce1-964a911c0c2a","tagName":"view"}}
+DEBUG 2023-07-03 17:44:18,505 connection.py _safely_send    417 SEND > {"id":"0b3c8e11-0af6-4b6f-b61f-f64d6254c294","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"93cd1dcd-3150-4422-bce1-964a911c0c2a","pageId":1}}
+DEBUG 2023-07-03 17:44:18,510 connection.py _on_message     652 RECV < {"id":"0b3c8e11-0af6-4b6f-b61f-f64d6254c294","result":{"properties":["商品2"]}}
+DEBUG 2023-07-03 17:44:18,510 connection.py _safely_send    417 SEND > {"id":"7fe27d84-4c74-4a8b-80e8-21fd8a217412","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-03 17:44:18,513 connection.py _on_message     652 RECV < {"id":"7fe27d84-4c74-4a8b-80e8-21fd8a217412","result":{"elementId":"a1b486f0-dbd4-4b8c-87e1-321f522d7e7c","tagName":"view"}}
+DEBUG 2023-07-03 17:44:18,514 connection.py _safely_send    417 SEND > {"id":"d1c22468-9cea-432a-98fd-fde03bc52d9a","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"a1b486f0-dbd4-4b8c-87e1-321f522d7e7c","pageId":1}}
+DEBUG 2023-07-03 17:44:18,516 connection.py _on_message     652 RECV < {"id":"d1c22468-9cea-432a-98fd-fde03bc52d9a","result":{"properties":["商品3"]}}
+DEBUG 2023-07-03 17:44:18,517 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares_info=========
+INFO  2023-07-03 17:44:18,517 minitest.py capture         673 capture teardown.png
+INFO  2023-07-03 17:44:18,518 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-03 17:44:18,518 connection.py _safely_send    417 SEND > {"id":"56743a48-ff60-4e7b-b60f-f269c9a53fdc","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-03 17:44:18,625 connection.py _on_message     650 RECV < {"id":"56743a48-ff60-4e7b-b60f-f269c9a53fdc","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-03 17:44:18,628 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-03 17:44:18,628 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-03 17:44:18,629 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-07-03 17:44:28,634 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-07-03 17:44:28,634 connection.py _safely_send    417 ASYNC_SEND > {"id":"f2491c5d-4b9b-4a47-b19d-60aff0ffb290","method":"Tool.close","params":{}}
+DEBUG 2023-07-03 17:44:28,635 connection.py _on_message     652 RECV < {"id":"f2491c5d-4b9b-4a47-b19d-60aff0ffb290","result":{}}
+INFO  2023-07-03 17:44:28,636 connection.py _handle_async_msg 688 received async msg: f2491c5d-4b9b-4a47-b19d-60aff0ffb290, maybe command ignore response
+ERROR 2023-07-03 17:44:28,657 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-07-03 17:44:29,085 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-07-03 17:44:29,636 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-07-03 17:44:29,636 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-07-03 17:44:29,637 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-07-03 17:44:29,638 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-07-03 17:44:29,638 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-07-03 17:44:29,638 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-07-03 17:44:48,555 loader.py  load_from_suite 69  ==========Scan Cases from suite===========
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_suite 110 - tests.homepage_test
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_suite 113   |--HomePageTest.test_buy_ware1
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_case_name 157 Loading Case: tests.homepage_test.test_buy_ware1
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_case_name 162 put case[test_buy_ware1] into queue
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_suite 113   |--HomePageTest.test_get_wares_info
+DEBUG 2023-07-03 17:44:48,621 loader.py  load_from_case_name 157 Loading Case: tests.homepage_test.test_get_wares_info
+DEBUG 2023-07-03 17:44:48,622 loader.py  load_from_case_name 162 put case[test_get_wares_info] into queue
+INFO  2023-07-03 17:44:48,622 miniconfig.py from_file       131 load config from tests/config.json
+INFO  2023-07-03 17:44:48,627 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-07-03 17:44:49,040 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-07-03 17:44:49,040 minitest.py _miniClassSetUp 249 Testing class：HomePageTest
+DEBUG 2023-07-03 17:44:49,041 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-07-03 17:44:49,041 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-07-03 17:44:49,041 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-07-03 17:44:49,042 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-07-03 17:44:49,043 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-07-03 17:44:49,043 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-master1" --auto-port 9420
+INFO  2023-07-03 17:44:51,690 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxc322d013dc6066b9) permissions
+√ Using AppID: wxc322d013dc6066b9
+√ auto
+
+INFO  2023-07-03 17:44:51,690 minium_object.py _do_shell       87  out:
+

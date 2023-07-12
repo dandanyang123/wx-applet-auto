@@ -1,0 +1,56 @@
+INFO  2023-07-02 18:52:33,227 minitest.py _miniSetUp      341 =========Current case: test_get_wares_info=========
+INFO  2023-07-02 18:52:33,227 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares_info
+INFO  2023-07-02 18:52:33,228 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:52:33,228 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:52:33,230 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:52:33,232 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:52:33,233 connection.py _safely_send    417 SEND > {"id":"cfc91a54-9e6a-4fa3-8854-a966223b0b8d","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:52:33,400 connection.py _on_message     650 RECV < {"id":"cfc91a54-9e6a-4fa3-8854-a966223b0b8d","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:52:33,402 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:52:33,404 minitest.py _miniSetUp      394 =========case: test_get_wares_info start=========
+INFO  2023-07-02 18:52:33,405 app.py     navigate_to     528 NavigateTo: page/hotGoods/hotGoods
+DEBUG 2023-07-02 18:52:33,406 connection.py _safely_send    417 ASYNC_SEND > {"id":"a64b26f2-008e-4cb6-9a6a-dadbb699579d","method":"App.callWxMethod","params":{"method":"navigateTo","args":[{"url":"page/hotGoods/hotGoods"}]}}
+DEBUG 2023-07-02 18:52:33,410 connection.py _on_message     652 RECV < {"id":"a64b26f2-008e-4cb6-9a6a-dadbb699579d","error":{"message":"page \"page/hotGoods/page/hotGoods/hotGoods\" is not found"}}
+ERROR 2023-07-02 18:52:33,411 connection.py _on_message     660 [a64b26f2-008e-4cb6-9a6a-dadbb699579d]: page "page/hotGoods/page/hotGoods/hotGoods" is not found
+INFO  2023-07-02 18:52:33,628 connection.py _handle_async_msg 688 received async msg: a64b26f2-008e-4cb6-9a6a-dadbb699579d
+DEBUG 2023-07-02 18:52:33,629 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares_info=========
+INFO  2023-07-02 18:52:33,629 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:52:33,631 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:52:33,631 connection.py _safely_send    417 SEND > {"id":"732a7b89-0a3c-492d-810a-1fbfea223801","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:52:33,726 connection.py _on_message     650 RECV < {"id":"732a7b89-0a3c-492d-810a-1fbfea223801","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:52:33,728 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:52:33,729 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:52:33,730 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 18:52:33,735 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_get_wares_info of <homepage_test.HomePageTest testMethod=test_get_wares_info>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 16, in test_get_wares_info
+    back_list = self.homePage.get_wares()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\pages\homepage.py", line 9, in get_wares
+    self.navigate_to_open(home_page)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\common\basepage.py", line 7, in navigate_to_open
+    self.mini.app.navigate_to(route)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 529, in navigate_to
+    page = self._change_route_async("navigateTo", url, is_wait_url_change)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 764, in _change_route_async
+    cmd.get_open_result(wait_timeout)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 129, in get_open_result
+    return self._open_callback.get_result()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\callback.py", line 126, in get_result
+    return self._waiter.result()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\callback.py", line 105, in wait_called
+    return self._loop.run_coroutine(
+  File "D:\软件默认安装位置\python38\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "D:\软件默认安装位置\python38\lib\concurrent\futures\_base.py", line 388, in __get_result
+    raise self._exception
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 398, in async_wait
+    return fut.result()
+minium.framework.exception.MiniAppError: page "page/hotGoods/page/hotGoods/hotGoods" is not found

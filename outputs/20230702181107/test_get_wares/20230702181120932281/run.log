@@ -1,0 +1,30 @@
+INFO  2023-07-02 18:11:20,935 minitest.py _miniSetUp      341 =========Current case: test_get_wares=========
+INFO  2023-07-02 18:11:20,935 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares
+INFO  2023-07-02 18:11:20,936 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:11:20,936 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:11:20,937 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:11:20,938 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:11:20,938 connection.py _safely_send    417 SEND > {"id":"9fc54f66-ae79-4b06-bd2a-1d4519a3fccc","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:11:21,069 connection.py _on_message     650 RECV < {"id":"9fc54f66-ae79-4b06-bd2a-1d4519a3fccc","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:11:21,071 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:11:21,072 minitest.py _miniSetUp      394 =========case: test_get_wares start=========
+DEBUG 2023-07-02 18:11:21,072 connection.py _safely_send    417 SEND > {"id":"c7775e45-1fbd-4552-b9a6-46c6b2e39d31","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:11:21,080 connection.py _on_message     652 RECV < {"id":"c7775e45-1fbd-4552-b9a6-46c6b2e39d31","result":{"elementId":"5edaf22c-86c6-480f-bf1e-3551dd244749","tagName":"view"}}
+DEBUG 2023-07-02 18:11:21,081 connection.py _safely_send    417 SEND > {"id":"c6e6489d-4a4a-4725-943c-912472283cb3","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"5edaf22c-86c6-480f-bf1e-3551dd244749","pageId":1}}
+DEBUG 2023-07-02 18:11:21,084 connection.py _on_message     652 RECV < {"id":"c6e6489d-4a4a-4725-943c-912472283cb3","result":{"properties":["商品1"]}}
+DEBUG 2023-07-02 18:11:21,085 connection.py _safely_send    417 SEND > {"id":"1a0ac1cd-b8e5-4301-9876-5cd0f974bdf3","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:11:21,089 connection.py _on_message     652 RECV < {"id":"1a0ac1cd-b8e5-4301-9876-5cd0f974bdf3","result":{"elementId":"cd358cda-44f6-42bc-bd49-b021b5ff3987","tagName":"view"}}
+DEBUG 2023-07-02 18:11:21,091 connection.py _safely_send    417 SEND > {"id":"f4f6a391-ae07-4bd9-ad30-892fd29f7b6f","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"cd358cda-44f6-42bc-bd49-b021b5ff3987","pageId":1}}
+DEBUG 2023-07-02 18:11:21,094 connection.py _on_message     652 RECV < {"id":"f4f6a391-ae07-4bd9-ad30-892fd29f7b6f","result":{"properties":["商品2"]}}
+DEBUG 2023-07-02 18:11:21,095 connection.py _safely_send    417 SEND > {"id":"c0f2bc24-c547-4835-8c68-82991c9eb398","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:11:21,098 connection.py _on_message     652 RECV < {"id":"c0f2bc24-c547-4835-8c68-82991c9eb398","result":{"elementId":"9a6d1df3-23df-4387-a493-54e554923008","tagName":"view"}}
+DEBUG 2023-07-02 18:11:21,099 connection.py _safely_send    417 SEND > {"id":"dd91730a-9df2-4f3a-a221-8673e6b22fde","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"9a6d1df3-23df-4387-a493-54e554923008","pageId":1}}
+DEBUG 2023-07-02 18:11:21,104 connection.py _on_message     652 RECV < {"id":"dd91730a-9df2-4f3a-a221-8673e6b22fde","result":{"properties":["商品3"]}}
+DEBUG 2023-07-02 18:11:21,105 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares=========
+INFO  2023-07-02 18:11:21,106 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:11:21,107 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:11:21,107 connection.py _safely_send    417 SEND > {"id":"c3df3168-af9b-4ede-a628-dda0a296a815","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:11:21,290 connection.py _on_message     650 RECV < {"id":"c3df3168-af9b-4ede-a628-dda0a296a815","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:11:21,294 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:11:21,296 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:11:21,297 basenative.py wrapper         29  call BaseNative.get_start_up end

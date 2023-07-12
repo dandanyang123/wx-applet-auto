@@ -1,0 +1,48 @@
+{"type": "info", "args": ["On app route: page/hotGoods/hotGoods (switchTab), renderer: webview"], "dt": "2023-07-03 17:43:56"}
+{"type": "info", "args": ["On app route: page/hotGoods/goodsDetail (navigateTo), renderer: webview"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["page/hotGoods/hotGoods: onHide have been invoked"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["Update view with init data"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onLoad have been invoked"], "dt": "2023-07-03 17:44:12"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:12"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:12"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onShow have been invoked"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["Invoke event onReady in page: page/hotGoods/goodsDetail"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onReady have been invoked"], "dt": "2023-07-03 17:44:12"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onRouteDone have been invoked"], "dt": "2023-07-03 17:44:12"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:13"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:13"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:13"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:14"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:14"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:14"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:23:18: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "warn", "args": ["WXMLRT_$gwx:./page/hotGoods/goodsDetail.wxml:view:25:22: Now you can provide attr `wx:key` for a `wx:for` to improve performance."], "dt": "2023-07-03 17:44:15"}
+{"type": "info", "args": ["On app route: page/hotGoods/counter (navigateTo), renderer: webview"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onHide have been invoked"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["Update view with init data"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["page/hotGoods/counter: onLoad have been invoked"], "dt": "2023-07-03 17:44:16"}
+{"type": "warn", "args": ["Setting data field \"actGoodsId\" to undefined is invalid."], "dt": "2023-07-03 17:44:16"}
+{"type": "warn", "args": ["Setting data field \"goodsId\" to undefined is invalid."], "dt": "2023-07-03 17:44:16"}
+{"type": "warn", "args": ["Setting data field \"standardCode\" to undefined is invalid."], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["page/hotGoods/counter: onShow have been invoked"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["Invoke event onReady in page: page/hotGoods/counter"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["page/hotGoods/counter: onReady have been invoked"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["page/hotGoods/counter: onRouteDone have been invoked"], "dt": "2023-07-03 17:44:16"}
+{"type": "info", "args": ["On app route: page/personal/personal (switchTab), renderer: webview"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/hotGoods/counter: onUnload have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/hotGoods/goodsDetail: onUnload have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/personal/personal: onShow have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["On app route: page/order/order (navigateTo), renderer: webview"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/personal/personal: onHide have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["Update view with init data"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/order/order: onLoad have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/order/order: onShow have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["Invoke event onReady in page: page/order/order"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/order/order: onReady have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/order/order: onRouteDone have been invoked"], "dt": "2023-07-03 17:44:17"}
+{"type": "info", "args": ["page/order/order: onRouteDone have been invoked"], "dt": "2023-07-03 17:44:17"}

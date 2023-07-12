@@ -1,0 +1,22 @@
+INFO  2023-06-30 23:35:16,630 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:35:16,631 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:35:16,632 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:35:16,632 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:35:16,634 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:35:16,635 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:35:16,636 connection.py _safely_send    417 SEND > {"id":"a9542753-054c-4169-a95e-7a5531f6b061","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:35:16,978 connection.py _on_message     650 RECV < {"id":"a9542753-054c-4169-a95e-7a5531f6b061","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXucVdWV7/sbY679qCf1pngVlChQIokgQSFqAibxBB8d0eR29HR/7snjnNPXpM/tYHLOibafzzV6zr1p7dybxO57u2NyOjmYTkSSECQxRiBCQBFBjGXxLixeRVHv536sOcf9Y62999qPwgJB3Di/Hz7F3muvteZjzfmbY475WCQisFgslmKAL3UELBaLZaJYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWC...
+INFO  2023-06-30 23:35:16,981 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:35:16,984 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-06-30 23:35:16,985 page.py    _get_elements_by_css 559 try to get elements: input[placeholder="输入关键词搜索"]
+DEBUG 2023-06-30 23:35:16,985 connection.py _safely_send    417 SEND > {"id":"0e9f779b-915c-402a-9672-8a802a5e5675","method":"Page.getElements","params":{"selector":"input[placeholder=\"\u8f93\u5165\u5173\u952e\u8bcd\u641c\u7d22\"]","pageId":2}}
+DEBUG 2023-06-30 23:35:17,024 connection.py _on_message     652 RECV < {"id":"0e9f779b-915c-402a-9672-8a802a5e5675","result":{"elements":[{"elementId":"3b6346f9-7f03-4588-a91a-8f5cf861b5cc","tagName":"input"}]}}
+INFO  2023-06-30 23:35:17,024 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.FormElement object at 0x0000015EC85E6220>]
+DEBUG 2023-06-30 23:35:17,026 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:35:17,028 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:35:17,029 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:35:17,030 connection.py _safely_send    417 SEND > {"id":"fd00da3c-59fd-432a-8198-4d2e63bce5f8","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:35:17,213 connection.py _on_message     650 RECV < {"id":"fd00da3c-59fd-432a-8198-4d2e63bce5f8","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:35:17,216 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:35:17,216 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:35:17,217 basenative.py wrapper         29  call BaseNative.get_start_up end

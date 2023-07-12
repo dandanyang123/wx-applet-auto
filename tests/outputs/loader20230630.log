@@ -1,0 +1,704 @@
+DEBUG 2023-06-30 23:32:56,940 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:32:56,943 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:32:56,945 miniconfig.py from_file       131 load config from config.json
+DEBUG 2023-06-30 23:33:41,872 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:33:41,874 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:33:41,876 miniconfig.py from_file       131 load config from config.json
+DEBUG 2023-06-30 23:34:08,161 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:34:08,167 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:34:08,169 miniconfig.py from_file       131 load config from config.json
+DEBUG 2023-06-30 23:34:51,396 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:34:51,399 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:34:51,401 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:34:53,131 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:34:53,534 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:34:53,535 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:34:53,535 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:34:53,537 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:34:53,566 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:34:53,566 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:34:53,569 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:34:53,592 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:34:56,254 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:34:56,255 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:35:06,258 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:35:06,442 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:35:06,443 connection.py _safely_send    417 SEND > {"id":"71dc17bc-c42e-441b-ac3a-56debfbbd79f","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:35:06,450 connection.py _on_message     652 RECV < {"id":"71dc17bc-c42e-441b-ac3a-56debfbbd79f","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:35:06,451 connection.py _safely_send    417 SEND > {"id":"0b0284e2-a452-4867-9fc4-2ee500090221","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:35:16,070 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:35:16,075 connection.py _on_message     650 RECV < {"id":"0b0284e2-a452-4867-9fc4-2ee500090221","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:35:16,076 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:35:16,076 connection.py _safely_send    417 SEND > {"id":"8c7777f9-cd37-408f-924f-9f87c84f6f55","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:35:16,096 connection.py _on_message     652 RECV < {"id":"8c7777f9-cd37-408f-924f-9f87c84f6f55","result":{}}
+DEBUG 2023-06-30 23:35:16,097 connection.py _safely_send    417 SEND > {"id":"f7e9250a-ef0e-4035-8bca-10a7e1290676","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:35:16,110 connection.py _on_message     652 RECV < {"id":"f7e9250a-ef0e-4035-8bca-10a7e1290676","result":{}}
+DEBUG 2023-06-30 23:35:16,145 connection.py _safely_send    417 SEND > {"id":"8d0da3a9-f0ed-45f7-adbd-56f523585250","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:35:16,151 connection.py _on_message     652 RECV < {"id":"8d0da3a9-f0ed-45f7-adbd-56f523585250","result":{"result":true}}
+DEBUG 2023-06-30 23:35:16,164 connection.py _safely_send    417 SEND > {"id":"f0e4c022-d262-41ea-bb0c-c49c0aeead06","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:35:16,167 connection.py _on_message     652 RECV < {"id":"f0e4c022-d262-41ea-bb0c-c49c0aeead06","result":{"result":false}}
+DEBUG 2023-06-30 23:35:16,168 connection.py _safely_send    417 SEND > {"id":"2bde3419-9082-427c-8838-30770b0b5792","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:35:16,172 connection.py _on_message     650 RECV < {"id":"2bde3419-9082-427c-8838-30770b0b5792","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:35:16,173 connection.py _safely_send    417 SEND > {"id":"d84c7437-cb44-4bb7-b3df-572bd1f3ab89","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:35:16,176 connection.py _on_message     652 RECV < {"id":"d84c7437-cb44-4bb7-b3df-572bd1f3ab89","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:35:16,179 connection.py _safely_send    417 SEND > {"id":"f4253f20-b71e-4d20-a54d-03c8bbb08d86","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:35:16,181 connection.py _on_message     652 RECV < {"id":"f4253f20-b71e-4d20-a54d-03c8bbb08d86","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:35:16,233 connection.py _safely_send    417 SEND > {"id":"b8a3f3dd-63a6-411c-bdc0-2a1f2bcea297","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:35:16,236 connection.py _on_message     652 RECV < {"id":"b8a3f3dd-63a6-411c-bdc0-2a1f2bcea297","result":{"result":false}}
+DEBUG 2023-06-30 23:35:16,238 connection.py _safely_send    417 SEND > {"id":"31972ae3-71c7-45a5-b2e5-2d27a3ac7960","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:35:16,242 connection.py _on_message     652 RECV < {"id":"31972ae3-71c7-45a5-b2e5-2d27a3ac7960","result":{}}
+DEBUG 2023-06-30 23:35:16,243 connection.py _safely_send    417 SEND > {"id":"4f3ce6f8-e2dc-415a-af19-3c8a808af992","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:35:16,245 connection.py _on_message     652 RECV < {"id":"4f3ce6f8-e2dc-415a-af19-3c8a808af992","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:35:16,248 connection.py _safely_send    417 SEND > {"id":"53a2cb2b-6e59-4d60-9376-bfabdd46f12d","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:35:16,533 connection.py _on_message     652 RECV < {"id":"53a2cb2b-6e59-4d60-9376-bfabdd46f12d","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:35:16,561 connection.py _safely_send    417 SEND > {"id":"c97f531b-0e01-478f-87be-7fe34d14ae4f","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:35:16,568 connection.py _on_message     652 RECV < {"id":"c97f531b-0e01-478f-87be-7fe34d14ae4f","result":{}}
+DEBUG 2023-06-30 23:35:16,569 connection.py _safely_send    417 SEND > {"id":"bbc4da67-ffba-4efb-b6a1-ce9533615600","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:35:16,572 connection.py _on_message     652 RECV < {"id":"bbc4da67-ffba-4efb-b6a1-ce9533615600","result":{}}
+DEBUG 2023-06-30 23:35:16,574 connection.py _safely_send    417 SEND > {"id":"a0c93ff0-ed5d-476f-b6a4-c2a03f49ed17","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:35:16,605 connection.py _on_message     652 RECV < {"id":"a0c93ff0-ed5d-476f-b6a4-c2a03f49ed17","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:35:16,606 connection.py _safely_send    417 SEND > {"id":"5506f841-3680-428d-ae38-e796a24486f4","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:35:16,625 connection.py _on_message     650 RECV < {"id":"5506f841-3680-428d-ae38-e796a24486f4","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:35:16,626 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:35:16,630 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:35:16,631 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:35:16,632 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:35:16,632 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:35:16,634 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:35:16,635 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:35:16,636 connection.py _safely_send    417 SEND > {"id":"a9542753-054c-4169-a95e-7a5531f6b061","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:35:16,978 connection.py _on_message     650 RECV < {"id":"a9542753-054c-4169-a95e-7a5531f6b061","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXucVdWV7/sbY679qCf1pngVlChQIokgQSFqAibxBB8d0eR29HR/7snjnNPXpM/tYHLOibafzzV6zr1p7dybxO57u2NyOjmYTkSSECQxRiBCQBFBjGXxLixeRVHv536sOcf9Y62999qPwgJB3Di/Hz7F3muvteZjzfmbY475WCQisFgslmKAL3UELBaLZaJYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWCxFgxUsi8VSNFjBslgsRYMVLIvFUjRYwbJYLEWDFSyLxVI0WMGyWC...
+INFO  2023-06-30 23:35:16,981 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:35:16,984 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-06-30 23:35:16,985 page.py    _get_elements_by_css 559 try to get elements: input[placeholder="输入关键词搜索"]
+DEBUG 2023-06-30 23:35:16,985 connection.py _safely_send    417 SEND > {"id":"0e9f779b-915c-402a-9672-8a802a5e5675","method":"Page.getElements","params":{"selector":"input[placeholder=\"\u8f93\u5165\u5173\u952e\u8bcd\u641c\u7d22\"]","pageId":2}}
+DEBUG 2023-06-30 23:35:17,024 connection.py _on_message     652 RECV < {"id":"0e9f779b-915c-402a-9672-8a802a5e5675","result":{"elements":[{"elementId":"3b6346f9-7f03-4588-a91a-8f5cf861b5cc","tagName":"input"}]}}
+INFO  2023-06-30 23:35:17,024 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.FormElement object at 0x0000015EC85E6220>]
+DEBUG 2023-06-30 23:35:17,026 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:35:17,028 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:35:17,029 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:35:17,030 connection.py _safely_send    417 SEND > {"id":"fd00da3c-59fd-432a-8198-4d2e63bce5f8","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:35:17,213 connection.py _on_message     650 RECV < {"id":"fd00da3c-59fd-432a-8198-4d2e63bce5f8","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:35:17,216 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:35:17,216 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:35:17,217 basenative.py wrapper         29  call BaseNative.get_start_up end
+INFO  2023-06-30 23:35:27,224 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:35:27,224 connection.py _safely_send    417 ASYNC_SEND > {"id":"1cbaf2a8-c4dc-4493-b3da-89d8869a3c4f","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:35:27,226 connection.py _on_message     652 RECV < {"id":"1cbaf2a8-c4dc-4493-b3da-89d8869a3c4f","result":{}}
+INFO  2023-06-30 23:35:27,227 connection.py _handle_async_msg 688 received async msg: 1cbaf2a8-c4dc-4493-b3da-89d8869a3c4f, maybe command ignore response
+ERROR 2023-06-30 23:35:27,248 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:35:27,657 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:35:28,226 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:35:28,226 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:35:28,227 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:35:28,228 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:35:28,229 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:35:28,230 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-06-30 23:38:08,160 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:38:08,166 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:38:08,169 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:38:08,178 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:38:08,573 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:38:08,574 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:38:08,575 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:38:08,576 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:38:08,577 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:38:08,578 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:38:08,579 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:38:08,580 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:38:11,070 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:38:11,070 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:38:21,073 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:38:21,386 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:38:21,389 connection.py _safely_send    417 SEND > {"id":"2a7bb199-18a4-41cb-a709-afd9853b01f8","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:38:21,696 connection.py _on_message     652 RECV < {"id":"2a7bb199-18a4-41cb-a709-afd9853b01f8","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:38:21,697 connection.py _safely_send    417 SEND > {"id":"2d0c220a-faed-4254-b8a3-b29a97ed8993","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:38:25,584 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:38:25,587 connection.py _on_message     650 RECV < {"id":"2d0c220a-faed-4254-b8a3-b29a97ed8993","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:38:25,588 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:38:25,589 connection.py _safely_send    417 SEND > {"id":"1c009620-81fa-4d45-98df-5fed062c3404","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:38:25,591 connection.py _on_message     652 RECV < {"id":"1c009620-81fa-4d45-98df-5fed062c3404","result":{}}
+DEBUG 2023-06-30 23:38:25,592 connection.py _safely_send    417 SEND > {"id":"edc88d8e-74ea-4540-aa0a-b4709c991ca0","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:38:25,595 connection.py _on_message     652 RECV < {"id":"edc88d8e-74ea-4540-aa0a-b4709c991ca0","result":{}}
+DEBUG 2023-06-30 23:38:25,597 connection.py _safely_send    417 SEND > {"id":"803a000a-7b0c-4bdd-bf40-29545396e150","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:38:25,600 connection.py _on_message     652 RECV < {"id":"803a000a-7b0c-4bdd-bf40-29545396e150","result":{"result":true}}
+DEBUG 2023-06-30 23:38:25,601 connection.py _safely_send    417 SEND > {"id":"1c4dcb6d-feaa-4597-82eb-cfb1de3cea17","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:38:25,604 connection.py _on_message     652 RECV < {"id":"1c4dcb6d-feaa-4597-82eb-cfb1de3cea17","result":{"result":false}}
+DEBUG 2023-06-30 23:38:25,607 connection.py _safely_send    417 SEND > {"id":"57955f8a-9409-4013-a183-04074e589f06","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:38:25,613 connection.py _on_message     650 RECV < {"id":"57955f8a-9409-4013-a183-04074e589f06","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:38:25,614 connection.py _safely_send    417 SEND > {"id":"8dc62372-b29a-43bd-918b-35fa738b4bbd","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:38:25,622 connection.py _on_message     652 RECV < {"id":"8dc62372-b29a-43bd-918b-35fa738b4bbd","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:38:25,623 connection.py _safely_send    417 SEND > {"id":"23857d17-590f-4e06-9f42-422304b64f04","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:38:25,625 connection.py _on_message     652 RECV < {"id":"23857d17-590f-4e06-9f42-422304b64f04","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:38:25,626 connection.py _safely_send    417 SEND > {"id":"b59d2940-6de1-4ca2-a8c4-67293dc0e7a7","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:38:25,634 connection.py _on_message     652 RECV < {"id":"b59d2940-6de1-4ca2-a8c4-67293dc0e7a7","result":{"result":false}}
+DEBUG 2023-06-30 23:38:25,635 connection.py _safely_send    417 SEND > {"id":"17151c0d-a6e4-4c77-96b3-5d0105e3167f","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:38:25,638 connection.py _on_message     652 RECV < {"id":"17151c0d-a6e4-4c77-96b3-5d0105e3167f","result":{}}
+DEBUG 2023-06-30 23:38:25,640 connection.py _safely_send    417 SEND > {"id":"c388c75e-bdd7-4c8d-9d1b-9d9baedd0f34","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:38:25,642 connection.py _on_message     652 RECV < {"id":"c388c75e-bdd7-4c8d-9d1b-9d9baedd0f34","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:38:25,644 connection.py _safely_send    417 SEND > {"id":"b73195d7-cb2f-47b0-a92a-dd01a58652cd","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:38:25,896 connection.py _on_message     652 RECV < {"id":"b73195d7-cb2f-47b0-a92a-dd01a58652cd","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:38:25,901 connection.py _safely_send    417 SEND > {"id":"f677c0b1-718e-4b59-b0ba-a9be533fed8e","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:38:25,908 connection.py _on_message     652 RECV < {"id":"f677c0b1-718e-4b59-b0ba-a9be533fed8e","result":{}}
+DEBUG 2023-06-30 23:38:25,909 connection.py _safely_send    417 SEND > {"id":"8507c16f-0576-4735-8cea-a78002e89018","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:38:25,914 connection.py _on_message     652 RECV < {"id":"8507c16f-0576-4735-8cea-a78002e89018","result":{}}
+DEBUG 2023-06-30 23:38:25,918 connection.py _safely_send    417 SEND > {"id":"140ebfb8-20c6-496f-bd5a-b5abef603289","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:38:25,922 connection.py _on_message     652 RECV < {"id":"140ebfb8-20c6-496f-bd5a-b5abef603289","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:38:25,923 connection.py _safely_send    417 SEND > {"id":"c391a3ee-3406-4050-a300-4c6a28e0dbaf","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:38:25,930 connection.py _on_message     650 RECV < {"id":"c391a3ee-3406-4050-a300-4c6a28e0dbaf","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:38:25,931 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:38:25,942 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:38:25,943 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:38:25,943 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:38:25,945 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:38:25,947 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:38:25,948 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:38:25,951 connection.py _safely_send    417 SEND > {"id":"b7b9ed59-e5d0-416a-b083-4e0c6728ba10","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:38:26,422 connection.py _on_message     650 RECV < {"id":"b7b9ed59-e5d0-416a-b083-4e0c6728ba10","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuQXcWd5/n9ZZ77qFvvh6pKr0IlhFAhsJEQaiQj2oi2WQvDjgU9PYbYidi2e3d7cXfEtmjHrk2zERhmItzQjnCbmT/GTMd0r3BEW5ZnBBatppGEBCVaCIlXqSSBVKJUUpVuvd/3cTJ/+0eec+65t26JktCDK/ITPG6dZ548md/85S9/mYeYGRaLxVIKiGudAIvFYpkrVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYr...
+INFO  2023-06-30 23:38:26,425 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:38:26,426 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-06-30 23:38:26,427 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-06-30 23:38:26,428 connection.py _safely_send    417 SEND > {"id":"b5b0e200-cd4e-4df1-a124-e267a17f4c0c","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-06-30 23:38:26,511 connection.py _on_message     652 RECV < {"id":"b5b0e200-cd4e-4df1-a124-e267a17f4c0c","result":{"elements":[]}}
+WARNI 2023-06-30 23:38:26,512 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-06-30 23:38:26,516 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:38:26,517 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:38:26,518 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:38:26,518 connection.py _safely_send    417 SEND > {"id":"6320ec62-b3dd-433b-a5fe-db785106ad23","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:38:26,682 connection.py _on_message     650 RECV < {"id":"6320ec62-b3dd-433b-a5fe-db785106ad23","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:38:26,685 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:38:26,686 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:38:26,687 connection.py _safely_send    417 SEND > {"id":"23c73b1e-cb0e-47bf-9813-29a28842b4a5","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:38:26,691 connection.py _on_message     652 RECV < {"id":"23c73b1e-cb0e-47bf-9813-29a28842b4a5","result":{"elements":[{"elementId":"c10af76f-76c0-4f36-a4ad-a83dfdb10322","tagName":"body","nodeId":"77f272ae"}]}}
+INFO  2023-06-30 23:38:26,692 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x0000016F738AA2B0>]
+DEBUG 2023-06-30 23:38:26,692 connection.py _safely_send    417 SEND > {"id":"69702c73-5e18-4ce3-9117-bfd2143c5e09","method":"Element.getWXML","params":{"type":"inner","elementId":"c10af76f-76c0-4f36-a4ad-a83dfdb10322","pageId":2,"nodeId":"77f272ae"}}
+DEBUG 2023-06-30 23:38:26,718 connection.py _on_message     650 RECV < {"id":"69702c73-5e18-4ce3-9117-bfd2143c5e09","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:38:26,720 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:38:26,720 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:38:28,460 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found
+INFO  2023-06-30 23:38:38,472 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:38:38,472 connection.py _safely_send    417 ASYNC_SEND > {"id":"48bf3eab-12f4-4d1d-b0b1-e80049359c9d","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:38:38,474 connection.py _on_message     652 RECV < {"id":"48bf3eab-12f4-4d1d-b0b1-e80049359c9d","result":{}}
+INFO  2023-06-30 23:38:38,474 connection.py _handle_async_msg 688 received async msg: 48bf3eab-12f4-4d1d-b0b1-e80049359c9d, maybe command ignore response
+ERROR 2023-06-30 23:38:38,493 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:38:38,899 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:38:39,474 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:38:39,474 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:38:39,475 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:38:39,477 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:38:39,477 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:38:39,478 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-06-30 23:39:08,026 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:39:08,029 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:39:08,031 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:39:08,037 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:39:08,432 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:39:08,432 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:39:08,433 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:39:08,433 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:39:08,436 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:39:08,436 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:39:08,437 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:39:08,438 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:39:10,770 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:39:10,771 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:39:20,773 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:39:21,230 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:39:21,232 connection.py _safely_send    417 SEND > {"id":"407aa1ad-2539-42d2-86f2-88527bed361d","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:39:21,246 connection.py _on_message     652 RECV < {"id":"407aa1ad-2539-42d2-86f2-88527bed361d","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:39:21,250 connection.py _safely_send    417 SEND > {"id":"c9d8e68f-cee3-4842-af71-b3f36668e6a2","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:39:25,973 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:39:25,977 connection.py _on_message     650 RECV < {"id":"c9d8e68f-cee3-4842-af71-b3f36668e6a2","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:39:25,979 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:39:25,979 connection.py _safely_send    417 SEND > {"id":"78dc9e92-aaeb-4d5f-b363-b3b781c2490b","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:39:25,984 connection.py _on_message     652 RECV < {"id":"78dc9e92-aaeb-4d5f-b363-b3b781c2490b","result":{}}
+DEBUG 2023-06-30 23:39:25,985 connection.py _safely_send    417 SEND > {"id":"8d9302c7-0822-41d6-8736-e845d641b859","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:39:25,989 connection.py _on_message     652 RECV < {"id":"8d9302c7-0822-41d6-8736-e845d641b859","result":{}}
+DEBUG 2023-06-30 23:39:25,990 connection.py _safely_send    417 SEND > {"id":"c84fa4bd-2f77-43e7-a25e-e5a63086dcab","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:39:25,995 connection.py _on_message     652 RECV < {"id":"c84fa4bd-2f77-43e7-a25e-e5a63086dcab","result":{"result":true}}
+DEBUG 2023-06-30 23:39:25,997 connection.py _safely_send    417 SEND > {"id":"bbd3ecb8-38d9-4876-9c45-34a1809ecee2","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:39:26,001 connection.py _on_message     652 RECV < {"id":"bbd3ecb8-38d9-4876-9c45-34a1809ecee2","result":{"result":false}}
+DEBUG 2023-06-30 23:39:26,001 connection.py _safely_send    417 SEND > {"id":"f20c8e0d-a35c-4029-913e-7f313e202b45","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:39:26,011 connection.py _on_message     650 RECV < {"id":"f20c8e0d-a35c-4029-913e-7f313e202b45","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:39:26,013 connection.py _safely_send    417 SEND > {"id":"5808c56b-fde4-4cd9-a0a1-702ec2deb7b3","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:39:26,020 connection.py _on_message     652 RECV < {"id":"5808c56b-fde4-4cd9-a0a1-702ec2deb7b3","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:39:26,022 connection.py _safely_send    417 SEND > {"id":"a7246981-df28-4a98-8664-5d521f854965","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:39:26,024 connection.py _on_message     652 RECV < {"id":"a7246981-df28-4a98-8664-5d521f854965","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:39:26,026 connection.py _safely_send    417 SEND > {"id":"88fae223-e3e7-4adb-aa37-dba327fe275e","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:39:26,033 connection.py _on_message     652 RECV < {"id":"88fae223-e3e7-4adb-aa37-dba327fe275e","result":{"result":false}}
+DEBUG 2023-06-30 23:39:26,035 connection.py _safely_send    417 SEND > {"id":"b508798a-65aa-4b6d-be23-5f5c5839cdfa","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:39:26,038 connection.py _on_message     652 RECV < {"id":"b508798a-65aa-4b6d-be23-5f5c5839cdfa","result":{}}
+DEBUG 2023-06-30 23:39:26,039 connection.py _safely_send    417 SEND > {"id":"199699ac-e95d-483b-9d92-753f6bd8c20f","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:39:26,042 connection.py _on_message     652 RECV < {"id":"199699ac-e95d-483b-9d92-753f6bd8c20f","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:39:26,043 connection.py _safely_send    417 SEND > {"id":"f166959b-bc1e-4bc2-bc31-25652b983511","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:39:26,261 connection.py _on_message     652 RECV < {"id":"f166959b-bc1e-4bc2-bc31-25652b983511","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:39:26,263 connection.py _safely_send    417 SEND > {"id":"a8a56603-ed73-4743-8a2b-31aafbbebd98","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:39:26,269 connection.py _on_message     652 RECV < {"id":"a8a56603-ed73-4743-8a2b-31aafbbebd98","result":{}}
+DEBUG 2023-06-30 23:39:26,270 connection.py _safely_send    417 SEND > {"id":"46ff4065-f25f-491c-ac53-844bba8575f0","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:39:26,273 connection.py _on_message     652 RECV < {"id":"46ff4065-f25f-491c-ac53-844bba8575f0","result":{}}
+DEBUG 2023-06-30 23:39:26,276 connection.py _safely_send    417 SEND > {"id":"43b96701-1102-42fe-a9b6-f8d6c52d6b82","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:39:26,280 connection.py _on_message     652 RECV < {"id":"43b96701-1102-42fe-a9b6-f8d6c52d6b82","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:39:26,282 connection.py _safely_send    417 SEND > {"id":"672c4f02-6f6c-48d5-aa88-8b5394179767","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:39:26,287 connection.py _on_message     650 RECV < {"id":"672c4f02-6f6c-48d5-aa88-8b5394179767","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:39:26,288 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:39:26,293 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:39:26,294 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:39:26,296 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:39:26,297 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:39:26,302 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:39:26,303 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:39:26,304 connection.py _safely_send    417 SEND > {"id":"15357ed7-c628-45e5-848b-700e57b2bd54","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:39:26,637 connection.py _on_message     650 RECV < {"id":"15357ed7-c628-45e5-848b-700e57b2bd54","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuUVdWd7/v9zbnW3rue7F0vqrAoKEGgRBNBJEKrEUzaE4z2CdqnT+sdud2d9B2jr0n3uI2dMW7H9g+j54yR1s4YOfGcMe6JJ3d0X/R0h5DTiKSJCkRIYQiCUcoCFAuKRxWbelHP/Vhz/u4f67HXfhQWyMON8zN87Np7zbXmnGvO7/zN3/rNuYiZYTAYDOWAuNYZMBgMhpliBMtgMJQNRrAMBkPZYATLYDCUDUawDAZD2WAEy2AwlA1GsAwGQ9lgBMtgMJQNRrAMBkPZYATLYDCUDUawDAZD2WAEy2AwlA1GsAwGQ9lgBMtgMJQNRrAMBkPZYATLYDCUDUawDAZD2WAEy2AwlA1GsAwGQ9lgBMtgMJQNRr...
+INFO  2023-06-30 23:39:26,642 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:39:26,645 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-06-30 23:39:26,646 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-06-30 23:39:26,647 connection.py _safely_send    417 SEND > {"id":"d93e9af3-fcd9-4e28-aee0-e41f5bb9bea5","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-06-30 23:39:26,702 connection.py _on_message     652 RECV < {"id":"d93e9af3-fcd9-4e28-aee0-e41f5bb9bea5","result":{"elements":[]}}
+WARNI 2023-06-30 23:39:26,703 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-06-30 23:39:26,704 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:39:26,706 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:39:26,707 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:39:26,708 connection.py _safely_send    417 SEND > {"id":"5f488ef0-55d4-45eb-bab3-01a9ac5a74b2","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:39:26,888 connection.py _on_message     650 RECV < {"id":"5f488ef0-55d4-45eb-bab3-01a9ac5a74b2","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:39:26,891 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:39:26,892 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:39:26,893 connection.py _safely_send    417 SEND > {"id":"494a71e8-3c88-4d7e-89a5-6bbc2757ba1f","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:39:26,951 connection.py _on_message     652 RECV < {"id":"494a71e8-3c88-4d7e-89a5-6bbc2757ba1f","result":{"elements":[{"elementId":"f0928fc2-822f-4b25-a22d-816ad60a9ba5","tagName":"body","nodeId":"aa6ca6ba"}]}}
+INFO  2023-06-30 23:39:26,952 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x0000025E580E63D0>]
+DEBUG 2023-06-30 23:39:26,954 connection.py _safely_send    417 SEND > {"id":"57c452ec-66ff-4677-888a-356fa3bc1bc9","method":"Element.getWXML","params":{"type":"inner","elementId":"f0928fc2-822f-4b25-a22d-816ad60a9ba5","pageId":2,"nodeId":"aa6ca6ba"}}
+DEBUG 2023-06-30 23:39:27,051 connection.py _on_message     650 RECV < {"id":"57c452ec-66ff-4677-888a-356fa3bc1bc9","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:39:27,054 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:39:27,054 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:39:27,077 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found
+INFO  2023-06-30 23:39:37,090 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:39:37,090 connection.py _safely_send    417 ASYNC_SEND > {"id":"a4ec1729-cf59-439f-9be5-0f8d4621607f","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:39:37,093 connection.py _on_message     652 RECV < {"id":"a4ec1729-cf59-439f-9be5-0f8d4621607f","result":{}}
+INFO  2023-06-30 23:39:37,093 connection.py _handle_async_msg 688 received async msg: a4ec1729-cf59-439f-9be5-0f8d4621607f, maybe command ignore response
+ERROR 2023-06-30 23:39:37,115 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:39:37,518 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:39:38,093 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:39:38,093 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:39:38,094 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:39:38,095 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:39:38,096 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:39:38,097 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-06-30 23:40:15,277 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:40:15,282 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:40:15,284 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:40:15,291 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:40:15,692 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:40:15,693 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:40:15,693 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:40:15,695 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:40:15,696 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:40:15,697 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:40:15,699 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:40:15,699 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:40:18,144 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:40:18,144 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:40:28,146 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:40:28,659 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:40:28,660 connection.py _safely_send    417 SEND > {"id":"4b1de270-b268-48f2-bb9d-8b49b08a36c6","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:40:28,669 connection.py _on_message     652 RECV < {"id":"4b1de270-b268-48f2-bb9d-8b49b08a36c6","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:40:28,670 connection.py _safely_send    417 SEND > {"id":"67e111f5-e7e9-433d-b8da-3027b6656539","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:40:34,064 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:40:34,069 connection.py _on_message     650 RECV < {"id":"67e111f5-e7e9-433d-b8da-3027b6656539","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:40:34,070 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:40:34,071 connection.py _safely_send    417 SEND > {"id":"b4102909-262f-49bf-a7e0-76b8d2508121","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:40:34,075 connection.py _on_message     652 RECV < {"id":"b4102909-262f-49bf-a7e0-76b8d2508121","result":{}}
+DEBUG 2023-06-30 23:40:34,077 connection.py _safely_send    417 SEND > {"id":"7f70d7ca-70ca-4acf-b00d-1294a1afa30e","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:40:34,080 connection.py _on_message     652 RECV < {"id":"7f70d7ca-70ca-4acf-b00d-1294a1afa30e","result":{}}
+DEBUG 2023-06-30 23:40:34,083 connection.py _safely_send    417 SEND > {"id":"4302f8f7-b07f-49bd-8fae-1ccf6e627b50","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:40:34,086 connection.py _on_message     652 RECV < {"id":"4302f8f7-b07f-49bd-8fae-1ccf6e627b50","result":{"result":true}}
+DEBUG 2023-06-30 23:40:34,088 connection.py _safely_send    417 SEND > {"id":"4dcfce6e-f511-4a8d-8774-023ae4135605","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:40:34,090 connection.py _on_message     652 RECV < {"id":"4dcfce6e-f511-4a8d-8774-023ae4135605","result":{"result":false}}
+DEBUG 2023-06-30 23:40:34,091 connection.py _safely_send    417 SEND > {"id":"1eb60cac-45de-4892-b863-ab2e388711ae","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:40:34,094 connection.py _on_message     650 RECV < {"id":"1eb60cac-45de-4892-b863-ab2e388711ae","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:40:34,095 connection.py _safely_send    417 SEND > {"id":"98b53450-e233-408f-b851-8491be507339","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:40:34,097 connection.py _on_message     652 RECV < {"id":"98b53450-e233-408f-b851-8491be507339","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:40:34,100 connection.py _safely_send    417 SEND > {"id":"bf83e720-f401-4263-a51e-03b95ae29614","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:40:34,101 connection.py _on_message     652 RECV < {"id":"bf83e720-f401-4263-a51e-03b95ae29614","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:40:34,103 connection.py _safely_send    417 SEND > {"id":"8f2fd5ca-b712-41a7-9b42-c5e4cc34359b","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:40:34,114 connection.py _on_message     652 RECV < {"id":"8f2fd5ca-b712-41a7-9b42-c5e4cc34359b","result":{"result":false}}
+DEBUG 2023-06-30 23:40:34,116 connection.py _safely_send    417 SEND > {"id":"aa3cb2d7-63b3-461f-8cdf-316ef69e126e","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:40:34,120 connection.py _on_message     652 RECV < {"id":"aa3cb2d7-63b3-461f-8cdf-316ef69e126e","result":{}}
+DEBUG 2023-06-30 23:40:34,121 connection.py _safely_send    417 SEND > {"id":"5b73533e-0f5b-4462-920d-b447b44225a6","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:40:34,123 connection.py _on_message     652 RECV < {"id":"5b73533e-0f5b-4462-920d-b447b44225a6","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:40:34,125 connection.py _safely_send    417 SEND > {"id":"6405e879-bbfa-420b-a23e-7e6c1f6618d8","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:40:34,388 connection.py _on_message     652 RECV < {"id":"6405e879-bbfa-420b-a23e-7e6c1f6618d8","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:40:34,393 connection.py _safely_send    417 SEND > {"id":"d96914a8-833f-46b3-ac81-bb6d6bcc6b04","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:40:34,407 connection.py _on_message     652 RECV < {"id":"d96914a8-833f-46b3-ac81-bb6d6bcc6b04","result":{}}
+DEBUG 2023-06-30 23:40:34,407 connection.py _safely_send    417 SEND > {"id":"9c8ba561-b54f-4190-9c86-c6a9b7b624c9","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:40:34,410 connection.py _on_message     652 RECV < {"id":"9c8ba561-b54f-4190-9c86-c6a9b7b624c9","result":{}}
+DEBUG 2023-06-30 23:40:34,411 connection.py _safely_send    417 SEND > {"id":"2f18663f-1542-46d7-88ac-3bb4a63c4e2b","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:40:34,415 connection.py _on_message     652 RECV < {"id":"2f18663f-1542-46d7-88ac-3bb4a63c4e2b","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:40:34,416 connection.py _safely_send    417 SEND > {"id":"e5d545ab-3bfd-4f84-a542-4e6a67e4f8ad","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:40:34,420 connection.py _on_message     650 RECV < {"id":"e5d545ab-3bfd-4f84-a542-4e6a67e4f8ad","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:40:34,421 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:40:34,428 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:40:34,429 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:40:34,430 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:40:34,431 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:40:34,434 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:40:34,435 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:40:34,436 connection.py _safely_send    417 SEND > {"id":"35aa2014-7a75-41e4-81bb-d67613dbd851","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:40:34,514 connection.py _on_message     650 RECV < {"id":"35aa2014-7a75-41e4-81bb-d67613dbd851","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X90E+edL/7PyL9kG4MNxpEb48QhS3BYusWhOdjb5AaTNKekoUUOnMXu3WybJtuN6e5dYJN+a8Oe2vLebhbIaQvdbrdsSrsSPfgHuTQhh00w3JBKLJeYbVJiwoYotZ1aMWAbyz/0w9J8/3ik8WhmNB75px7yfv0B8mhmNCPNvPV5nnnGFkRRJAAAHpjmewMAAIxCYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQ...
+INFO  2023-06-30 23:40:34,516 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:40:34,517 minitest.py _miniSetUp      394 =========case: test_my start=========
+INFO  2023-06-30 23:40:36,519 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-06-30 23:40:36,519 connection.py _safely_send    417 SEND > {"id":"c38199ca-f399-45d6-8120-541cb4ea1c0e","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-06-30 23:40:36,526 connection.py _on_message     652 RECV < {"id":"c38199ca-f399-45d6-8120-541cb4ea1c0e","result":{"elements":[]}}
+WARNI 2023-06-30 23:40:36,527 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-06-30 23:40:36,527 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:40:36,529 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:40:36,529 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:40:36,530 connection.py _safely_send    417 SEND > {"id":"cd4a7715-25ce-43a1-a1da-44625e03d523","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:40:36,655 connection.py _on_message     650 RECV < {"id":"cd4a7715-25ce-43a1-a1da-44625e03d523","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:40:36,658 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:40:36,658 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:40:36,659 connection.py _safely_send    417 SEND > {"id":"57d12921-1a40-4fbc-995a-dd0717159022","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:40:36,662 connection.py _on_message     652 RECV < {"id":"57d12921-1a40-4fbc-995a-dd0717159022","result":{"elements":[{"elementId":"fd167f6c-7cb1-4291-ba62-e5b94bb2799c","tagName":"body","nodeId":"6cf651e8"}]}}
+INFO  2023-06-30 23:40:36,663 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x0000023203025070>]
+DEBUG 2023-06-30 23:40:36,663 connection.py _safely_send    417 SEND > {"id":"9617c995-68b0-4876-8be2-0b3bcd37dbda","method":"Element.getWXML","params":{"type":"inner","elementId":"fd167f6c-7cb1-4291-ba62-e5b94bb2799c","pageId":2,"nodeId":"6cf651e8"}}
+DEBUG 2023-06-30 23:40:36,688 connection.py _on_message     650 RECV < {"id":"9617c995-68b0-4876-8be2-0b3bcd37dbda","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:40:36,689 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:40:36,689 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:40:36,700 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found
+INFO  2023-06-30 23:40:46,706 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:40:46,706 connection.py _safely_send    417 ASYNC_SEND > {"id":"3a1e5b60-b142-432d-bfdf-d4c184053c7d","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:40:46,709 connection.py _on_message     652 RECV < {"id":"3a1e5b60-b142-432d-bfdf-d4c184053c7d","result":{}}
+INFO  2023-06-30 23:40:46,709 connection.py _handle_async_msg 688 received async msg: 3a1e5b60-b142-432d-bfdf-d4c184053c7d, maybe command ignore response
+ERROR 2023-06-30 23:40:46,729 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:40:47,131 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:40:47,708 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:40:47,708 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:40:47,709 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:40:47,710 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:40:47,711 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:40:47,712 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-06-30 23:43:28,633 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:43:28,637 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:43:28,639 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:43:28,645 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:43:29,044 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:43:29,045 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:43:29,045 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:43:29,047 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:43:29,049 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:43:29,049 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:43:29,051 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:43:29,051 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:43:31,492 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:43:31,492 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:43:41,497 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:43:41,780 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:43:41,781 connection.py _safely_send    417 SEND > {"id":"02a9da59-99b8-4b1f-8389-cb7563d9d776","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:43:41,789 connection.py _on_message     652 RECV < {"id":"02a9da59-99b8-4b1f-8389-cb7563d9d776","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:43:41,790 connection.py _safely_send    417 SEND > {"id":"1eb62017-b461-411a-8c37-f64a8d2c1ab7","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:43:46,477 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:43:46,480 connection.py _on_message     650 RECV < {"id":"1eb62017-b461-411a-8c37-f64a8d2c1ab7","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:43:46,481 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:43:46,481 connection.py _safely_send    417 SEND > {"id":"69723ab3-45fc-4796-b81e-eff0dbc32866","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:43:46,485 connection.py _on_message     652 RECV < {"id":"69723ab3-45fc-4796-b81e-eff0dbc32866","result":{}}
+DEBUG 2023-06-30 23:43:46,485 connection.py _safely_send    417 SEND > {"id":"c35c848f-eae7-41fe-aa1a-8eb7f4197d3f","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:43:46,488 connection.py _on_message     652 RECV < {"id":"c35c848f-eae7-41fe-aa1a-8eb7f4197d3f","result":{}}
+DEBUG 2023-06-30 23:43:46,490 connection.py _safely_send    417 SEND > {"id":"1dc8e4bb-28f3-4f3f-bb3e-430cce92e2ac","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:43:46,494 connection.py _on_message     652 RECV < {"id":"1dc8e4bb-28f3-4f3f-bb3e-430cce92e2ac","result":{"result":true}}
+DEBUG 2023-06-30 23:43:46,495 connection.py _safely_send    417 SEND > {"id":"d8443135-04e1-49a4-b241-72a276e2db5c","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:43:46,498 connection.py _on_message     652 RECV < {"id":"d8443135-04e1-49a4-b241-72a276e2db5c","result":{"result":false}}
+DEBUG 2023-06-30 23:43:46,501 connection.py _safely_send    417 SEND > {"id":"6e2c2383-47b6-4ce3-a2ee-55031142e2b8","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:43:46,504 connection.py _on_message     650 RECV < {"id":"6e2c2383-47b6-4ce3-a2ee-55031142e2b8","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:43:46,505 connection.py _safely_send    417 SEND > {"id":"7f5655db-5c31-4d36-b925-bfd08d2cbd47","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:43:46,507 connection.py _on_message     652 RECV < {"id":"7f5655db-5c31-4d36-b925-bfd08d2cbd47","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:43:46,509 connection.py _safely_send    417 SEND > {"id":"227c4b9e-dd33-47d9-a131-d9a06490980e","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:43:46,520 connection.py _on_message     652 RECV < {"id":"227c4b9e-dd33-47d9-a131-d9a06490980e","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:43:46,522 connection.py _safely_send    417 SEND > {"id":"0beb5ae6-df39-47db-b40a-30d2fbc20cea","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:43:46,529 connection.py _on_message     652 RECV < {"id":"0beb5ae6-df39-47db-b40a-30d2fbc20cea","result":{"result":false}}
+DEBUG 2023-06-30 23:43:46,532 connection.py _safely_send    417 SEND > {"id":"ca2fee20-b17c-44b6-a648-cd841af5d61b","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:43:46,535 connection.py _on_message     652 RECV < {"id":"ca2fee20-b17c-44b6-a648-cd841af5d61b","result":{}}
+DEBUG 2023-06-30 23:43:46,536 connection.py _safely_send    417 SEND > {"id":"ffc1c5ca-b295-45b9-a799-a0f05ea35a38","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:43:46,581 connection.py _on_message     652 RECV < {"id":"ffc1c5ca-b295-45b9-a799-a0f05ea35a38","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:43:46,584 connection.py _safely_send    417 SEND > {"id":"cf5a861f-30c8-4233-9486-fb543e2407b9","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:43:46,841 connection.py _on_message     652 RECV < {"id":"cf5a861f-30c8-4233-9486-fb543e2407b9","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:43:46,844 connection.py _safely_send    417 SEND > {"id":"3ae2a713-9a15-4878-9310-a92fd2072961","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:43:46,861 connection.py _on_message     652 RECV < {"id":"3ae2a713-9a15-4878-9310-a92fd2072961","result":{}}
+DEBUG 2023-06-30 23:43:46,862 connection.py _safely_send    417 SEND > {"id":"f5efe6d1-0720-472a-8264-2ac8b84e5dfb","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:43:46,875 connection.py _on_message     652 RECV < {"id":"f5efe6d1-0720-472a-8264-2ac8b84e5dfb","result":{}}
+DEBUG 2023-06-30 23:43:46,877 connection.py _safely_send    417 SEND > {"id":"a35b3c58-a11b-4426-a2e4-9df1e9b2f96f","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:43:46,880 connection.py _on_message     652 RECV < {"id":"a35b3c58-a11b-4426-a2e4-9df1e9b2f96f","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:43:46,881 connection.py _safely_send    417 SEND > {"id":"df91f034-5df9-444b-b1a3-ae4a6dc545dd","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:43:46,886 connection.py _on_message     650 RECV < {"id":"df91f034-5df9-444b-b1a3-ae4a6dc545dd","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:43:46,887 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:43:46,893 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:43:46,893 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:43:46,894 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:43:46,894 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:43:46,896 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:43:46,897 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:43:46,898 connection.py _safely_send    417 SEND > {"id":"d011e039-aa8e-404e-8313-93411519426f","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:43:46,972 connection.py _on_message     650 RECV < {"id":"d011e039-aa8e-404e-8313-93411519426f","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X90E+edL/7PyL9kG4MNxpEb48QhS3BYusWhOdjb5AaTNKekoUUOnMXu3WybJtuN6e5dYJN+a8Oe2vLebhbIaQvdbrdsSrsSPfgHuTQhh00w3JBKLJeYbVJiwoYotZ1aMWAbyz/0w9J8/3ik8WhmNB75px7yfv0B8mhmNCPNvPV5nnnGFkRRJAAAHpjmewMAAIxCYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQDcQGABADcQWADADQQWAHADgQUA3EBgAQA3EFgAwA0EFgBwA4EFANxAYAEANxBYAMANBBYAcAOBBQ...
+INFO  2023-06-30 23:43:46,975 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:43:46,976 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-06-30 23:43:48,977 page.py    wait_for        321 waitFor: 2.0008740425109863 s
+INFO  2023-06-30 23:43:48,977 page.py    _get_elements_by_css 559 try to get elements: view[bindtap="onClick"]
+DEBUG 2023-06-30 23:43:48,979 connection.py _safely_send    417 SEND > {"id":"b264f760-9b83-45ee-8683-6617f303b5ef","method":"Page.getElements","params":{"selector":"view[bindtap=\"onClick\"]","pageId":2}}
+DEBUG 2023-06-30 23:43:48,985 connection.py _on_message     652 RECV < {"id":"b264f760-9b83-45ee-8683-6617f303b5ef","result":{"elements":[]}}
+WARNI 2023-06-30 23:43:48,986 page.py    _get_elements_by_css 564 Could not found any element 'view[bindtap="onClick"]' you need
+DEBUG 2023-06-30 23:43:48,987 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:43:48,989 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:43:48,990 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:43:48,990 connection.py _safely_send    417 SEND > {"id":"69963adc-ef66-4b68-bbd5-05cf52b106b9","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:43:49,152 connection.py _on_message     650 RECV < {"id":"69963adc-ef66-4b68-bbd5-05cf52b106b9","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:43:49,155 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:43:49,155 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:43:49,156 connection.py _safely_send    417 SEND > {"id":"61277c91-fb86-4562-a275-1370e991df71","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:43:49,159 connection.py _on_message     652 RECV < {"id":"61277c91-fb86-4562-a275-1370e991df71","result":{"elements":[{"elementId":"494a9ee5-6927-4b06-b56a-c89dcb51dbdc","tagName":"body","nodeId":"1c871094"}]}}
+INFO  2023-06-30 23:43:49,160 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000001F903D45580>]
+DEBUG 2023-06-30 23:43:49,161 connection.py _safely_send    417 SEND > {"id":"a3f3dd01-666e-4897-b22e-96c0a14811b7","method":"Element.getWXML","params":{"type":"inner","elementId":"494a9ee5-6927-4b06-b56a-c89dcb51dbdc","pageId":2,"nodeId":"1c871094"}}
+DEBUG 2023-06-30 23:43:49,183 connection.py _on_message     650 RECV < {"id":"a3f3dd01-666e-4897-b22e-96c0a14811b7","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:43:49,185 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:43:49,185 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:43:49,194 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[bindtap="onClick"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[bindtap="onClick"]] not found
+INFO  2023-06-30 23:43:59,201 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:43:59,201 connection.py _safely_send    417 ASYNC_SEND > {"id":"bf1800f7-e1fb-498a-8f19-622a7fbc74e8","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:43:59,203 connection.py _on_message     652 RECV < {"id":"bf1800f7-e1fb-498a-8f19-622a7fbc74e8","result":{}}
+INFO  2023-06-30 23:43:59,205 connection.py _handle_async_msg 688 received async msg: bf1800f7-e1fb-498a-8f19-622a7fbc74e8, maybe command ignore response
+ERROR 2023-06-30 23:43:59,224 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:43:59,590 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:44:00,203 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:44:00,203 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:44:00,205 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:44:00,207 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:44:00,208 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:44:00,208 basenative.py wrapper         29  call IdeNative.release end
+DEBUG 2023-06-30 23:45:13,621 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:45:13,625 loader.py  load_from_case_name 162 put case[test_my] into queue
+INFO  2023-06-30 23:45:13,627 miniconfig.py from_file       131 load config from config.json
+INFO  2023-06-30 23:45:13,634 loader.py  run_session     269 start session with fork mode 
+{'debug': False, 'base_dir': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'debug', 'close_ide': False, 'auto_capture': 'auto', 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 300, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'assert_capture': True, 'framework_capture': True, 'error_capture': False}
+
+DEBUG 2023-06-30 23:45:14,025 minitest.py _miniClassSetUp 248 =====================
+DEBUG 2023-06-30 23:45:14,025 minitest.py _miniClassSetUp 249 Testing class：test
+DEBUG 2023-06-30 23:45:14,025 minitest.py _miniClassSetUp 250 =====================
+INFO  2023-06-30 23:45:14,027 minitest.py init_miniprogram 145 start init miniprogram
+INFO  2023-06-30 23:45:14,028 basenative.py wrapper         25  call IdeNative.start_wechat
+INFO  2023-06-30 23:45:14,028 basenative.py wrapper         29  call IdeNative.start_wechat end
+INFO  2023-06-30 23:45:14,030 wx_minium.py launch_dev_tool 564 Starting dev tool and launch MiniProgram project ...
+INFO  2023-06-30 23:45:14,031 minium_object.py _do_shell       68  de shell: cli.bat auto --project "C:/Users/yang/Desktop/test/wx_auto/wechat-app-mall-11.14.0" --auto-port 9420
+INFO  2023-06-30 23:45:16,509 minium_object.py _do_shell       86  err:
+- initialize
+
+√ IDE server has started, listening on http://127.0.0.1:59957
+- preparing
+- Fetching AppID (wxb2e48cb85ddc959b) permissions
+√ Using AppID: wxb2e48cb85ddc959b
+√ auto
+
+INFO  2023-06-30 23:45:16,510 minium_object.py _do_shell       87  out:
+
+INFO  2023-06-30 23:45:26,511 wx_minium.py connect_dev_tool 660 Trying to connect Dev tool ...
+INFO  2023-06-30 23:45:26,765 connection.py _connect        342 connect to WebChatTools successfully
+DEBUG 2023-06-30 23:45:26,775 connection.py _safely_send    417 SEND > {"id":"2a09098e-1376-44cc-bd0d-f33968fa3b0c","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:45:26,807 connection.py _on_message     652 RECV < {"id":"2a09098e-1376-44cc-bd0d-f33968fa3b0c","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:45:26,808 connection.py _safely_send    417 SEND > {"id":"71b75051-4b46-472c-9f08-facf29ef8d3c","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:45:29,289 connection.py _on_message     652 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2023-06-30 23:45:29,313 connection.py _on_message     650 RECV < {"id":"71b75051-4b46-472c-9f08-facf29ef8d3c","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+DEBUG 2023-06-30 23:45:29,314 connection.py remove          283 remove key which is not in observers
+DEBUG 2023-06-30 23:45:29,315 connection.py _safely_send    417 SEND > {"id":"c21c8e72-d06a-4faa-b798-ed1ceacee342","method":"App.addBinding","params":{"name":"onAppRouteDone"}}
+DEBUG 2023-06-30 23:45:29,330 connection.py _on_message     652 RECV < {"id":"c21c8e72-d06a-4faa-b798-ed1ceacee342","result":{}}
+DEBUG 2023-06-30 23:45:29,331 connection.py _safely_send    417 SEND > {"id":"d9192dc1-dfc0-4846-b4a3-f9319c249054","method":"App.callFunction","params":{"functionDeclaration":"function () {\n    if (!global.__minium_onAppRouteDone) {\n        wx.onAppRouteDone(function (options) {\n            onAppRouteDone(options, Date.now())\n        })\n        global.__minium_onAppRouteDone = true\n    }\n}","args":[]}}
+DEBUG 2023-06-30 23:45:29,339 connection.py _on_message     652 RECV < {"id":"d9192dc1-dfc0-4846-b4a3-f9319c249054","result":{}}
+DEBUG 2023-06-30 23:45:29,341 connection.py _safely_send    417 SEND > {"id":"9f945828-4ced-4348-af15-ca9476bb676e","method":"App.callFunction","params":{"functionDeclaration":"function miniumRequestStack(){if(!global.__minium_request_stack){global.__minium_request_stack=new Map,global.__minium_wait_util=function(e=0,t=20){var r=(getCurrentPages().pop()||{}).__wxWebviewId__;return new Promise((_=>{var a=10*t,i=setInterval((()=>{a--;var t=global.__minium_request_stack.has(r)?global.__minium_request_stack.get(r).size:0;console.debug(\"[minitest] current stack size: \",t),t<=e?(clearInterval(i),_(!0)):a<0&&(clearInterval(i),_(!1))}),100)}))};var e=wx.request;return Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(t){if(\"https://weapp.tencent.com/jscov_driver/CollectCovTimer\"==t.url)return e(t);var r,_=(getCurrentPages().pop()||{}).__wxWebviewId__;global.__minium_request_stack.has(_)?r=global.__minium_request_stack.get(_):(r=new Map,global.__minium_request_stack.set(_,r));var a,i=t.complete;t.complete=e=>{r.delete(a),0===r.size&&global.__minium_request_stack.delete(_),i&&i(e)};var n=e(t);return a=n&&n.uniqueId||Math.random(),r.set(a,Date.now()),n}}),!0}return!1}","args":[]}}
+DEBUG 2023-06-30 23:45:29,346 connection.py _on_message     652 RECV < {"id":"9f945828-4ced-4348-af15-ca9476bb676e","result":{"result":true}}
+DEBUG 2023-06-30 23:45:29,348 connection.py _safely_send    417 SEND > {"id":"c3b31505-1f57-4cfb-97c1-a26a0729f6cb","method":"App.callFunction","params":{"functionDeclaration":"function checkInject(){return!!global.__minium||(global.__minium={},!1)}","args":[]}}
+DEBUG 2023-06-30 23:45:29,352 connection.py _on_message     652 RECV < {"id":"c3b31505-1f57-4cfb-97c1-a26a0729f6cb","result":{"result":false}}
+DEBUG 2023-06-30 23:45:29,353 connection.py _safely_send    417 SEND > {"id":"aa4970aa-254f-47ab-a965-a4dbf925f1ce","method":"App.callFunction","params":{"functionDeclaration":"function(){return {\"pages\": __wxConfig.pages, \"tabBar\": __wxConfig.tabBar && __wxConfig.tabBar.list} }","args":[]}}
+DEBUG 2023-06-30 23:45:29,359 connection.py _on_message     650 RECV < {"id":"aa4970aa-254f-47ab-a965-a4dbf925f1ce","result":{"result":{"pages":["pages/start/start","pages/shop/select","pages/index/index","pages/notice/index","pages/notice/show","pages/category/category","pages/goods/list","pages/goods/list-vop","pages/goods/fav","pages/goods-details/index","pages/goods-details/vop","pages/shop-cart/index","pages/to-pay-order/index","pages/select-address/index","pages/address-add/index","pages/order-list/index","pages/order-details/index","pages/order-details/scan-result","...
+DEBUG 2023-06-30 23:45:29,360 connection.py _safely_send    417 SEND > {"id":"71707ce6-7813-4dc7-b4a1-c8c614226d02","method":"App.callWxMethod","params":{"method":"getAccountInfoSync","args":[]}}
+DEBUG 2023-06-30 23:45:29,363 connection.py _on_message     652 RECV < {"id":"71707ce6-7813-4dc7-b4a1-c8c614226d02","result":{"result":{"miniProgram":{"appId":"wxb2e48cb85ddc959b","envVersion":"develop","version":""}}}}
+DEBUG 2023-06-30 23:45:29,364 connection.py _safely_send    417 SEND > {"id":"c8b71e89-c8da-4011-bb6a-6bd7c11e30ff","method":"Tool.getInfo","params":{}}
+DEBUG 2023-06-30 23:45:29,367 connection.py _on_message     652 RECV < {"id":"c8b71e89-c8da-4011-bb6a-6bd7c11e30ff","result":{"version":"1.06.2301160","SDKVersion":"2.16.0"}}
+DEBUG 2023-06-30 23:45:29,370 connection.py _safely_send    417 SEND > {"id":"69648e97-450d-41c6-9cca-535113dad8a9","method":"App.callFunction","params":{"functionDeclaration":"function ideMockModal(){return!!global.__minium_mock_native_modal||(global.__minium_auth_setting={},global.__minium_mock_native_modal_list=[],global.__minium_handle_mock_modal=function(_,l){let m=[];for(;global.__minium_mock_native_modal_list.length>0;){let i=global.__minium_mock_native_modal_list.pop();if(-1===l.indexOf(i.type)||!(_ in i)){m.unshift(i);continue}let o=i[_];if(global.__minium_mock_native_modal_list.push(...m),\"function\"!=typeof o)throw`${o} is not callable`;return o(),!0}return console.warn(`can't find [${l}][${_}]`),global.__minium_mock_native_modal_list.push(...m),!1},global.__minium_get_all_modal=function(){let _=[];global.__minium_mock_native_modal_list.forEach((l=>{_.push({type:l.type,texts:Object.keys(l).filter((_=>\"type\"!==_))})}))},global.__minium_handle_mock_native_modal=function(_){return global.__minium_handle_mock_modal(_,[\"modal\",\"auth\"])},global.__minium_handle_mock_map_modal=function(_){return global.__minium_handle_mock_modal(_,[\"map\"])},global.__minium_handle_mock_auth_modal=function(_){return global.__minium_handle_mock_modal(_,[\"auth\"])},global.__minium_mock_native_modal=function(_){_.type=\"modal\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_map_modal=function(_){_.type=\"map\",global.__minium_mock_native_modal_list.push(_)},global.__minium_mock_auth_modal=function(_){_.type=\"auth\",global.__minium_mock_native_modal_list.push(_)},!1)}","args":[]}}
+DEBUG 2023-06-30 23:45:29,374 connection.py _on_message     652 RECV < {"id":"69648e97-450d-41c6-9cca-535113dad8a9","result":{"result":false}}
+DEBUG 2023-06-30 23:45:29,375 connection.py _safely_send    417 SEND > {"id":"7602653f-9f8a-4545-b6b1-036047e0dee9","method":"App.mockWxMethod","params":{"method":"showActionSheet","functionDeclaration":"function miniActionSheet(e){return new Promise((n=>{let t={},o=e.itemList;for(let e=0;e<o.length;e++)t[o[e]]=function(){let t={errMsg:\"showActionSheet:ok\",tapIndex:e};return n(t),t};return t[\"\u53d6\u6d88\"]=function(){let e={errMsg:\"showActionSheet:fail cancel\"};return n(e),e},console.warn(\"[minium] mock wx.showActionSheet, you can use `native.handle_action_sheet` to handle it\"),global.__minium_mock_native_modal(t)}))}","args":[]}}
+DEBUG 2023-06-30 23:45:29,382 connection.py _on_message     652 RECV < {"id":"7602653f-9f8a-4545-b6b1-036047e0dee9","result":{}}
+DEBUG 2023-06-30 23:45:29,384 connection.py _safely_send    417 SEND > {"id":"2849bbcd-2080-4362-b950-28b33cbcda3e","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-06-30 23:45:29,389 connection.py _on_message     652 RECV < {"id":"2849bbcd-2080-4362-b950-28b33cbcda3e","result":{"pageId":2,"path":"pages/index/index","query":{}}}
+DEBUG 2023-06-30 23:45:29,391 connection.py _safely_send    417 SEND > {"id":"0a2c9957-ddcb-4a24-9e8f-704f3a0c6dee","method":"App.callWxMethod","params":{"method":"getSetting","args":[]}}
+DEBUG 2023-06-30 23:45:29,719 connection.py _on_message     652 RECV < {"id":"0a2c9957-ddcb-4a24-9e8f-704f3a0c6dee","result":{"result":{"errMsg":"getSetting:ok","authSetting":{"scope.address":true,"scope.invoice":true,"scope.invoiceTitle":true,"scope.userInfo":true}}}}
+DEBUG 2023-06-30 23:45:29,722 connection.py _safely_send    417 SEND > {"id":"98ad1658-0ea3-4ea5-bf7c-7fba69f6b97c","method":"App.callFunction","params":{"functionDeclaration":"function mockNetwork(){if(!global[\"__minium_request_network_mocked\"]){function e(i,s){if(typeof i!=typeof s)return!1;switch(typeof i){case\"string\":return!!new RegExp(i).exec(s);case\"number\":return i===s;case\"object\":if(i instanceof Array){if(i.length!=s.length)return!1;for(var c=0;c<i.length;c++)if(!e(i[c],s[c]))return!1;return!0}for(var t in i)if(\"success\"!=t&&\"fail\"!=t&&\"complete\"!=t&&\"_miniMockType\"!=t){if(void 0===s[t])return!1;if(!e(i[t],s[t]))return!1}return!0}return!1}Object.defineProperty(global,\"__minium_request_network_mocked\",{value:!0,writable:!1}),global[\"__minium_request_network_mock_rule\"]||(global[\"__minium_request_network_mock_rule\"]=[]),global[\"__minium_requestTask\"]=class{constructor(e,i,s){this.success=e,this.fail=i,this.callback=s,this.chunkCallback=[],this.headersReceivedCallback=[],this.progressUpdateCallback=[],this.fd=setTimeout((()=>{this.headersReceivedCallback.forEach((e=>{this.success&&e({header:this.success.header})})),this.chunkCallback.forEach((e=>{this.success&&e(this.success.data)})),this.progressUpdateCallback.forEach((e=>{this.success&&e({progress:100,totalBytesWritten:100,totalBytesExpectedToWrite:100})})),s(this.success||this.fail)}))}abort(){clearTimeout(this.fd)}offChunkReceived(e){var i=this.chunkCallback.indexOf(e);-1!==i&&this.chunkCallback.splice(i,1)}offHeadersReceived(e){var i=this.headersReceivedCallback.indexOf(e);-1!==i&&this.headersReceivedCallback.splice(i,1)}onChunkReceived(e){this.chunkCallback.push(e)}onHeadersReceived(e){this.headersReceivedCallback.push(e)}onProgressUpdate(e){this.progressUpdateCallback.push(e)}};var i=wx[\"request\"];Object.defineProperty(wx,\"request\",{configurable:!0,get:()=>function(s){for(var c=0;c<global[\"__minium_request_network_mock_rule\"].length;c++){var t=global[\"__minium_request_network_mock_rule\"][c];if(e(t,s)){if(1===t._miniMockType&&([t]=global[\"__minium_request_network_mock_rule\"].splice(c,1)),console.log(\"@@@@rule match\",t),s.__miniumMocked=!0,t.success)return new global[\"__minium_requestTask\"](t.success,void 0,(e=>{s.success&&s.success(e),s.complete&&s.complete(e)}));if(t.fail)return new global[\"__minium_requestTask\"](void 0,t.fail,(e=>{s.fail&&s.fail(e),s.complete&&s.complete(e)}));if(1===t._miniMockType)return}}return i(s)}})}}","args":[]}}
+DEBUG 2023-06-30 23:45:29,729 connection.py _on_message     652 RECV < {"id":"98ad1658-0ea3-4ea5-bf7c-7fba69f6b97c","result":{}}
+DEBUG 2023-06-30 23:45:29,732 connection.py _safely_send    417 SEND > {"id":"3ef71c46-bc10-4efa-a0e8-42e431413523","method":"App.enableLog","params":{}}
+DEBUG 2023-06-30 23:45:29,736 connection.py _on_message     652 RECV < {"id":"3ef71c46-bc10-4efa-a0e8-42e431413523","result":{}}
+DEBUG 2023-06-30 23:45:29,738 connection.py _safely_send    417 SEND > {"id":"70257297-30a7-4e79-9a4b-1980b42ca422","method":"App.callFunction","params":{"functionDeclaration":"function getAppConfig(){if(0===arguments.length)return __wxConfig;{const n={};return Array.from(arguments).forEach((r=>{n[r]=__wxConfig[r]})),n}}","args":["accountInfo"]}}
+DEBUG 2023-06-30 23:45:29,742 connection.py _on_message     652 RECV < {"id":"70257297-30a7-4e79-9a4b-1980b42ca422","result":{"result":{"accountInfo":{"appId":"wxb2e48cb85ddc959b","nickname":"wxid_d17xn601fun422的接口测试号","icon":"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ0ia79enzYJBsZ3CIkLQGe39qeOxbpT9oM9KaCthzBa0PF75xzBGjZQGlM69TDggxpNX7ACibCjjtw/0?wx_fmt=png"}}}}
+DEBUG 2023-06-30 23:45:29,743 connection.py _safely_send    417 SEND > {"id":"60a6c388-9b4d-4827-8ac0-a0ac60676888","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+DEBUG 2023-06-30 23:45:29,746 connection.py _on_message     650 RECV < {"id":"60a6c388-9b4d-4827-8ac0-a0ac60676888","result":{"result":{"model":"iPhone 5","pixelRatio":2,"windowWidth":320,"windowHeight":520,"system":"iOS 10.0.1","language":"zh_CN","version":"8.0.5","deviceOrientation":"portrait","screenWidth":320,"screenHeight":568,"SDKVersion":"2.16.0","brand":"devtools","fontSizeSetting":16,"benchmarkLevel":1,"batteryLevel":100,"statusBarHeight":20,"bluetoothEnabled":true,"locationEnabled":true,"wifiEnabled":true,"cameraAuthorized":true,"locationAuthorized":true,"micropho...
+INFO  2023-06-30 23:45:29,747 minitest.py init_miniprogram 160 end init miniprogram
+INFO  2023-06-30 23:45:29,752 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:45:29,753 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:45:29,753 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:45:29,755 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:45:29,756 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:45:29,757 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:45:29,757 connection.py _safely_send    417 SEND > {"id":"58a0cad5-afcb-4c1a-9659-afe4f3ed1f42","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:45:30,022 connection.py _on_message     650 RECV < {"id":"58a0cad5-afcb-4c1a-9659-afe4f3ed1f42","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuUVdWd7/v9/ebaj3pRLygKKApKVCjRtCASIWpHTDTioztod5/o6e5z8jjj9jHdd9zGzhi3Y/uH0dN3pLUzRk7sM+7t2Dn9QLsjkm5EbJIIRAgYwkNbiwIEC4oCiqKe1Gs/1py/+8daa++1H4UF8nDj/IxEau+91prv7/zN33wsEhFYLBZLKcBXOgIWi8UyWaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYF...
+INFO  2023-06-30 23:45:30,027 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:45:30,030 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-06-30 23:45:32,031 page.py    wait_for        321 waitFor: 2.000065803527832 s
+INFO  2023-06-30 23:45:32,031 page.py    _get_elements_by_css 559 try to get elements: view[class="custom-class van-icon van-icon-close"]
+DEBUG 2023-06-30 23:45:32,034 connection.py _safely_send    417 SEND > {"id":"b5a0b954-4c24-4a50-82bb-c1f3c45329a9","method":"Page.getElements","params":{"selector":"view[class=\"custom-class van-icon van-icon-close\"]","pageId":2}}
+DEBUG 2023-06-30 23:45:32,041 connection.py _on_message     652 RECV < {"id":"b5a0b954-4c24-4a50-82bb-c1f3c45329a9","result":{"elements":[]}}
+WARNI 2023-06-30 23:45:32,042 page.py    _get_elements_by_css 564 Could not found any element 'view[class="custom-class van-icon van-icon-close"]' you need
+DEBUG 2023-06-30 23:45:32,043 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:45:32,045 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:45:32,045 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:45:32,045 connection.py _safely_send    417 SEND > {"id":"33951b7c-1302-479d-9d97-0f11f1078840","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:45:32,171 connection.py _on_message     650 RECV < {"id":"33951b7c-1302-479d-9d97-0f11f1078840","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:45:32,173 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:45:32,174 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:45:32,174 connection.py _safely_send    417 SEND > {"id":"9fd49776-18d9-4221-9608-d5c22a430cf8","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:45:32,178 connection.py _on_message     652 RECV < {"id":"9fd49776-18d9-4221-9608-d5c22a430cf8","result":{"elements":[{"elementId":"f4e2d596-e614-424b-b8d1-6e4de8feb400","tagName":"body","nodeId":"ab57588a"}]}}
+INFO  2023-06-30 23:45:32,178 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000002876D4A55B0>]
+DEBUG 2023-06-30 23:45:32,179 connection.py _safely_send    417 SEND > {"id":"00a481c3-edab-47a5-aa36-34f4a624b62f","method":"Element.getWXML","params":{"type":"inner","elementId":"f4e2d596-e614-424b-b8d1-6e4de8feb400","pageId":2,"nodeId":"ab57588a"}}
+DEBUG 2023-06-30 23:45:32,201 connection.py _on_message     650 RECV < {"id":"00a481c3-edab-47a5-aa36-34f4a624b62f","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:45:32,204 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:45:32,205 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:45:32,214 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[class="custom-class van-icon van-icon-close"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[class="custom-class van-icon van-icon-close"]] not found
+INFO  2023-06-30 23:45:42,219 session.py run             67  case queue is empty, test complete, release None
+DEBUG 2023-06-30 23:45:42,219 connection.py _safely_send    417 ASYNC_SEND > {"id":"32a7e09f-b768-44a2-a955-e6e074521f03","method":"Tool.close","params":{}}
+DEBUG 2023-06-30 23:45:42,221 connection.py _on_message     652 RECV < {"id":"32a7e09f-b768-44a2-a955-e6e074521f03","result":{}}
+INFO  2023-06-30 23:45:42,222 connection.py _handle_async_msg 688 received async msg: 32a7e09f-b768-44a2-a955-e6e074521f03, maybe command ignore response
+ERROR 2023-06-30 23:45:42,241 connection.py _on_error       632 Connection to remote host was lost.
+INFO  2023-06-30 23:45:42,636 connection.py _ws_run_forever 367 websocket run forever shutdown
+INFO  2023-06-30 23:45:43,220 basenative.py wrapper         25  call IdeNative.stop_wechat
+INFO  2023-06-30 23:45:43,220 basenative.py wrapper         29  call IdeNative.stop_wechat end
+INFO  2023-06-30 23:45:43,222 basenative.py wrapper         25  call IdeNative.release
+INFO  2023-06-30 23:45:43,224 basenative.py wrapper         25  call BaseNative.release_auto_authorize
+INFO  2023-06-30 23:45:43,224 basenative.py wrapper         29  call BaseNative.release_auto_authorize end
+INFO  2023-06-30 23:45:43,225 basenative.py wrapper         29  call IdeNative.release end

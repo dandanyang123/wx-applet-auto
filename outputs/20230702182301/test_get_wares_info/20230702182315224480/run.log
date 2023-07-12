@@ -1,0 +1,63 @@
+INFO  2023-07-02 18:23:15,226 minitest.py _miniSetUp      341 =========Current case: test_get_wares_info=========
+INFO  2023-07-02 18:23:15,227 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares_info
+INFO  2023-07-02 18:23:15,228 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:23:15,228 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:23:15,229 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:23:15,229 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:23:15,230 connection.py _safely_send    417 SEND > {"id":"daa0b307-81bd-42db-8783-db28ff5ee4b2","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:23:15,332 connection.py _on_message     650 RECV < {"id":"daa0b307-81bd-42db-8783-db28ff5ee4b2","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:23:15,335 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:23:15,335 minitest.py _miniSetUp      394 =========case: test_get_wares_info start=========
+DEBUG 2023-07-02 18:23:15,336 connection.py _safely_send    417 SEND > {"id":"011ef292-2ea0-4b4d-a73e-c5806929fa95","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:23:15,343 connection.py _on_message     652 RECV < {"id":"011ef292-2ea0-4b4d-a73e-c5806929fa95","result":{"elementId":"2fa358e6-df9c-4cb2-949a-e9a14a726dae","tagName":"view"}}
+DEBUG 2023-07-02 18:23:15,344 connection.py _safely_send    417 SEND > {"id":"f878971b-cae0-4b8f-b13e-643e10b889bb","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"2fa358e6-df9c-4cb2-949a-e9a14a726dae","pageId":1}}
+DEBUG 2023-07-02 18:23:15,346 connection.py _on_message     652 RECV < {"id":"f878971b-cae0-4b8f-b13e-643e10b889bb","result":{"properties":["商品1"]}}
+DEBUG 2023-07-02 18:23:15,347 connection.py _safely_send    417 SEND > {"id":"2c7c95b2-12c2-4cfc-8f4e-71d1901ca76a","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:23:15,351 connection.py _on_message     652 RECV < {"id":"2c7c95b2-12c2-4cfc-8f4e-71d1901ca76a","result":{"elementId":"1bb5b5c6-a4f5-4ec6-8f6d-e992d04d0d2f","tagName":"view"}}
+DEBUG 2023-07-02 18:23:15,351 connection.py _safely_send    417 SEND > {"id":"aab202e2-ec25-4b42-b779-36d28d63c7ca","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"1bb5b5c6-a4f5-4ec6-8f6d-e992d04d0d2f","pageId":1}}
+DEBUG 2023-07-02 18:23:15,354 connection.py _on_message     652 RECV < {"id":"aab202e2-ec25-4b42-b779-36d28d63c7ca","result":{"properties":["商品2"]}}
+DEBUG 2023-07-02 18:23:15,355 connection.py _safely_send    417 SEND > {"id":"1d8fe68a-4b4d-4d79-b456-0995f049e4d7","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 18:23:15,359 connection.py _on_message     652 RECV < {"id":"1d8fe68a-4b4d-4d79-b456-0995f049e4d7","result":{"elementId":"97eab632-6d7a-4bc3-aca6-92b2665a52e0","tagName":"view"}}
+DEBUG 2023-07-02 18:23:15,360 connection.py _safely_send    417 SEND > {"id":"9b9b5d1d-4405-4f93-a8cc-38c706ea0429","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"97eab632-6d7a-4bc3-aca6-92b2665a52e0","pageId":1}}
+DEBUG 2023-07-02 18:23:15,362 connection.py _on_message     652 RECV < {"id":"9b9b5d1d-4405-4f93-a8cc-38c706ea0429","result":{"properties":["商品3"]}}
+INFO  2023-07-02 18:23:15,526 minitest.py capture         673 capture assertSetEqual-failed.png
+INFO  2023-07-02 18:23:15,526 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:23:15,527 connection.py _safely_send    417 SEND > {"id":"cb0666cb-38ec-4c36-8056-075ca0ef4b7e","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:23:15,646 connection.py _on_message     650 RECV < {"id":"cb0666cb-38ec-4c36-8056-075ca0ef4b7e","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:23:15,648 basenative.py wrapper         29  call IdeNative.screen_shot end
+DEBUG 2023-07-02 18:23:15,650 connection.py _safely_send    417 SEND > {"id":"c5b978f4-ea16-4f0d-9c1b-03e64e20a3f6","method":"Page.getElementByXpath","params":{"selector":"/*","pageId":1}}
+DEBUG 2023-07-02 18:23:15,654 connection.py _on_message     652 RECV < {"id":"c5b978f4-ea16-4f0d-9c1b-03e64e20a3f6","result":{"elementId":"00a46c5b-3beb-4eda-8747-e3f600febee2","tagName":"view"}}
+DEBUG 2023-07-02 18:23:15,655 connection.py _safely_send    417 SEND > {"id":"1f653c2e-51f0-4036-97c3-21ea0177b055","method":"Element.getWXML","params":{"type":"outer","elementId":"00a46c5b-3beb-4eda-8747-e3f600febee2","pageId":1}}
+DEBUG 2023-07-02 18:23:15,684 connection.py _on_message     650 RECV < {"id":"1f653c2e-51f0-4036-97c3-21ea0177b055","result":{"wxml":"<view class=\"sec-kill\"><view class=\"header\"><view class=\"header-wrapper\" style=\"width: 256px\"><view class=\"single\" data-index=\"0\"><text class=\"text-detail active\">厨房用品</text></view><view class=\"single\" data-index=\"1\"><text class=\"text-detail\">特色活动</text></view></view></view><view class=\"main-container\"><view class=\"top-slider\"><swiper autoplay=\"\" class=\"slider-sec\" duration=\"1000\" indicator-dots=\"\" interval=\"5...
+DEBUG 2023-07-02 18:23:15,686 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares_info=========
+INFO  2023-07-02 18:23:15,686 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:23:15,687 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:23:15,687 connection.py _safely_send    417 SEND > {"id":"8974cda0-185e-4edc-9ae6-dae1107ee9bf","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:23:15,827 connection.py _on_message     650 RECV < {"id":"8974cda0-185e-4edc-9ae6-dae1107ee9bf","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:23:15,829 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:23:15,830 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:23:15,830 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 18:23:15,833 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_get_wares_info of <homepage_test.HomePageTest testMethod=test_get_wares_info>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 1145, in assertSetEqual
+    difference1 = set1.difference(set2)
+AttributeError: 'list' object has no attribute 'difference'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 18, in test_get_wares_info
+    self.assertSetEqual(back_list, check_wares_info)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\assertbase.py", line 57, in hook_assert
+    return src(self, *args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 1149, in assertSetEqual
+    self.fail('first argument does not support set difference: %s' % e)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: first argument does not support set difference: 'list' object has no attribute 'difference'

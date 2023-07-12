@@ -1,0 +1,14 @@
+{
+    "test_num": 2,
+    "errors": [],
+    "failures": [],
+    "class_errors": [],
+    "class_failures": [],
+    "import_error": {
+        "homepage_test": {
+            "error_type": "LoadCaseError",
+            "error_value": "No module named 'pages'",
+            "errors": "Traceback (most recent call last):\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\caseinspect.py\", line 98, in get_mod\n    mod = import_module(module_name)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\caseinspect.py\", line 37, in import_module\n    mod = __import__(module_name)\n  File \"C:\\Users\\yang\\Desktop\\test\\wx_auto\\wx_auto_test\\tests\\homepage_test.py\", line 1, in <module>\n    from pages.homepage import *\nminium.framework.exception.LoadCaseError: No module named 'pages'\n"
+        }
+    }
+}

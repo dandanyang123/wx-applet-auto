@@ -1,0 +1,31 @@
+INFO  2023-07-02 18:23:14,944 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-02 18:23:14,945 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-02 18:23:14,945 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:23:14,946 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:23:14,946 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:23:14,948 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:23:14,949 connection.py _safely_send    417 SEND > {"id":"a5194ac0-e572-4945-bf0f-e90cd2e6ec41","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:23:15,076 connection.py _on_message     650 RECV < {"id":"a5194ac0-e572-4945-bf0f-e90cd2e6ec41","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:23:15,078 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:23:15,079 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+DEBUG 2023-07-02 18:23:15,080 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-02 18:23:15,081 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:23:15,081 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:23:15,082 connection.py _safely_send    417 SEND > {"id":"2efefe9c-ff98-4df5-87c3-1988ca4d9ccd","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:23:15,204 connection.py _on_message     650 RECV < {"id":"2efefe9c-ff98-4df5-87c3-1988ca4d9ccd","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:23:15,207 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:23:15,209 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:23:15,210 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 18:23:15,220 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_buy_ware1 of <homepage_test.HomePageTest testMethod=test_buy_ware1>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 21, in test_buy_ware1
+    self.buy_ware()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 76, in __getattr__
+    raise AttributeError(f"'{self.__class__.__name__}' object has no attribute '{name}'")
+AttributeError: 'HomePageTest' object has no attribute 'buy_ware'

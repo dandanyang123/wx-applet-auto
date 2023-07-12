@@ -1,0 +1,44 @@
+INFO  2023-06-30 23:45:29,752 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-06-30 23:45:29,753 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-06-30 23:45:29,753 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-06-30 23:45:29,755 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-06-30 23:45:29,756 minitest.py capture         673 capture setup.png
+INFO  2023-06-30 23:45:29,757 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:45:29,757 connection.py _safely_send    417 SEND > {"id":"58a0cad5-afcb-4c1a-9659-afe4f3ed1f42","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:45:30,022 connection.py _on_message     650 RECV < {"id":"58a0cad5-afcb-4c1a-9659-afe4f3ed1f42","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuUVdWd7/v9/ebaj3pRLygKKApKVCjRtCASIWpHTDTioztod5/o6e5z8jjj9jHdd9zGzhi3Y/uH0dN3pLUzRk7sM+7t2Dn9QLsjkm5EbJIIRAgYwkNbiwIEC4oCiqKe1Gs/1py/+8daa++1H4UF8nDj/IxEau+91prv7/zN33wsEhFYLBZLKcBXOgIWi8UyWaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYFkslpLBCpbFYikZrGBZLJaSwQqWxWIpGaxgWSyWksEKlsViKRmsYF...
+INFO  2023-06-30 23:45:30,027 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:45:30,030 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-06-30 23:45:32,031 page.py    wait_for        321 waitFor: 2.000065803527832 s
+INFO  2023-06-30 23:45:32,031 page.py    _get_elements_by_css 559 try to get elements: view[class="custom-class van-icon van-icon-close"]
+DEBUG 2023-06-30 23:45:32,034 connection.py _safely_send    417 SEND > {"id":"b5a0b954-4c24-4a50-82bb-c1f3c45329a9","method":"Page.getElements","params":{"selector":"view[class=\"custom-class van-icon van-icon-close\"]","pageId":2}}
+DEBUG 2023-06-30 23:45:32,041 connection.py _on_message     652 RECV < {"id":"b5a0b954-4c24-4a50-82bb-c1f3c45329a9","result":{"elements":[]}}
+WARNI 2023-06-30 23:45:32,042 page.py    _get_elements_by_css 564 Could not found any element 'view[class="custom-class van-icon van-icon-close"]' you need
+DEBUG 2023-06-30 23:45:32,043 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-06-30 23:45:32,045 minitest.py capture         673 capture teardown.png
+INFO  2023-06-30 23:45:32,045 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-06-30 23:45:32,045 connection.py _safely_send    417 SEND > {"id":"33951b7c-1302-479d-9d97-0f11f1078840","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-06-30 23:45:32,171 connection.py _on_message     650 RECV < {"id":"33951b7c-1302-479d-9d97-0f11f1078840","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX/sXcV1L/pZM/uc7/EvYgN1jcTzw7ct4PpeKXYpCn4hCo56UZ0EqSa9UkG60m3SJ/WRVno1jfQK5Q8C916l0Ei54d4/bmikVhCpcVzJoY5QFYwA2ZFFTKRb10ATOc9Fwu8bwA7+dc7Ze2a9P+bXmtn7HH9tIPCle4H8PWef2TNr1qz1WWvWzJ5NzIyeeuqpp+VA6v1moKeeeuppqdQDVk899bRsqAesnnrqadlQD1g99dTTsqEesHrqqadlQz1g9dRTT8uGesDqqaeelg31gNVTTz0tG+oBq6eeelo21ANWTz31tGyoB6yeeupp2VAPWD311NOyoR6weuqpp2VDPWD11FNPy4Z6wOqpp56WDfWA1VNPPS...
+INFO  2023-06-30 23:45:32,173 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-06-30 23:45:32,174 page.py    _get_elements_by_css 559 try to get elements: page
+DEBUG 2023-06-30 23:45:32,174 connection.py _safely_send    417 SEND > {"id":"9fd49776-18d9-4221-9608-d5c22a430cf8","method":"Page.getElements","params":{"selector":"page","pageId":2}}
+DEBUG 2023-06-30 23:45:32,178 connection.py _on_message     652 RECV < {"id":"9fd49776-18d9-4221-9608-d5c22a430cf8","result":{"elements":[{"elementId":"f4e2d596-e614-424b-b8d1-6e4de8feb400","tagName":"body","nodeId":"ab57588a"}]}}
+INFO  2023-06-30 23:45:32,178 page.py    _get_elements_by_css 566 find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000002876D4A55B0>]
+DEBUG 2023-06-30 23:45:32,179 connection.py _safely_send    417 SEND > {"id":"00a481c3-edab-47a5-aa36-34f4a624b62f","method":"Element.getWXML","params":{"type":"inner","elementId":"f4e2d596-e614-424b-b8d1-6e4de8feb400","pageId":2,"nodeId":"ab57588a"}}
+DEBUG 2023-06-30 23:45:32,201 connection.py _on_message     650 RECV < {"id":"00a481c3-edab-47a5-aa36-34f4a624b62f","result":{"wxml":"<van-sticky is=\"miniprogram_npm/@vant/weapp/sticky/index\"><view class=\" van-sticky sticky-index--van-sticky\" style=\"height:60px;z-index:99\"><view class=\"van-sticky-wrap sticky-index--van-sticky-wrap van-sticky-wrap--fixed sticky-index--van-sticky-wrap--fixed\" style=\"top:0px;z-index:99\"><view class=\"search-contianer\"><view class=\"search\" style=\"height:60px;padding-top:24px\"><view class=\"search-title\" style=\"height:31px;line-...
+INFO  2023-06-30 23:45:32,204 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-06-30 23:45:32,205 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-06-30 23:45:32,214 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 7, in test_my
+    self.page.get_element('view[class="custom-class van-icon van-icon-close"]').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 286, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[view[class="custom-class van-icon van-icon-close"]] not found

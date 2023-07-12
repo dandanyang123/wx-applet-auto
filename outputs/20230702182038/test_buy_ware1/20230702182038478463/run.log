@@ -1,0 +1,22 @@
+ERROR 2023-07-02 18:20:38,786 assertbase.py _get_error_info 282 self._outcome is None, maybe a class error
+ERROR 2023-07-02 18:20:38,790 assertbase.py _get_stack_info 342 <bound method MiniTest._miniClassSetUp of <class 'homepage_test.HomePageTest'>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\suite.py", line 64, in _handleClassSetUp
+    _miniClassSetUp()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\minitest.py", line 255, in _miniClassSetUp
+    native, mini, miniprogram = init_miniprogram(cls.CONFIG)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\minitest.py", line 147, in init_miniprogram
+    mini = get_minium(cfg)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\minitest.py", line 112, in get_minium
+    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\__init__.py", line 28, in get_minium_driver
+    return APP[application](conf, *args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\wx_minium.py", line 116, in __init__
+    self.launch_weapp()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\wx_minium.py", line 459, in launch_weapp
+    self.__setup_dev_tool()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\wx_minium.py", line 160, in __setup_dev_tool
+    raise MiniConfigError(
+minium.framework.exception.MiniConfigError: [dev_tool_path] is not correct, it should be a absolute path

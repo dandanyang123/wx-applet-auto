@@ -1,0 +1,14 @@
+{
+    "import_error": {
+        "tests.homepage_test": {
+            "error_type": "LoadCaseError",
+            "error_value": "No module named 'tests.homepage_test'",
+            "errors": "Traceback (most recent call last):\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\caseinspect.py\", line 98, in get_mod\n    mod = import_module(module_name)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\caseinspect.py\", line 37, in import_module\n    mod = __import__(module_name)\nminium.framework.exception.LoadCaseError: No module named 'tests.homepage_test'\n"
+        }
+    },
+    "test_num": 4,
+    "errors": [],
+    "failures": [],
+    "class_errors": [],
+    "class_failures": []
+}

@@ -1,0 +1,96 @@
+INFO  2023-07-01 15:13:50,736 minitest.py _miniSetUp      341 =========Current case: test_my=========
+INFO  2023-07-01 15:13:50,737 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.tests.test, case info: test.test_my
+INFO  2023-07-01 15:13:50,740 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-01 15:13:50,740 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-01 15:13:50,743 minitest.py capture         673 capture setup.png
+INFO  2023-07-01 15:13:50,743 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:13:50,744 connection.py _safely_send    417 SEND > {"id":"c985bb3e-87d8-4fb4-b55a-7a629d3ce1b0","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:13:51,044 connection.py _on_message     650 RECV < {"id":"c985bb3e-87d8-4fb4-b55a-7a629d3ce1b0","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuQXcWd5/n9ZZ77qFvvh6pKr0IlhFAhsJEQaiQj2oi2WQvDjgU9PYbYidi2e3d7cXfEtmjHrk2zERhmItzQjnCbmT/GTMd0r3BEW5ZnBBatppGEBCVaCIlXqSSBVKJUUpVuvd/3cTJ/+0eec+65t26JktCDK/ITPG6dZ548md/85S9/mYeYGRaLxVIKiGudAIvFYpkrVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYrGUDFawLBZLyWAFy2KxlAxWsCwWS8lgBctisZQMVrAsFkvJYAXLYr...
+INFO  2023-07-01 15:13:51,048 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:13:51,051 minitest.py _miniSetUp      394 =========case: test_my start=========
+DEBUG 2023-07-01 15:13:53,054 page.py    wait_for        321 waitFor: 2.000502109527588 s
+INFO  2023-07-01 15:13:53,054 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:53,056 connection.py _safely_send    417 SEND > {"id":"57b347e7-e8ce-41aa-977d-a0e7b75439dd","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:53,062 connection.py _on_message     652 RECV < {"id":"57b347e7-e8ce-41aa-977d-a0e7b75439dd","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:53,063 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:54,064 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:54,064 connection.py _safely_send    417 SEND > {"id":"ab6c3706-540c-4837-a585-2d9b283efc5e","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:54,069 connection.py _on_message     652 RECV < {"id":"ab6c3706-540c-4837-a585-2d9b283efc5e","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:54,070 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:55,072 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:55,072 connection.py _safely_send    417 SEND > {"id":"38fe3dcc-4d8c-403f-a5ea-ab6cda657081","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:55,077 connection.py _on_message     652 RECV < {"id":"38fe3dcc-4d8c-403f-a5ea-ab6cda657081","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:55,077 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:56,078 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:56,078 connection.py _safely_send    417 SEND > {"id":"5d104d45-8b9f-4316-8d27-cc4de838054c","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:56,082 connection.py _on_message     652 RECV < {"id":"5d104d45-8b9f-4316-8d27-cc4de838054c","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:56,083 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:57,084 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:57,084 connection.py _safely_send    417 SEND > {"id":"de482ed7-0307-467e-a574-b30df2fbc22a","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:57,103 connection.py _on_message     652 RECV < {"id":"de482ed7-0307-467e-a574-b30df2fbc22a","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:57,104 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:58,106 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:58,106 connection.py _safely_send    417 SEND > {"id":"283ff8fb-9229-4950-99d1-24614a849f42","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:58,110 connection.py _on_message     652 RECV < {"id":"283ff8fb-9229-4950-99d1-24614a849f42","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:58,111 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:13:59,112 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:13:59,112 connection.py _safely_send    417 SEND > {"id":"eeeafcf1-2d84-44b0-a5b7-eca14688cbea","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:13:59,116 connection.py _on_message     652 RECV < {"id":"eeeafcf1-2d84-44b0-a5b7-eca14688cbea","result":{"elements":[]}}
+WARNI 2023-07-01 15:13:59,116 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:14:00,118 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:14:00,118 connection.py _safely_send    417 SEND > {"id":"9f0f924c-d303-4444-bab3-5b0127b0078a","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:14:00,122 connection.py _on_message     652 RECV < {"id":"9f0f924c-d303-4444-bab3-5b0127b0078a","result":{"elements":[]}}
+WARNI 2023-07-01 15:14:00,123 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:14:01,124 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:14:01,124 connection.py _safely_send    417 SEND > {"id":"3a9e4b6b-4789-4dbe-a856-98c8a8b6e4af","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:14:01,127 connection.py _on_message     652 RECV < {"id":"3a9e4b6b-4789-4dbe-a856-98c8a8b6e4af","result":{"elements":[]}}
+WARNI 2023-07-01 15:14:01,128 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+INFO  2023-07-01 15:14:02,128 page.py    _get_elements_by_css 559 try to get elements: image[bindtap="clickAdPositionIndexPop"]
+DEBUG 2023-07-01 15:14:02,128 connection.py _safely_send    417 SEND > {"id":"4a4fc07f-09cf-48de-8efb-7c3defc1b1f0","method":"Page.getElements","params":{"selector":"image[bindtap=\"clickAdPositionIndexPop\"]","pageId":2}}
+DEBUG 2023-07-01 15:14:02,132 connection.py _on_message     652 RECV < {"id":"4a4fc07f-09cf-48de-8efb-7c3defc1b1f0","result":{"elements":[]}}
+WARNI 2023-07-01 15:14:02,132 page.py    _get_elements_by_css 564 Could not found any element 'image[bindtap="clickAdPositionIndexPop"]' you need
+DEBUG 2023-07-01 15:14:03,133 connection.py _safely_send    417 SEND > {"id":"6b9b51b3-4347-4223-b3ae-c73da67dd05b","method":"Page.getElementByXpath","params":{"selector":"/van-overlay/view/van-icon//view","pageId":2}}
+DEBUG 2023-07-01 15:14:03,138 connection.py _on_message     652 RECV < {"id":"6b9b51b3-4347-4223-b3ae-c73da67dd05b","error":{"message":"webview Page.getElementByXpath unimplemented"}}
+ERROR 2023-07-01 15:14:03,138 connection.py _on_message     660 [6b9b51b3-4347-4223-b3ae-c73da67dd05b]: webview Page.getElementByXpath unimplemented
+WARNI 2023-07-01 15:14:03,138 connection.py _on_message     662 webview Page.getElementByXpath unimplemented, It may be caused by the low sdk version
+DEBUG 2023-07-01 15:14:03,353 minitest.py _miniTearDown   587 =========Current case Down: test_my=========
+INFO  2023-07-01 15:14:03,354 minitest.py capture         673 capture teardown.png
+INFO  2023-07-01 15:14:03,355 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-01 15:14:03,355 connection.py _safely_send    417 SEND > {"id":"7770abc1-3315-432a-a39f-2fa0e9bf7ddf","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-01 15:14:03,499 connection.py _on_message     650 RECV < {"id":"7770abc1-3315-432a-a39f-2fa0e9bf7ddf","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAKKCAIAAACceJr7AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX2sXtV1J7zWPh/Pcz9s32sbx0yJwUn4cD0jxS5FwQpRcKaD6gSkmnSkgjTS26Sv1Je00lvTSG9D+YPAjJTCRMqEmT8mTKVWEKlxXMmhjlAVjADZESKm0tQ10CSX3JhgLv643/f5OGev94+z99pr7XOusQmEXOaskOvnOWefvddeH7+19jr7nAeJCFpqqaWW1gKZ95uBllpqqaVLpRawWmqppTVDLWC11FJLa4ZawGqppZbWDLWA1VJLLa0ZagGrpZZaWjPUAlZLLbW0ZqgFrJZaamnNUAtYLbXU0pqhFrBaaqmlNUMtYLXUUktrhlrAaqmlltYMtYDVUkstrRlqAaulllpaM9QCVksttbRmqAWsllpqac...
+INFO  2023-07-01 15:14:03,502 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-01 15:14:03,503 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-01 15:14:03,504 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-01 15:14:03,512 assertbase.py _get_stack_info 342 <bound method test.test_my of <test.test testMethod=test_my>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\tests\test.py", line 9, in test_my
+    self.page.get_element('/page/van-overlay/view/van-icon//view').click()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 270, in get_element
+    return self.get_element_by_xpath(
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 467, in get_element_by_xpath
+    el = search_element()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 45, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 465, in search_element
+    return self._get_element_by_xpath(xpath)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 639, in _get_element_by_xpath
+    ret = self._send("Page.getElementByXpath", {"selector": xpath})
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 490, in _send
+    self.connection.send(method, params)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\connection.py", line 447, in send
+    return self._receive_response(cmd)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\connection.py", line 473, in _receive_response
+    raise response
+minium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented

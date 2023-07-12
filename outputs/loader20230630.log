@@ -1,0 +1,12 @@
+DEBUG 2023-06-30 23:26:44,054 loader.py  load_from_case_name 157 Loading Case: tests.homepage_test.test
+DEBUG 2023-06-30 23:27:15,221 loader.py  load_from_case_name 157 Loading Case: tests.test.test
+DEBUG 2023-06-30 23:27:40,759 loader.py  load_from_case_name 157 Loading Case: tests.test.py.test
+DEBUG 2023-06-30 23:27:49,760 loader.py  load_from_case_name 157 Loading Case: tests.test
+DEBUG 2023-06-30 23:29:07,952 loader.py  load_from_module 129 Loading module: tests.test
+DEBUG 2023-06-30 23:30:38,314 loader.py  load_from_case_name 157 Loading Case: tests.test.py.test_my
+DEBUG 2023-06-30 23:30:52,625 loader.py  load_from_case_name 157 Loading Case: tests/test.test_my
+DEBUG 2023-06-30 23:31:49,431 loader.py  load_from_case_name 157 Loading Case: wx_auto_test.tests.test.test_my
+DEBUG 2023-06-30 23:32:00,190 loader.py  load_from_case_name 157 Loading Case: test.test_my
+DEBUG 2023-06-30 23:32:10,591 loader.py  load_from_module 129 Loading module: test
+DEBUG 2023-06-30 23:32:10,594 loader.py  load_from_module 133 put module[test] into queue
+ERROR 2023-06-30 23:32:10,595 loader.py  main            614 config not exists:config.json

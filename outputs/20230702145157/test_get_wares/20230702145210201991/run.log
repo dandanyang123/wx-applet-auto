@@ -1,0 +1,45 @@
+INFO  2023-07-02 14:52:10,203 minitest.py _miniSetUp      341 =========Current case: test_get_wares=========
+INFO  2023-07-02 14:52:10,203 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares
+INFO  2023-07-02 14:52:10,204 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 14:52:10,204 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 14:52:10,207 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 14:52:10,207 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 14:52:10,208 connection.py _safely_send    417 SEND > {"id":"a7f6d77e-d22b-4ddd-8d12-af7596d38fe7","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 14:52:10,360 connection.py _on_message     650 RECV < {"id":"a7f6d77e-d22b-4ddd-8d12-af7596d38fe7","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 14:52:10,362 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 14:52:10,362 minitest.py _miniSetUp      394 =========case: test_get_wares start=========
+DEBUG 2023-07-02 14:52:10,363 connection.py _safely_send    417 SEND > {"id":"54c0cb93-b419-42bc-8455-79a3e8f95697","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[2]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 14:52:10,371 connection.py _on_message     652 RECV < {"id":"54c0cb93-b419-42bc-8455-79a3e8f95697","result":{"elementId":"4b56b083-15bd-462a-a1cd-62a13a885ae4","tagName":"view"}}
+DEBUG 2023-07-02 14:52:10,372 connection.py _safely_send    417 SEND > {"id":"00b571f7-18f3-4531-9cc0-73c771884e36","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"4b56b083-15bd-462a-a1cd-62a13a885ae4","pageId":1}}
+DEBUG 2023-07-02 14:52:10,375 connection.py _on_message     652 RECV < {"id":"00b571f7-18f3-4531-9cc0-73c771884e36","result":{"properties":["商品1"]}}
+DEBUG 2023-07-02 14:52:10,375 connection.py _safely_send    417 SEND > {"id":"604456df-0887-43bd-abda-4228dfafae71","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[3]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 14:52:10,379 connection.py _on_message     652 RECV < {"id":"604456df-0887-43bd-abda-4228dfafae71","result":{"elementId":"b0d3e1e8-96ee-464e-9ab9-81e840bbd4de","tagName":"view"}}
+DEBUG 2023-07-02 14:52:10,379 connection.py _safely_send    417 SEND > {"id":"5b116774-8a09-4810-b178-44b7c638be72","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"b0d3e1e8-96ee-464e-9ab9-81e840bbd4de","pageId":1}}
+DEBUG 2023-07-02 14:52:10,384 connection.py _on_message     652 RECV < {"id":"5b116774-8a09-4810-b178-44b7c638be72","result":{"properties":["商品2"]}}
+DEBUG 2023-07-02 14:52:10,384 connection.py _safely_send    417 SEND > {"id":"7f2eacb4-6bf9-4be0-a425-a942fbd5e472","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[4]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 14:52:10,388 connection.py _on_message     652 RECV < {"id":"7f2eacb4-6bf9-4be0-a425-a942fbd5e472","result":{"elementId":"5c9c970b-4675-4011-b67a-82ea0faec9e1","tagName":"view"}}
+DEBUG 2023-07-02 14:52:10,388 connection.py _safely_send    417 SEND > {"id":"739e004c-bb60-4028-85c6-7185f9a463b7","method":"Element.getDOMProperties","params":{"names":["innerText"],"elementId":"5c9c970b-4675-4011-b67a-82ea0faec9e1","pageId":1}}
+DEBUG 2023-07-02 14:52:10,391 connection.py _on_message     652 RECV < {"id":"739e004c-bb60-4028-85c6-7185f9a463b7","result":{"properties":["商品3"]}}
+DEBUG 2023-07-02 14:52:10,392 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares=========
+INFO  2023-07-02 14:52:10,393 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 14:52:10,394 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 14:52:10,394 connection.py _safely_send    417 SEND > {"id":"34eff2d9-122b-4c91-82e3-5664b794965e","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 14:52:10,525 connection.py _on_message     650 RECV < {"id":"34eff2d9-122b-4c91-82e3-5664b794965e","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 14:52:10,527 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 14:52:10,527 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 14:52:10,529 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 14:52:10,537 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_get_wares of <homepage_test.HomePageTest testMethod=test_get_wares>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 15, in test_get_wares
+    self.homePage.get_wares()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\pages\homepage.py", line 12, in get_wares
+    self.assertE(back_list, check_wares_info)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\common\basepage.py", line 44, in assertE
+    self.assertEqual(a, b)
+AttributeError: 'HomePage' object has no attribute 'assertEqual'

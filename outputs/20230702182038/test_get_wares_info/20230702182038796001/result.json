@@ -1,0 +1,50 @@
+{
+    "case_name": "test_get_wares_info",
+    "run_time": "20230702 18:20:38",
+    "test_type": "HomePageTest",
+    "case_doc": null,
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\libs\\unittest\\suite.py\", line 64, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\minitest.py\", line 255, in _miniClassSetUp\n    native, mini, miniprogram = init_miniprogram(cls.CONFIG)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\minitest.py\", line 147, in init_miniprogram\n    mini = get_minium(cfg)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\framework\\minitest.py\", line 112, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\miniprogram\\wx_minium.py\", line 116, in __init__\n    self.launch_weapp()\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\miniprogram\\base_driver\\minium_log.py\", line 122, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\miniprogram\\wx_minium.py\", line 459, in launch_weapp\n    self.__setup_dev_tool()\n  File \"D:\\\u8f6f\u4ef6\u9ed8\u8ba4\u5b89\u88c5\u4f4d\u7f6e\\python38\\lib\\site-packages\\minium-1.4.0-py3.8.egg\\minium\\miniprogram\\wx_minium.py\", line 160, in __setup_dev_tool\n    raise MiniConfigError(\nminium.framework.exception.MiniConfigError: [dev_tool_path] is not correct, it should be a absolute path\n",
+    "start_timestamp": 1688293238.7969975,
+    "is_failure": false,
+    "is_error": true,
+    "module": "C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test",
+    "package": "homepage_test",
+    "failed_line_num": 255,
+    "device": {},
+    "log_filename": "run.log",
+    "error_type": "MiniConfigError",
+    "error_value": "[dev_tool_path] is not correct, it should be a absolute path",
+    "error_stages": [
+        "_miniClassSetUp"
+    ],
+    "screen_info": [],
+    "step_info": [],
+    "check_list": [],
+    "assert_list": [],
+    "stop_timestamp": 1688293238.7969975,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    @classmethod\n",
+            "    def _miniClassSetUp(cls):\n",
+            "        logger.debug(\"=====================\")\n",
+            "        logger.debug(\"Testing class\uff1a%s\" % cls.__name__)\n",
+            "        logger.debug(\"=====================\")\n",
+            "        super(MiniTest, cls)._miniClassSetUp()\n",
+            "        if not cls.CONFIG.report_usage:\n",
+            "            minium.miniprogram.base_driver.minium_log.existFlag = 1\n",
+            "\n",
+            "        native, mini, miniprogram = init_miniprogram(cls.CONFIG)\n",
+            "        cls.native = native\n",
+            "        cls.mini = mini\n",
+            "        if cls.CONFIG.need_perf:  # start get perf thread\n",
+            "            cls.native.start_get_perf(timeinterval=0.8)\n",
+            "        cls.DEVICE_INFO[\"system_info\"] = miniprogram.system_info\n"
+        ],
+        "start": 246
+    },
+    "filename": "result.json"
+}

@@ -1,0 +1,46 @@
+INFO  2023-07-02 14:38:55,990 minitest.py _miniSetUp      341 =========Current case: test_get_wares=========
+INFO  2023-07-02 14:38:55,991 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_get_wares
+INFO  2023-07-02 14:38:55,991 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 14:38:55,991 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 14:38:56,001 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 14:38:56,002 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 14:38:56,002 connection.py _safely_send    417 SEND > {"id":"f4e15c1c-35e7-4ab3-9826-59463f36b368","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 14:38:56,117 connection.py _on_message     650 RECV < {"id":"f4e15c1c-35e7-4ab3-9826-59463f36b368","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 14:38:56,119 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 14:38:56,120 minitest.py _miniSetUp      394 =========case: test_get_wares start=========
+DEBUG 2023-07-02 14:38:56,121 connection.py _safely_send    417 SEND > {"id":"48002a34-ff76-4a68-9694-7d3210878003","method":"Page.getElementByXpath","params":{"selector":"/view/view[2]/view[1]/view[1]/view[2]/view[1]","pageId":1}}
+DEBUG 2023-07-02 14:38:56,129 connection.py _on_message     652 RECV < {"id":"48002a34-ff76-4a68-9694-7d3210878003","error":{"message":"no such element"}}
+ERROR 2023-07-02 14:38:56,130 connection.py _on_message     660 [48002a34-ff76-4a68-9694-7d3210878003]: no such element
+DEBUG 2023-07-02 14:38:56,377 minitest.py _miniTearDown   587 =========Current case Down: test_get_wares=========
+INFO  2023-07-02 14:38:56,378 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 14:38:56,378 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 14:38:56,378 connection.py _safely_send    417 SEND > {"id":"819f03f1-c147-4f3d-909a-21e415aac132","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 14:38:56,488 connection.py _on_message     650 RECV < {"id":"819f03f1-c147-4f3d-909a-21e415aac132","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 14:38:56,490 basenative.py wrapper         29  call IdeNative.screen_shot end
+DEBUG 2023-07-02 14:38:56,491 connection.py _safely_send    417 SEND > {"id":"49f8cdeb-32ab-469e-8fda-6ff226fe206b","method":"Page.getElementByXpath","params":{"selector":"/*","pageId":1}}
+DEBUG 2023-07-02 14:38:56,498 connection.py _on_message     652 RECV < {"id":"49f8cdeb-32ab-469e-8fda-6ff226fe206b","result":{"elementId":"295e88b8-6635-4dec-8ec4-8c19040b6370","tagName":"view"}}
+DEBUG 2023-07-02 14:38:56,547 connection.py _safely_send    417 SEND > {"id":"88ee785d-a642-45cb-87f6-6e23f7fc338f","method":"Element.getWXML","params":{"type":"outer","elementId":"295e88b8-6635-4dec-8ec4-8c19040b6370","pageId":1}}
+DEBUG 2023-07-02 14:38:56,581 connection.py _on_message     650 RECV < {"id":"88ee785d-a642-45cb-87f6-6e23f7fc338f","result":{"wxml":"<view class=\"sec-kill\"><view class=\"header\"><view class=\"header-wrapper\" style=\"width: 256px\"><view class=\"single\" data-index=\"0\"><text class=\"text-detail active\">厨房用品</text></view><view class=\"single\" data-index=\"1\"><text class=\"text-detail\">特色活动</text></view></view></view><view class=\"main-container\"><view class=\"top-slider\"><swiper autoplay=\"\" class=\"slider-sec\" duration=\"1000\" indicator-dots=\"\" interval=\"5...
+INFO  2023-07-02 14:38:56,583 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 14:38:56,584 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 14:38:56,602 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_get_wares of <homepage_test.HomePageTest testMethod=test_get_wares>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 15, in test_get_wares
+    self.homePage.get_wares()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\pages\homepage.py", line 9, in get_wares
+    info = self.mini.page.get_element(wares_info % i)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 270, in get_element
+    return self.get_element_by_xpath(
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\page.py", line 469, in get_element_by_xpath
+    raise MiniElementNotFoundError("element[%s] not found" % xpath)
+minium.framework.exception.MiniElementNotFoundError: element[/page/view/view[2]/view[1]/view[1]/view[2]/view[1]] not found

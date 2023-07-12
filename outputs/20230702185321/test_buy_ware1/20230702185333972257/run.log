@@ -1,0 +1,56 @@
+INFO  2023-07-02 18:53:33,974 minitest.py _miniSetUp      341 =========Current case: test_buy_ware1=========
+INFO  2023-07-02 18:53:33,974 minitest.py _miniSetUp      344 package info: C:.Users.yang.Desktop.test.wx_auto.wx_auto_test.homepage_test, case info: HomePageTest.test_buy_ware1
+INFO  2023-07-02 18:53:33,975 basenative.py wrapper         25  call BaseNative.check_connection
+INFO  2023-07-02 18:53:33,975 basenative.py wrapper         29  call BaseNative.check_connection end
+INFO  2023-07-02 18:53:33,976 minitest.py capture         673 capture setup.png
+INFO  2023-07-02 18:53:33,976 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:53:33,977 connection.py _safely_send    417 SEND > {"id":"40357039-e98f-4402-b9a8-403a153fec3f","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:53:34,115 connection.py _on_message     650 RECV < {"id":"40357039-e98f-4402-b9a8-403a153fec3f","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:53:34,118 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:53:34,118 minitest.py _miniSetUp      394 =========case: test_buy_ware1 start=========
+INFO  2023-07-02 18:53:34,118 app.py     navigate_to     528 NavigateTo: hotGoods
+DEBUG 2023-07-02 18:53:34,119 connection.py _safely_send    417 ASYNC_SEND > {"id":"3eb547de-3732-4fab-be03-3a4eed0a1f07","method":"App.callWxMethod","params":{"method":"navigateTo","args":[{"url":"hotGoods"}]}}
+DEBUG 2023-07-02 18:53:34,140 connection.py _on_message     652 RECV < {"id":"3eb547de-3732-4fab-be03-3a4eed0a1f07","error":{"message":"can not navigateTo a tabbar page"}}
+ERROR 2023-07-02 18:53:34,141 connection.py _on_message     660 [3eb547de-3732-4fab-be03-3a4eed0a1f07]: can not navigateTo a tabbar page
+INFO  2023-07-02 18:53:34,390 connection.py _handle_async_msg 688 received async msg: 3eb547de-3732-4fab-be03-3a4eed0a1f07
+DEBUG 2023-07-02 18:53:34,391 minitest.py _miniTearDown   587 =========Current case Down: test_buy_ware1=========
+INFO  2023-07-02 18:53:34,392 minitest.py capture         673 capture teardown.png
+INFO  2023-07-02 18:53:34,392 basenative.py wrapper         25  call IdeNative.screen_shot
+DEBUG 2023-07-02 18:53:34,392 connection.py _safely_send    417 SEND > {"id":"8e7b93f9-a2a4-41e1-8c53-2481a8a39fd3","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-02 18:53:34,551 connection.py _on_message     650 RECV < {"id":"8e7b93f9-a2a4-41e1-8c53-2481a8a39fd3","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAI6CAIAAACGsomOAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVmQXcdxKJhZ59zbt/duNJYGSIgEwEXWQlL0zDPJkd+zLem9cMS8sEWGNCI5o5kXfjM/8pflP1LySKL+HP56/nGEY2IcIUoWg5DCjhl5RrIsjWgCTwslUxIlcQNAbI21gUbvfU/lfJxaMms5994GSArmTQbR555TlZWZlZmVVZV1DhIRDGEIQxjCzQDq7SZgCEMYwhD6haHDGsIQhnDTwNBhDWEIQ7hpYOiwhjCEIdw0MHRYQxjCEG4aGDqsIQxhCDcNDB3WEIYwhJsGhg5rCEMYwk0DQ4c1hCEM4aaBocMawhCGcNPA0GENYQhDuGlg6LCGMIQh3DQwdFhDGMIQbhoYOqwhDGEINw0MHdYQhjCEmwaGDm...
+INFO  2023-07-02 18:53:34,553 basenative.py wrapper         29  call IdeNative.screen_shot end
+INFO  2023-07-02 18:53:34,554 basenative.py wrapper         25  call BaseNative.get_start_up
+INFO  2023-07-02 18:53:34,555 basenative.py wrapper         29  call BaseNative.get_start_up end
+ERROR 2023-07-02 18:53:34,564 assertbase.py _get_stack_info 342 <bound method HomePageTest.test_buy_ware1 of <homepage_test.HomePageTest testMethod=test_buy_ware1>>
+Traceback (most recent call last):
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 41, in testPartExecutor
+    yield
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\framework\libs\unittest\case.py", line 127, in run
+    self._callTestMethod(testMethod)
+  File "D:\软件默认安装位置\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\homepage_test.py", line 22, in test_buy_ware1
+    self.homePage.buy_ware()
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\pages\homepage.py", line 17, in buy_ware
+    self.navigate_to_open(home_page)
+  File "C:\Users\yang\Desktop\test\wx_auto\wx_auto_test\common\basepage.py", line 7, in navigate_to_open
+    self.mini.app.navigate_to(route)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\minium_log.py", line 122, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 529, in navigate_to
+    page = self._change_route_async("navigateTo", url, is_wait_url_change)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 764, in _change_route_async
+    cmd.get_open_result(wait_timeout)
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\app.py", line 129, in get_open_result
+    return self._open_callback.get_result()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\callback.py", line 126, in get_result
+    return self._waiter.result()
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\miniprogram\base_driver\callback.py", line 105, in wait_called
+    return self._loop.run_coroutine(
+  File "D:\软件默认安装位置\python38\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "D:\软件默认安装位置\python38\lib\concurrent\futures\_base.py", line 388, in __get_result
+    raise self._exception
+  File "D:\软件默认安装位置\python38\lib\site-packages\minium-1.4.0-py3.8.egg\minium\utils\utils.py", line 398, in async_wait
+    return fut.result()
+minium.framework.exception.MiniAppError: can not navigateTo a tabbar page
